@@ -270,6 +270,7 @@ body {
     float: left;
     opacity: 0;
     animation: introDigital 2s ease 2s 1 normal forwards;
+    transform: translate(0px, -3px);
   }
 
 
@@ -285,7 +286,6 @@ body {
 
 
 #start {
-    position: absolute;
     width: 20px;
     animation: startArrow 1s ease 0s 1 normal forwards, blinkArrow 1s ease 1.5s 1 normal forwards, outArrow 1s ease 3.5s 1 reverse forwards;
 }
@@ -297,7 +297,7 @@ body {
 
 	100% {
 		opacity: 1;
-		transform:  translate(310px, -20px) rotate(0deg);
+		transform:  translate(-5px, -20px) rotate(0deg);
 	}
 }
 @keyframes blinkArrow {
@@ -320,7 +320,7 @@ body {
 
 	100% {
 		opacity: 1;
-		transform:  translate(310px, -20px) rotate(0deg);
+		transform:  translate(-5px, -20px) rotate(0deg);
 	}
 }
 
