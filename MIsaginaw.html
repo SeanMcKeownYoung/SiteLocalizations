@@ -1,278 +1,848 @@
-<!DOCTYPE html>
-
-
-<!-- UPDATE ◆Title should be Special Section Title◆ -->
-<title>Back in Class.</title>
-<link rel="stylesheet" type="text/css" href="stylesheet.css"/> 
-
+<!doctype html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<!-- Tells your web/email client how to handle special characters  -->
 <meta name="x-apple-disable-message-reformatting">
 <!-- Disables scaling in iOS10  -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<!-- Helps responsive version function when viewed in a web browser -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+<!-- Use the latest (edge) version of IE rendering engine -->
 <meta property="og:url" content="" />
 <meta property="og:type" content="" />
 <meta property="og:title" content="" />
 <meta property="og:description" content="" />
 <meta property="og:image" content="" />
+<meta name="color-scheme" content="light dark">
+<meta name="supported-color-schemes" content="light dark">
+
+    <script>
+const currentTheme = localStorage.getItem("theme");
+if (currentTheme == "dark") {
+  document.body.classList.toggle("dark-theme");
+} else if (currentTheme == "light") {
+  document.body.classList.toggle("dark-theme");
+}
+    </script>
 
 
-<!-- STYLES INHERENT TO THIS SPECIFIC CAMPAIGN - ALL OTHER STYLES CONTROLLED BY 'EMAIL.CSS' -->
+
+
+<!-- Use for social sharing (if any) -->
+
+
+<!--[if gte mso 9]><xml> 
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+  <o:PixelsPerInch>96</o:PixelsPerInch>
+ </o:OfficeDocumentSettings>
+ </xml><![endif]-->
+
+ <title>Back in Class.</title>
+
 <style>
+html {-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%}
+body {margin:0; padding:0; -webkit-text-size-adjust: 100% !important; -ms-text-size-adjust: 100% !important; -webkit-font-smoothing: antialiased !important; border-spacing:0} 
+table {border-collapse: collapse; mso-table-lspace: 0px; mso-table-rspace: 0px; }
+table td {border-collapse: collapse; mso-line-height-rule: exactly; }
+table th { margin:0 !important; padding:0 !important; vertical-align:top; font-weight:normal; }
+img, a img {border:none; outline:none; -ms-interpolation-mode: bicubic;}
+.ReadMsgBody {width: 100%;}
+.ExternalClass {width: 100%;}
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height:100%;}
+.yshortcuts a {border-bottom: none !important;}
+.appleLinksGray a {color:#666666 !important; text-decoration:none !important;}
+.appleLinksWhite a {color:#FFFFFF !important; text-decoration:none !important;}
+.appleLinksBlack a {color:#000000 !important; text-decoration:none !important;}
 
-:root {
-  --accent: #bf1a0c;
+
+.hover-box:hover {
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	box-shadow: 0 2px 10px 0 rgba(0,0,0,0.1);
+	transition: .5s;
+	}
+	
+.hover-button:hover {
+	background-color: #0078ff;
+	transition: .5s;
+	}
+	
+	
+	
+	
+/* INSERT CUSTOM FONT EMBED HERE */
+
+
+	@font-face {
+	font-family: "farnham headline";
+	font-style: normal;
+	font-weight: 400;
+	src: url(https://fonts.advance.net/fonts/v1/farnham-headline-regular/farnhamheadline-regular.woff) format('woff');
+	}
+
+@font-face {
+	font-family: "farnham headline";
+	font-style: normal;
+	font-weight: 600;
+	src: url(https://fonts.advance.net/fonts/v1/farnham-headline-semi-bold/farnhamheadline-semi-bold.woff) format('woff');
+	}
+	
+@font-face {
+	font-family: 'benton sans';
+	font-style: normal;
+	font-weight: 400;
+	src: url(https://fonts.advance.net/fonts/v1/benton-sans-regular/166b5d40-3430-46a0-8fb2-43f30962dec7-3.woff) format('woff');
+	}
+	
+@font-face {
+	font-family: 'benton sans';
+	font-style: normal;
+	font-weight: 500;
+	src: url(https://fonts.advance.net/fonts/v1/benton-sans-medium/448c4642-c106-472f-9c6a-a4d7b5347b03-3.woff) format('woff');
+	}
+
+
+
+</style>
+
+
+<style>
+@media only screen and (max-width: 600px) {
+           
+/************************************ MAIN *************************************/ 
+		   
+.remove { display:none !important; width:0 !important; height:0 !important; }
+.stack { display:block !important; }
+.stack-header {display:table-header-group !important;}
+.stack-footer {display:table-footer-group !important;}
+.stack-image img {margin-bottom:20px !important;}
+			
+/************************************ ALIGNERS *************************************/
+		   
+.center-align {text-align:center !important; margin:0 auto !important;}
+.left-align {text-align:left !important;}
+.right-align {text-align:right !important;}
+		   
+/************************************ WIDTH RESIZERS *************************************/
+		   
+.min-300  {min-width:300px !important;}
+.max-300  {max-width:300px !important;}
+.max-320  {max-width:320px !important;}
+.max-340  {max-width:340px !important;}
+.w-resize100 { width:100% !important; }
+.w-resize90 { width:90% !important; }
+.w-resize80 { width:80% !important; }
+.w-resize280px { width:280px !important; }
+.w-resize300px { width:300px !important; }
+.w-resize320px { width:320px !important; }
+		   
+/************************************ HEIGHT RESIZERS *************************************/
+			
+.h-resize10px { height:10px !important; }
+.h-resize20px { height:20px !important; }
+.h-resize30px { height:30px !important; }
+.h-resize40px { height:40px !important; }
+.h-resize50px { height:50px !important; }
+.h-resize60px { height:60px !important; }
+.h-resize70px { height:70px !important; }
+.h-resize80px { height:80px !important; }
+.h-resize90px { height:90px !important; }
+.h-resize100px { height:100px !important; }
+		   
+/************************************ IMAGE RESIZERS *************************************/
+			
+.resize90 img {width:90% !important; height:auto !important;}
+.resize100 img {width:100% !important; height:auto !important;}
+.resize280px img {width:280px !important; height:auto !important;}
+.resize300px img {width:300px !important; height:auto !important;}
+.resize320px img {width:320px !important; height:auto !important;}
+			
+/************************************ TEXT RESIZERS *************************************/
+
+.text14 {font-size:14px !important;}
+.text15 {font-size:15px !important;}
+.text16 {font-size:16px !important;}
+.text17 {font-size:17px !important;}
+.text18 {font-size:18px !important;}
+.text19 {font-size:19px !important;}
+.text20 {font-size:20px !important;}
+.text21 {font-size:21px !important;}
+.text22 {font-size:22px !important;}
+.text23 {font-size:23px !important;}
+.text24 {font-size:24px !important;}
+.text25 {font-size:25px !important;}
+.text26 {font-size:26px !important;}
+.text27 {font-size:27px !important;}
+.text28 {font-size:28px !important;}
+.text29 {font-size:29px !important;}
+.text30 {font-size:30px !important;}
+
+/************************************ LINE HEIGHT RESIZERS *************************************/
+			
+.lh15 {line-height:15px !important;}
+.lh16 {line-height:16px !important;}
+.lh17 {line-height:17px !important;}
+.lh18 {line-height:18px !important;}
+.lh19 {line-height:19px !important;}
+.lh20 {line-height:20px !important;}
+.lh21 {line-height:21px !important;}
+.lh22 {line-height:22px !important;}
+.lh23 {line-height:23px !important;}
+.lh24 {line-height:24px !important;}
+.lh25 {line-height:25px !important;}
+.lh26 {line-height:26px !important;}
+.lh27 {line-height:27px !important;}
+.lh28 {line-height:28px !important;}
+.lh29 {line-height:29px !important;}
+.lh30 {line-height:30px !important;}
+.lh35 {line-height:35px !important;}
+.lh40 {line-height:40px !important;}
+
+/************************************ ADDITIONAL MEDIA QUERIES *************************************/
+
+.logo-control img {max-width:250px !important; height:auto !important;}
+}
+	
+@media only screen and (max-width: 480px) {
+
+.stack-480 { display:block !important; }
+.center-480 { text-align:center !important; margin:0 auto !important; }
+.w-resize100-480 { width:100% !important; }
+	
 }
 
-    .backHeader {
-        color:#d3d3d3; 
-        background: linear-gradient(157deg, #333333 0%, #000000 100%);
-    }
+
+
+
+/* CONSISTENT STYLES - SPECIAL SECTIONS MARKETING */ 
+
+
+
+@media (prefers-color-scheme: dark) {
+  /* defaults to dark theme */
+  body {
+    background: linear-gradient(157deg, #333333 0%, #000000 100%);
+    background-repeat: no-repeat;
+    background-color: #c5c5c5;
+    max-width: 100vw;
+}	
+body.dark-theme {
+    background: linear-gradient(157deg, #333333 0%, #000000 100%);
+    background-repeat: no-repeat;
+    background-color: #c5c5c5;
+    max-width: 100vw;
+}	
+body.light-theme {
+    background: linear-gradient(157deg, #333333 0%, #000000 100%);
+    background-repeat: no-repeat;
+    background-color: #c5c5c5;
+    max-width: 100vw;
+}	
+accentColor.dark-theme {
+    color:#bf1a0c; 
+}
+accentDark.dark-theme {
+    color:#bf1a0c; 
+    filter: brightness(85%);
+}
+accentColor.light-theme {
+    color:#bf1a0c; 
+}
+accentDark.light-theme {
+    color:#bf1a0c; 
+    filter: brightness(85%);
+}
+}
+
 body {
-        color:#333333; 
-        background-color: #d3d3d3;
-    }
+    background: linear-gradient(157deg, #333333 0%, #000000 100%);
+    background-repeat: no-repeat;
+    background-color: #c5c5c5;
+    max-width: 100vw;
+}	
+
+
+main {
+    padding: 30px;
+    max-width: 100vw;
+}
+.footerBack {
+    background-color: #c5c5c5;
+    padding: 30px;
+}
+.finePrint {
+    font-family:Arial, sans-serif; 
+    font-size: 14px; 
+    line-height: 22px; 
+    -webkit-text-size-adjust: none; 
+    font-weight:400; 
+    text-decoration: none;
+    color: #2a2a2a;
+}
+@media only screen and (max-width: 600px) {
+    .finePrint {
+    font-family:Arial, sans-serif; 
+    font-size: 3vw; 
+    line-height: calc(5px + 3vw);
+    -webkit-text-size-adjust: none; 
+    font-weight:400; 
+    text-decoration: none
+}
+  }
+  @media only screen and (max-width: 400px) {
+    .finePrint {
+    font-family:Arial, sans-serif; 
+    font-size: 5vw; 
+    line-height: calc(5px + 5vw);
+    -webkit-text-size-adjust: none; 
+    font-weight:400; 
+    text-decoration: none
+}
+  }
+
+accentColor {
+    color:#bf1a0c; 
+}
+accentDark {
+    color:#bf1a0c; 
+    filter: brightness(85%);
+}
+accentDark:hover {
+    color:#bf1a0c; 
+    filter: brightness(20%);
+    text-decoration: underline;
+}
+.headLine {
+    font-family: farnham headline, Times, serif; 
+    font-size: 90px; 
+    font-weight: 600; 
+    color:#ffffff; 
+    line-height:80px; 
+    -webkit-text-size-adjust: none;
+}
+@media only screen and (max-width: 600px) {
+    .headLine {
+    font-family: farnham headline, Times, serif; 
+    font-size: 12vw; 
+    font-weight: 600; 
+    color:#ffffff; 
+    line-height: 11vw; 
+    -webkit-text-size-adjust: none;
+}
+  }
+  @media only screen and (max-width: 400px) {
+    .headLine {
+    font-family: farnham headline, Times, serif; 
+    font-size: 18vw; 
+    font-weight: 600; 
+    color:#ffffff; 
+    line-height: 17vw; 
+    -webkit-text-size-adjust: none;
+}
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: left;
+}
+
+.icon {
+    padding-right: 10px;
+    -webkit-text-size-adjust: none;
+}
+.siteName {
+    color: #FFFFFF;
+    font-family:Georgia, serif; 
+    font-size: 20px; 
+    font-weight: 900; 
+    line-height:24px; 
+    position: relative;
+    padding-left: 5px;
+    -webkit-text-size-adjust: none;
+}
+.online {
+    color: #a6a6a6;
+    font-family:Georgia, serif; 
+    font-size: 20px; 
+    font-weight: 900; 
+    line-height:24px; 
+    position: relative;
+    padding-left: 8px;
+    -webkit-text-size-adjust: none;
+    float: left;
+    opacity: 0;
+    animation: introDigital 2s ease 2s 1 normal forwards;
+}
+
+@keyframes introDigital {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+#arrow {
+    width: 20px;
+    transform:  translate(5px, 10px);
+    opacity: 0;
+    transform: translate(-72px, 8px);
+    animation: inArrow 0.5s ease 0s 1 normal forwards, blinkArrow 1s ease 1s 1 normal forwards, outArrow 1s ease 2s 1 reverse forwards;
+}
+@keyframes inArrow {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes blinkArrow {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+
+	25%,
+	75% {
+		opacity: 0;
+	}
+}
+@keyframes outArrow {
+	0% {
+        transform: translate(0px, 8px);
+		opacity: 0;
+	}
+
+	100% {
+        transform: translate(-72px, 8px);
+		opacity: 1;
+	}
+}
+
+.button {
+    text-decoration: none; 
+    background-color: #bf1a0c; 
+    color: #000000;
+    padding: 20px 30px 20px 20px;
+    font-family:'benton sans', Arial, sans-serif; 
+    font-weight: 500; 
+    font-size:20px; 
+    line-height:30px; 
+    -webkit-text-size-adjust: none;
+    transition: 0.5s;
+    animation: blinkButton 2s ease 2s infinite normal forwards;
+}
+@keyframes blinkButton {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+
+	25%,
+	75% {
+		opacity: 0.8;
+	}
+}
+.button:hover {
+    text-decoration: none; 
+    background-color: #bf1a0c; 
+    color: #ffffff;
+    padding: 20px 30px 20px 20px;
+    font-family:'benton sans', Arial, sans-serif; 
+    font-weight: 500; 
+    font-size:20px; 
+    line-height:30px; 
+    -webkit-text-size-adjust: none;
+    transition: 0.5s;
+}
+
+@media only screen and (max-width: 600px) {
+    .button {
+    text-decoration: none; 
+    background-color: #bf1a0c; 
+    color: #ffffff;
+    padding: 20px 250px 20px 20px;
+    font-family:'benton sans', Arial, sans-serif; 
+    font-weight: 500; 
+    font-size:20px; 
+    line-height:30px; 
+    -webkit-text-size-adjust: none;
+}
+  }
+  @media only screen and (max-width: 400px) {
+    .button {
+    text-decoration: none; 
+    background-color: #bf1a0c; 
+    color: #ffffff;
+    padding: 20px 150px 20px 20px;
+    font-family:'benton sans', Arial, sans-serif; 
+    font-weight: 500; 
+    font-size:20px; 
+    line-height:30px; 
+    -webkit-text-size-adjust: none;
+}
+  }
+
 </style>
 </head>
-
-<body>
-<!-- start EMAIL MAIN BODY DESIGN AND TEXT -->
-<!-- start EMAIL MAIN BODY DESIGN AND TEXT -->
-<!-- start EMAIL MAIN BODY DESIGN AND TEXT -->
-<!-- start EMAIL MAIN BODY DESIGN AND TEXT -->
-
-<HEADER class="backHeader">
-        <tbody><tr>
-          <td class="paint-area" align="center">
-              <table class="w-resize100" width="600" border="0" cellspacing="0" cellpadding="0" align="center">
-              <td class="w-resize90">
-
-<!-- HEADER LOCALIZATION HERE START !!!! SAGINAW-->
-<!-- HEADER LOCALIZATION HERE START !!!! SAGINAW-->
-<!-- HEADER LOCALIZATION HERE START !!!! SAGINAW-->
-    <div class="flex-container">
-      <div>
-        <div class="siteLogo">
-          <img src="https://media.sailthru.com/composer/images/sailthru-prod-6fj/MIsaginaw.png" alt="Saginaw News logo" style="width:100%">
-        </div>
-      </div>
-      <div>
-        <div class="Online">
-          <img src="https://media.sailthru.com/composer/images/sailthru-prod-6fj/ONLINE.png" alt="Online" style="width:100%">
-        </div>
-        <introArrow>
-          <?xml version="1.0" encoding="UTF-8"?><svg id="start" viewBox="0 0 15.53 22.09"><polygon points="15.53 15.86 .16 0 0 22.09 6.83 16.64 15.53 15.86" style="fill:var(--accent)"/></svg>
-        </introArrow>
-      </div>
-
-    </div>
-  </div>
-<!-- HEADER LOCALIZATION HERE END !!!! SAGINAW-->
-<!-- HEADER LOCALIZATION HERE END !!!! SAGINAW-->
-<!-- HEADER LOCALIZATION HERE END !!!! SAGINAW-->
+<main>
 
 
 
 
 
+<!-- start ◆PREHEADER◆ -->
 
-
-<!-- HEADLINE -->   
-<h1>
-    Read it online.<br>
-            <accentColor>
-    August 13
-            </accentColor>
-            </h1>
-
-<!-- INTRO PARAGRAPH  -->   
-<intro>
-    <leadin>Special online-only section.</leadin> Another school year is almost here. Get the latest back to school tips in “Back in Class” — a subscriber-exclusive special section publishing with your online paper.
-            </intro>
-              </td>
-            </tr>
-        </tbody></table>
-
-
-<!-- HERO  -->   
-
-    <!-- start HERO - SPLIT INFORMATION-->
-    <div class="HERO">
-
-        <table class="w-resize100 min-300" width="600" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:600px; margin-top: 30px;">
-
-            <tbody><tr>
-              <td class="paint-area" align="center">
-                <table class="w-resize100" width="600" border="0" cellspacing="0" cellpadding="0" align="center">
-    
-    <!-- FIRST COLUMN HERO IMAGE -->
-    
-                    <tbody>
-                        
-                    <tr>
-                        
-                    <th class="stack" width="400" valign="top" align="left">
-                    <table>
-                        <div class="heroImage">
-                            <img src="https://media.sailthru.com/composer/images/sailthru-prod-6fj/BACK%20TO%20CLASS.jpg" alt="Main art" width="400vw" height="776vh">
-                        </div>
-
-                    </tbody></table> 
-                    </th>
-                    
-    <!-- SECOND COLUMN HERO CONTENT -->
-    
-                      <th class="stack left-align" width="150" height="400" valign="top" align="left">
-                      <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" z-index="5">
-                        <tbody><tr>
-                            <tr>
-                              <ul>
-                                    <accentColor><subhead>
-                                        FREE for subscribers
-                                    </subhead></accentColor><br>
-<li>Print subscribers get free access to the online newspaper with more content, special sections, the New York Times Book Review, and Washington Post Weekly edition by activating their account.</li>
-                                  </ul>
-
-
-<!-- BUTTON LOCALIZATION HERE START !!!! SAGINAW-->
-<!-- BUTTON LOCALIZATION HERE START !!!! SAGINAW-->
-<!-- BUTTON LOCALIZATION HERE START !!!! SAGINAW-->
-<a href="https://subscribe.mlive.com/?SiteCode=SN" target="_blank">
-<!-- BUTTON LOCALIZATION HERE END !!!! SAGINAW-->
-<!-- BUTTON LOCALIZATION HERE END !!!! SAGINAW-->
-<!-- BUTTON LOCALIZATION HERE END !!!! SAGINAW-->     
-                                        <button>Activate!</button></a>
-                                </td>
-                              </tr>
-                          </td>
-                        </tr>                      
-                    </tbody></table>
-                </div>
+<div class="PREHEADER">
+<table class="remove" width="640" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:640px;">
+    <tbody><tr><td class="paint-area" style="font-size:0px; line-height:0px" height="10">&nbsp;</td></tr>
+    <tr>
+	<td class="paint-area" align="center">
+    <table width="570" border="0" cellspacing="0" cellpadding="0" align="center">
+    <tbody><tr>
+      <td width="400" height="0" align="left" style="font-family:Arial, sans-serif; font-size:0px; color:#4a4a4a; -webkit-text-size-adjust: none;">
+      <font face="Arial, sans-serif" class="paint-area paint-area--text">
+      Online only special section.
+      </font>
+      </td>
+    </tr>
     </tbody></table>
+    </td>
+    </tr>
+    <tr><td class="paint-area" style="font-size:0px; line-height:0px" height="10">&nbsp;</td></tr>
 </tbody></table>
 </div>
-</HEADER>
+
+<!-- end ◆PREHEADER-1◆ -->
 
 
-<!-- start FOOTER - SUB OUT ALL BETWEEN THIS AND THE ENDPOINT FOR LOCALIZATION -->
 
-<FOOTER class="backFooter">
-<tbody><tr>
-    <td class="paint-area" align="center">
-<table class="w-resize100" width="600" border="0" cellspacing="0" cellpadding="0" align="center">
-  <tbody><tr>
-      <td class="w-resize100"> 
-        <footerSub>
-        We're here to help
-        </footerSub>
-    </td>
-  </tr>
-</tbody></table>&nbsp;
-</div>
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+<!----------------- START HEADER - SAGINAW SUB  ------------------------->	
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
 
-<!-- start FOOTER - SPLIT INFORMATION-->
+<!-- start ◆HEADER◆ -->
 
+<div class="HEADER">
+
+<table class="w-resize100 min-300" width="640" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:640px;">
     
-    <table class="w-resize100 min-300" width="600" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:600px;">
+    <tbody><tr><td class="paint-area" style="font-size:0px; line-height:0px" height="25">&nbsp;</td></tr>
+    <tr>
+        
+      <td class="paint-area" align="left">
+      <table class="w-resize90 min-300" width="570" border="0" cellspacing="0" cellpadding="0" align="center">
+    <tbody><tr>
+        <td class="stack-480 left-480" width="100%" align="left" style="font-size:0px">
+        <div class="container">
+            <div class="icon">
+
+                <!-- SAGINAW NEWS LOGO ICON START -->
+<?xml version="1.0" encoding="UTF-8"?><svg id="SAGINAW_LABEL" xmlns="http://www.w3.org/2000/svg" width="auto" height="35"  viewBox="0 0 92.96 55.64"><path d="m38.71,27.23c-1.1-.65-2.32-1.14-3.54-1.58-1.33-.49-2.67-.87-4-1.25-1.57-.44-3.07-.82-4.64-1.2-1.04-.27-2.09-.49-3.13-.87-.99-.33-2.03-.82-2.9-1.36-.75-.49-1.39-1.09-1.74-1.9h-.06c.23.87.81,1.69,1.57,2.23.87.65,1.91,1.14,2.96,1.52,1.04.38,2.09.71,3.13.98,1.57.38,3.13.76,4.64,1.14,1.33.38,2.67.76,4,1.2,1.16.44,2.38.87,3.48,1.47,1.51.82,2.9,2.07,3.54,3.64h.06c-.52-1.63-1.8-3.1-3.36-4.02Z" style="fill:#fff;"/><path d="m39.41,25.27c-1.1-.65-2.32-1.2-3.54-1.63-1.39-.49-2.72-.92-4.12-1.31-1.57-.43-3.19-.82-4.75-1.2-.99-.22-1.97-.54-2.96-.87-.99-.27-1.91-.65-2.78-1.14-.75-.38-1.45-.92-1.8-1.69h-.06c.23.82.87,1.58,1.62,2.07.87.54,1.85.98,2.84,1.31.99.33,1.97.6,2.96.87,1.62.38,3.19.76,4.75,1.2,1.33.38,2.72.76,4.06,1.25,1.22.43,2.38.92,3.48,1.52,1.62.87,3.01,2.23,3.71,3.92h.06c-.52-1.85-1.86-3.32-3.48-4.3Z" style="fill:#fff;"/><path d="m38.31,28.21c-1.1-.65-2.26-1.14-3.48-1.58-1.28-.43-2.61-.82-3.94-1.2-1.51-.44-3.07-.76-4.58-1.14-1.1-.33-2.2-.6-3.25-.98-1.04-.38-2.03-.82-2.96-1.41-.7-.49-1.28-1.14-1.68-1.9h-.06c.29.82.81,1.63,1.51,2.18.87.71,1.91,1.25,2.96,1.63,1.1.43,2.2.76,3.3,1.03,1.57.43,3.07.76,4.58,1.14,1.33.38,2.61.76,3.94,1.2,1.16.38,2.32.82,3.42,1.41,1.51.76,2.9,1.96,3.54,3.48h.06c-.46-1.58-1.8-2.99-3.36-3.86Z" style="fill:#fff;"/><path d="m39.06,26.3c-1.1-.65-2.32-1.25-3.59-1.69-1.33-.49-2.67-.87-4.06-1.25-1.51-.44-3.07-.82-4.64-1.2-.99-.27-2.03-.54-3.01-.87-.99-.33-1.97-.71-2.84-1.25-.75-.43-1.45-1.03-1.8-1.79h-.06c.23.82.81,1.63,1.57,2.12.93.65,1.91,1.14,2.9,1.47,1.04.38,2.03.6,3.07.87,1.57.38,3.13.76,4.64,1.2,1.39.38,2.72.76,4.06,1.2,1.22.44,2.43.92,3.54,1.52,1.57.87,2.9,2.18,3.59,3.75h.06c-.52-1.69-1.8-3.1-3.42-4.08Z" style="fill:#fff;"/><path d="m40.74,33.75h.06c-.46-1.47-1.62-2.72-3.07-3.53-1.04-.6-2.14-1.09-3.3-1.47-1.28-.43-2.49-.82-3.77-1.14-1.51-.43-2.96-.76-4.46-1.14-1.28-.33-2.49-.71-3.71-1.14-1.1-.44-2.14-.87-3.07-1.58-.75-.54-1.33-1.2-1.74-2.07h-.06c.29.87.81,1.69,1.57,2.34.87.82,1.97,1.36,3.07,1.79,1.22.49,2.49.92,3.77,1.25,1.51.44,3.01.71,4.46,1.09,1.28.33,2.49.71,3.71,1.09,1.16.38,2.26.82,3.3,1.36,1.39.71,2.67,1.74,3.25,3.15Z" style="fill:#fff;"/><path d="m17.15,20.05c0-2.72,1.1-5.44,3.71-7.07l-.06-.05c-3.94,1.79-6.2,5.6-6.2,9.9,0,3.26,1.04,5.82,3.42,7.4l.06-.05c-1.85-1.47-2.84-3.92-2.84-5.66.29,1.58,1.22,3.37,2.84,4.57l.06-.05c-1.62-1.36-2.38-3.32-2.55-5.27.23,1.47,1.22,3.21,2.78,4.35l.06-.05c-1.57-1.31-2.32-3.37-2.49-4.95.52,1.69,1.33,2.99,2.72,4.02l.06-.05c-1.39-1.2-2.32-2.99-2.32-4.73.29,1.52,1.22,2.83,2.49,3.75l.06-.05c-1.39-1.2-2.14-2.72-2.14-4.51.35,1.63,1.22,2.77,2.38,3.59l.06-.05c-1.51-1.25-2.09-3.15-2.09-5Z" style="fill:#fff;"/><path d="m38.42,32.12l-.06.05c1.28,1.09,2.03,2.66,2.14,4.3-.35-1.36-1.16-2.5-2.38-3.37l-.06.05c1.33,1.14,1.91,2.56,2.03,4.08-.35-1.25-1.1-2.34-2.2-3.05l-.06.05c1.16.92,1.8,2.34,1.8,3.75-.12-1.14-.93-2.18-2.03-2.83l-.06.05c1.1.87,1.57,1.79,1.68,3.48-.29-1.25-1.1-1.96-1.91-2.56l-.06.05c.99.87,1.57,1.74,1.57,3.15-.23-.87-.93-1.58-1.74-2.12l-.06.05c1.04.82,1.51,2.01,1.51,3.05,0,1.14-.35,2.07-1.1,2.83l.06.05c2.26-1.2,3.59-3.53,3.59-6.04,0-1.9-.87-3.92-2.67-5.06Z" style="fill:#fff;"/><path d="m38.02,29.24c-1.04-.6-2.2-1.14-3.42-1.58-1.28-.43-2.55-.82-3.83-1.14-1.51-.43-3.01-.76-4.46-1.14-1.16-.27-2.38-.65-3.48-1.03-1.1-.38-2.14-.87-3.07-1.52-.75-.49-1.28-1.2-1.68-2.01h-.06c.29.87.75,1.69,1.51,2.28.87.71,1.97,1.31,3.07,1.74,1.16.43,2.38.82,3.54,1.14,1.51.38,2.96.71,4.46,1.09,1.28.33,2.55.71,3.83,1.14,1.16.38,2.32.87,3.36,1.41,1.45.76,2.72,1.85,3.42,3.32h.06c-.52-1.58-1.74-2.83-3.25-3.7Z" style="fill:#fff;"/><path d="m57.81,28.14c-1.88-2.72-3.71-5.38-5.59-8.05-1.77-2.61-3.82-5.6-5.42-7.89-.06-.05-.74-.11-.68,0,2,2.88,3.77,5.44,5.65,8.16,1.88,2.66,3.71,5.38,5.59,8.05,1.83,2.66,3.65,5.33,5.53,7.99,1.71,2.5,3.88,5.6,5.31,7.61.06.05.74.11.68.05-1.83-2.66-3.71-5.33-5.53-7.99-1.83-2.61-3.71-5.27-5.53-7.94Z" style="fill:#fff;"/><path d="m70.31,35.86c-1.88-2.66-3.71-5.28-5.53-7.94-1.83-2.66-3.65-5.38-5.48-8.05-1.65-2.5-3.94-5.87-5.13-7.61-.06-.11-1.31-.11-1.26,0,1.94,2.72,3.82,5.38,5.76,8.05,1.88,2.61,3.77,5.27,5.59,7.89,1.88,2.66,3.71,5.33,5.53,7.99,1.77,2.56,3.82,5.55,5.31,7.83.06.11.91.05.74-.27-2.05-2.77-3.71-5.22-5.53-7.89Z" style="fill:#fff;"/><path d="m0,0v55.64h92.96V0H0Zm31.53,45.12c-7.36,0-12.29-4.08-12.35-4.08-.12,0-3.19,2.34-4.64,3.81-.23.22-.49,0-.49-.21,0-3.43,0-3.84,0-11.86,0-.27.41-.33.52-.11,1.57,3.05,3.15,5.38,5.07,7.18,3.3,3.1,7.48,4.62,11.94,4.62,2.55,0,4.29-.65,5.22-1.52.58-.54,1.04-1.31,1.04-2.56,0-2.23-2.03-3.75-8.93-5.33-6.55-1.52-10.14-2.99-12.06-4.73-1.91-1.74-2.9-3.7-2.9-7.5,0-6.58,4.93-11.64,13.04-11.64,6.26,0,10.2,3.7,10.49,3.7s2.96-2.61,4.23-4.24c.17-.22.41-.11.41.11-.29,3.92-.23,7.34-.12,11.04,0,.22-.29.27-.46.05-1.68-2.5-3.19-4.4-4.7-5.82-2.9-2.72-5.62-4.19-10.03-4.19-2.72,0-4.7.76-5.74,1.74-.7.65-.99,1.41-.99,2.39,0,1.96,1.57,3.21,6.38,4.4,9.8,2.45,12.87,3.7,15.07,5.71,1.8,1.63,2.72,3.81,2.72,7.23,0,6.15-4.46,11.8-12.75,11.8ZM79.41,11.82c-.46.27-.95.71-1.35,1.09-1.2,1.14-1.65,2.23-1.65,6.91,0,6.04-.11,10.17-.11,14.03,0,2.83.06,7.83.06,10.66,0,.11-.17.16-3.31.16s-5.25,0-5.31-.11c-6.28-8.97-13.24-19.31-19.23-27.73h-.06c-.17,6.42-.11,11.2-.11,18.87,0,5.06.68,6.25,1.65,7.18.68.65,2.11,1.14,3.71,1.36.11,0,.11.38-.06.38-1.94-.11-4.22-.11-5.65-.11-1.65,0-2.62,0-4.56.05-.11,0-.17-.33-.06-.38.74-.27,1.83-.82,2.4-1.36,1.14-1.09,1.71-2.72,1.71-9.9s0-10.06.17-17.13c0-.16-1.71-2.72-2.17-3.26-.29-.33-.86-.49-2.23-.54-.11,0-.11-.54,0-.54,1.88.05,6.5.11,8.79.11,5.76,0,8.96-.16,10.38-.16.23,0,.29.05.68.65,4.74,6.91,9.24,13.32,12.27,17.67h.06c.06-2.34.11-5.87.11-8.27,0-5.38-.51-7.12-1.65-8.21-.86-.82-1.36-1.25-2.68-1.47-.17-.05-.06-.38.06-.38,1.71.05,3.02.16,4.96.16.97,0,2.03-.05,3.06-.11.11,0,.23.33.11.38Z" style="fill:#fff;"/><path d="m61.98,28.03c-1.83-2.72-3.71-5.44-5.53-8.1-1.77-2.56-3.94-5.82-5.19-7.67-.06-.11-1.08-.11-1.03,0,1.88,2.66,3.77,5.38,5.65,8.05,1.88,2.66,3.77,5.33,5.65,7.99,1.83,2.66,3.65,5.28,5.53,7.94,1.77,2.56,3.88,5.66,5.31,7.83.06.11.97.05.86,0-2-2.77-3.82-5.44-5.71-8.1-1.83-2.66-3.71-5.33-5.53-7.94Z" style="fill:#fff;"/><path d="m63.4,27.98c-1.88-2.72-3.71-5.38-5.53-8.1-1.71-2.5-3.94-5.82-5.13-7.61-.06-.11-1.26-.11-1.2,0,1.94,2.72,3.82,5.38,5.71,7.99l5.65,7.99c1.88,2.72,3.77,5.38,5.65,8.1,1.71,2.5,3.82,5.6,5.19,7.72.06.05,1.03.05.91-.05-2-2.72-3.82-5.33-5.65-7.94-1.88-2.72-3.77-5.38-5.59-8.1Z" style="fill:#fff;"/><path d="m59.18,28.08c-1.88-2.72-3.71-5.44-5.59-8.16-1.77-2.56-3.94-5.66-5.31-7.67-.06-.11-.86-.11-.8,0,1.83,2.61,3.77,5.33,5.59,7.99,1.88,2.72,3.77,5.44,5.65,8.1,1.88,2.66,3.71,5.33,5.53,7.99,1.77,2.56,3.88,5.6,5.36,7.72.06.11.8.11.74,0-1.94-2.72-3.77-5.33-5.59-7.99-1.88-2.66-3.77-5.33-5.59-7.99Z" style="fill:#fff;"/><path d="m60.61,28.08c-1.83-2.66-3.65-5.33-5.48-8.05-1.77-2.56-4.05-5.82-5.36-7.78-.06-.11-.97-.11-.91,0,1.88,2.66,3.82,5.44,5.71,8.16,1.88,2.66,3.77,5.33,5.59,7.99,1.88,2.66,3.71,5.33,5.53,7.99,1.77,2.5,3.88,5.55,5.31,7.67.06.11.86.11.8,0-1.94-2.72-3.77-5.33-5.59-7.99-1.88-2.66-3.71-5.33-5.59-7.99Z" style="fill:#fff;"/></svg>
+                <!-- SAGINAW NEWS LOGO ICON END -->
+            </div>
+            <div class="siteName">
+                The Saginaw News
+            </div>
+            <div class="online" style="color:#a6a6a6;">
+                Online
+            </div>
+            <introArrow>
+                <accentColor><?xml version="1.0" encoding="UTF-8"?><svg id="arrow" viewBox="0 0 15.53 22.09"><polygon points="15.53 15.86 .16 0 0 22.09 6.83 16.64 15.53 15.86" style="fill:currentColor"/></svg></accentColor>
+              </introArrow>
+          </div>
+
+      </td>
+    </tr>
+</tbody></table>
+      </td>
+    </tr>
+    <tr><td class="paint-area" style="font-size:0px; line-height:0px" height="50">&nbsp;</td></tr>
+</tbody></table>
+
+</div>
+<!-- end ◆HEADER◆ -->
+
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+<!----------------- END HEADER - SAGINAW SUB  ------------------------->	
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+
+
+
+
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+<!-- START CAMPAIGN  -->	
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+
+<!-- start ◆HEADLINE◆ -->
+
+<div class="headLine">
+    <table class="w-resize100 min-300" width="640" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:640px;">
         <tbody><tr>
           <td class="paint-area" align="center">
-            <table class="w-resize100" width="600" border="0" cellspacing="0" cellpadding="0" align="center">
+    <table class="w-resize90" width="570" border="0" cellspacing="0" cellpadding="0" align="center">
+        <tbody><tr>
+            <td class="w-resize90" align="left" class="paint-area paint-area--text">
+          Read it online <br>
+          <accentColor>August 13.</accentColor>
+          </td>
+        </tr>
+    </tbody></table>
+    </td></tr>
+    </tbody></table>
+    </div>
 
-<!-- FIRST COLUMN CONTENT TABLE -->
-                <tbody>
-                <tr>
-                <th class="stack" width="280" valign="top" align="center">
-                <table>
-                    <tbody>               
-                    <tr>
-                        <td class="leftText">
-                            Having trouble viewing this email? <a href="{view_url}" target="_blank"><nobr><accentDark><underLine>View in your browser.</underLine></accentDark></nobr> </a>
-                            <br><br>
-<!-- FOOTER LOCALIZATION HERE START !!!! SAGINAW-->
-<!-- FOOTER LOCALIZATION HERE START !!!! SAGINAW-->
-<!-- FOOTER LOCALIZATION HERE START !!!! SAGINAW-->
-                            To ensure receipt of our emails, please add <a href="mailto:customercare@mlive.com" style="text-decoration: underline" target="_blank"><accentDark><underLine>customercare@mlive.com</underLine></accentDark></a> to your address book or safe sender list. You received this email because you are a subscriber to <a href="https://mlive.com" target="_blank">
-                            <accentDark><underLine>mlive.com</underLine></accentDark></a> <nobr> or The Saginaw News.</nobr><br><br> 
-                        </td></tr>
-                      </td>
-                </tr>  
-                </tbody></table> 
-                </th>
-                
-<!-- SECOND COLUMN CONTENT TABLE -->
+<!-- end ◆HEADLINE◆ -->
 
-                  <th class="stack left-align" width="150" valign="top" align="right">
-                  <table width="100%" align="right">
-                    <tbody><tr>
-                        <tr>
-<!-- LOCALIZATION HERE!!!! ALL HELP INFO NEEDS LOCALIZED TARGETING -->
-                            <td>
-                            <a href="https://www.mlive.com/mlive_contacts/page/contact_home.html" target="_blank" class="rightText">
-                            Contact us</a><br>
-                            <a href="https://www.mlive.com/mobile-device/" target="_blank" class="rightText">
-                            Download our app</a><br>
-                            <a href="https://www.mlive.com/privacy-policy/" target="_blank" class="rightText">
-                            Privacy policy</a><br>
-                            <a href="https://subscription.mlive.com/newsletters/" target="_blank" class="rightText">
-                            More newsletters</a><br>
-                            <a href="https://myaccount.mlive.com" target="_blank" class="rightText">
-                            Manage subscription</a><br>
-                            <a href="{optout_confirm_url + '&list_param=' + blast.list}" target="_blank" class="rightText">
-                            Unsubscribe</a><br>
-                            </td>
-                          </tr>
-                      </td>
-                    </tr>
-                    
-                </tbody></table>
-<!-- END SECOND COLUMN CONTENT TABLE -->
-                  </th>
-                </tr>
-            </tbody></table>
+<div class="SPACER-25">
+<table class="w-resize100" width="640" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:640px;">
+    <tbody><tr><td style="font-size:0px; line-height:0px" height="25">&nbsp;</td></tr>
+</tbody></table>
+</div>
 
-<div class="footerText">
-<table class="w-resize100 min-300" width="600" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:640px;">
+<!-- start ◆INTRO◆ -->
+
+<div class="BODY-COPY">
+<table class="w-resize100 min-300" width="640" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:640px;">
     <tbody><tr>
       <td class="paint-area" align="center">
-<table class="w-resize100" width="600" border="0" cellspacing="0" cellpadding="0" align="center">
+<table class="w-resize90" width="570" border="0" cellspacing="0" cellpadding="0" align="center">
     <tbody><tr>
-    	<td class="footerText"  class="paint-area paint-area--text">
-<!-- SITE LOGO-->
-<!-- LOCALIZATION HERE!!!! ADD LOGO FOR SITE -->
-<a href="https://www.mlive.com/news/saginaw/" target="_blank"> 
-    <img src="https://media.sailthru.com/composer/images/sailthru-prod-6fn/MI%20SAGINAW%20ADDRESS%20BAR.png" 
-    class="logo" alt="The Saginaw News | mlive.com logo">
-    </a>
-</td>
-    <tr>
-        <td class="logoText">
-<!-- LOCALIZATION HERE!!!! ADD ADDRESS FOR SITE -->
-540 S. Saginaw St., Ste 101, Flint, MI 48502
-        </td>
-    </tr>
-    <tr>
-        <td style="font-size:0px; line-height:0px" height="50" colspan="3">&nbsp;</td>
-    </tr>
-   
-    </tbody>
-</table>
-</tr>
+    	<td align="left" style="font-family:'benton sans', Arial, sans-serif; font-weight: 400; font-size:20px; color:#ffffff; line-height:35px; -webkit-text-size-adjust: none;"><font face="'benton sans', Arial, sans-serif" class="paint-area paint-area--text">
 
-<!-- FOOTER LOCALIZATION HERE END !!!! SAGINAW-->
-<!-- FOOTER LOCALIZATION HERE END !!!! SAGINAW-->
-<!-- FOOTER LOCALIZATION HERE END !!!! SAGINAW-->
+<strong>Special online-only section. </strong> Another school year is almost here. Get the latest back to school tips in “Back in Class” — a subscriber-exclusive special section publishing with your online paper. 
+
+</font></td>
+    </tr>
+</tbody></table>
+</td></tr>
 </tbody></table>
 </div>
 
+<!-- end ◆INTRO◆ -->
 
-</tbody></table> {beacon}
+<div class="SPACER-25">
+    <table class="w-resize100" width="640" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:640px;">
+        <tbody><tr><td style="font-size:0px; line-height:0px" height="35">&nbsp;</td></tr>
+    </tbody></table>
+    </div>
 
+<!-- start ◆2 WIDE HERO/BODY◆ -->
 
-</FOOTER>
+    <div class="MOD-1">
+        <table class="w-resize100 min-300" width="640" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:640px;">
+            <tbody><tr>
+              <td class="paint-area" align="center">
+                <table class="w-resize90" width="570" border="0" cellspacing="0" cellpadding="0" align="center">
+                    <tbody><tr>
 
+<!--HERO STARTS HERE - 2C SIDE-BY-SIDE ON DESKTOP, STACKED ON MOBILE--->
+                      <th class="stack w-resize100 resize100 max300" width="240" valign="top" align="left"><a href="#link" target="_blank"><img src="https://media.sailthru.com/composer/images/sailthru-prod-6fj/BACK%20TO%20CLASS.jpg" width="400" alt="" border="0" style="display:block"></a></th>
+                      <th class="stack w-resize100 h-resize20px" style="font-size:0px; line-height:0px" width="30">&nbsp;</th>
+                      <th class="stack w-resize100" width="120" valign="top" align="center">
 
+<!-- BODY CONTENT STARTS HERE - 2 C SIDE-BY-SIDE ON DESKTOP, STACKED ON MOBILE -->
+       
+                <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                    <tbody><tr>
+                            <td align="left" style="font-family:farnham headline, Times, serif; font-size:26px; color:#bf1a0c;font-weight: bolder; line-height:30px; -webkit-text-size-adjust: none; ">
+                            <font face="farnham headline, Times, serif" class="paint-area paint-area--text">
+<!-- SUBHEAD -->   
+                                FREE for subscribers
+                            </font>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="font-size:0px; line-height:0px" height="5">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td align="left" style="font-family: Arial, sans-serif; font-size:18px; color:#ffffff; line-height:27px; -webkit-text-size-adjust: none; font-weight:400">
+                          <font face=" Arial, sans-serif" class="paint-area paint-area--text">
+<!-- BODY -->   
+                            Print subscribers get free access to the online newspaper with more content, special sections, the New York Times Book Review, and Washington Post Weekly edition by activating their account.
+                          </font>
+                          </td>
+                        </tr>
+                        <td style="font-size:0px; line-height:0px" height="35">&nbsp;</td>
+                        <tr>
+                            <td align="left" class="paint-area paint-area--text">
 
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+<!----------------- START LOCALIZATION SUB - SAGINAW  ------------------->	
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+                            <a href="https://subscribe.mlive.com/?SiteCode=SN" target="_blank" class="button">Activate!</a>
+                            </td>
+                        </tr>
+                    </tbody></table>
+                      </th></tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+        </tbody></table>
+        </div>
+
+<!-- end ◆2 WIDE HERO/BODY◆ -->
+
+<div class="SPACER-75">
+    <table class="w-resize100" width="640" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:640px;">
+        <tbody><tr><td style="font-size:0px; line-height:0px" height="75">&nbsp;</td></tr>
+    </tbody></table>
+    </div>
 </body>
+</main>
+
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+<!-- END CAMPAIGN  -->	
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+
+
+
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+<!----------------- START FOOTER - SAGINAW SUB  ------------------------->	
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+<div class="footerBack">
+<table class="w-resize100 min-300" width="640" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:640px;">
+    <tbody><tr>
+      <td class="paint-area" align="center">
+<table class="w-resize90" width="570" border="0" cellspacing="0" cellpadding="0" align="center">
+
+</td></tr>
+</tbody></table>
+</div>
+
+<div class="FOOTER">
+    
+    <div class="FooterHead">
+        
+        <table class="w-resize100 min-300" width="640" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:640px;">
+            <tbody><tr>
+              <td class="paint-area" align="center">
+                
+        <table class="w-resize90" width="570" border="0" cellspacing="0" cellpadding="0" align="center">
+            <tbody><tr>
+                <tr><td style="font-size:0px; line-height:0px" height="30" colspan="3">&nbsp;</td></tr>
+                <td align="left" style="font-family:farnham headline, Times, serif; font-weight: 800; font-size:26px; color:#bf1a0c; line-height:22px; -webkit-text-size-adjust: none;"><font face="farnham headline, Times, serif" class="paint-area paint-area--text">
+     We're here to help.
+        </font></td>
+        <tr><td style="font-size:0px; line-height:0px" height="20" colspan="3">&nbsp;</td></tr>
+            </tr>
+        </tbody></table>
+        </td></tr>
+        </tbody></table>
+        </div>
+<table class="w-resize100 min-300" width="640" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:640px;">
+    <tbody><tr>
+      <td class="paint-area" align="center">
+        
+        <table class="w-resize90" width="570" border="0" cellspacing="0" cellpadding="0" align="center">
+            <tbody>
+
+             <tr>
+              <th class="stack w-resize100" width="550" valign="top" align="center">
+              
+              <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                <tbody>
+                        
+                <tr>
+
+                        <td class="finePrint" align="left">
+                        <class="paint-area paint-area--text">
+                        Having trouble viewing this email? <a href="{view_url}" target="_blank" style="text-decoration: none;"><accentDark>View in your browser.</accentDark></a>
+                        <br><br>
+                        To ensure receipt of our emails, please add <a href="mailto:customercare@sts.mlive.com" style="text-decoration: none;" target="_blank"><accentDark>customercare@sts.mlive.com</accentDark></a> to your address book or safe sender list. You received this email because you are a subscriber to <a href="https://mlive.com" target="_blank"style="text-decoration: none;">
+                            <accentDark>mlive.com</accentDark></a> <nobr> or The Saginaw News.
+                        </td>
+                </tr>               
+            </tbody></table>
+              </th>
+              <th class="stack w-resize100 h-resize30px" style="font-size:0px; line-height:0px" width="30">&nbsp;</th>
+              <th class="stack left-align" width="220" valign="top" align="right">
+
+              <table width="100%" border="0" cellspacing="0" cellpadding="0" align="right">
+                <tbody><tr>
+                  <td class="left-align" align="left">
+                        <a href="https://www.mlive.com/mlive_contacts/page/contact_home.html" target="_blank" class="finePrint">
+                            <accentDark>Contact us</accentDark></a><br>
+                          <a href="https://www.mlive.com/mobile-device/" target="_blank" class="finePrint">
+                            <accentDark>Download our app</accentDark></a><br>
+                          <a href="https://www.mlive.com/privacy-policy/" target="_blank" class="finePrint">
+                            <accentDark>Privacy policy</accentDark></a><br>
+                          <a href="https://subscription.mlive.com/newsletters/" target="_blank" class="finePrint">
+                            <accentDark>More newsletters</accentDark></a><br>
+                          <a href="https://myaccount.mlive.com" target="_blank" class="finePrint">
+                            <accentDark>Manage subscription</accentDark></a><br>
+                          <a href="{optout_confirm_url + '&list_param=' + blast.list}" target="_blank" class="finePrint">
+                            <accentDark>Unsubscribe</accentDark></a><br>
+                        </font>
+                      </td>
+                </tr>  
+            </tbody></table></th>
+
+<div class="SITELOGO">
+<table class="w-resize100 min-300" width="640" border="0" cellspacing="0" cellpadding="0" align="left" style="margin:0 auto; width:640px;">
+    <tbody><tr><td class="paint-area" style="font-size:0px; line-height:0px" height="25">&nbsp;</td></tr>
+    <tr>
+      <td class="paint-area" align="left">
+        <table class="w-resize90" width="630" border="0" cellspacing="0" cellpadding="30" align="center">
+    <tbody><tr>
+      <td class="stack-480 left-480" width="480" align="left">
+        <a href="https://www.mlive.com/news/saginaw/" target="_blank"> 
+      <img src="https://media.sailthru.com/composer/images/sailthru-prod-6fn/MI%20SAGINAW%20ADDRESS%20BAR.png" width="500" alt="The Saginaw News | mlive.com logo" border="0">
+      <br></a>
+      <span style="font-family:'benton sans', Arial, sans-serif; font-weight: 400; font-size:14px; color:#272727; line-height:22px; -webkit-text-size-adjust: none; text-transform: uppercase; text-decoration: none;">
+        540 S. Saginaw St., Ste 101, Flint, MI 48502</span>
+      </td>
+    </tr>
+</tbody>
+</table>
+      </td>
+            <tr>
+                <td style="font-size:0px; line-height:0px" height="50" colspan="3">&nbsp;</td>
+            </tr>
+        </tbody></table>
+</td></tr>
+</tbody></table> {beacon}
+</div>
 </html>
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+<!----------------- END FOOTER - SAGINAW SUB  ------------------------->	
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+
+<!-- FIXES GMAIL DISPLAY ISSUES -->
+<table class="remove" width="640" border="0" cellspacing="0" cellpadding="0" align="center">
+    <tbody><tr>
+    <td><img src="http://media.whatcounts.com/adv_mlive/170327_ADI-Generic/spcr.gif" width="640" height="1" alt="" style="display:block; min-height:1px; max-height:1px; width:640px; min-width:640px;"></td>
+    </tr>
+    </tbody></table>
+    <!-- FIXES GMAIL DISPLAY ISSUES -->
+
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+<!----------------- END LOCALIZATION SUB - MUSKEGON  ------------------->	
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->

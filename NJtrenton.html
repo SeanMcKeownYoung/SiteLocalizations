@@ -1,278 +1,848 @@
-<!DOCTYPE html>
-
-
-<!-- UPDATE ◆Title should be Special Section Title◆ -->
-<title>Back in Class.</title>
-<link rel="stylesheet" type="text/css" href="stylesheet.css"/> 
-
+<!doctype html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<!-- Tells your web/email client how to handle special characters  -->
 <meta name="x-apple-disable-message-reformatting">
 <!-- Disables scaling in iOS10  -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<!-- Helps responsive version function when viewed in a web browser -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+<!-- Use the latest (edge) version of IE rendering engine -->
 <meta property="og:url" content="" />
 <meta property="og:type" content="" />
 <meta property="og:title" content="" />
 <meta property="og:description" content="" />
 <meta property="og:image" content="" />
+<meta name="color-scheme" content="light dark">
+<meta name="supported-color-schemes" content="light dark">
+
+    <script>
+const currentTheme = localStorage.getItem("theme");
+if (currentTheme == "dark") {
+  document.body.classList.toggle("dark-theme");
+} else if (currentTheme == "light") {
+  document.body.classList.toggle("dark-theme");
+}
+    </script>
 
 
-<!-- STYLES INHERENT TO THIS SPECIFIC CAMPAIGN - ALL OTHER STYLES CONTROLLED BY 'EMAIL.CSS' -->
+
+
+<!-- Use for social sharing (if any) -->
+
+
+<!--[if gte mso 9]><xml> 
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+  <o:PixelsPerInch>96</o:PixelsPerInch>
+ </o:OfficeDocumentSettings>
+ </xml><![endif]-->
+
+ <title>Back in Class.</title>
+
 <style>
+html {-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%}
+body {margin:0; padding:0; -webkit-text-size-adjust: 100% !important; -ms-text-size-adjust: 100% !important; -webkit-font-smoothing: antialiased !important; border-spacing:0} 
+table {border-collapse: collapse; mso-table-lspace: 0px; mso-table-rspace: 0px; }
+table td {border-collapse: collapse; mso-line-height-rule: exactly; }
+table th { margin:0 !important; padding:0 !important; vertical-align:top; font-weight:normal; }
+img, a img {border:none; outline:none; -ms-interpolation-mode: bicubic;}
+.ReadMsgBody {width: 100%;}
+.ExternalClass {width: 100%;}
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height:100%;}
+.yshortcuts a {border-bottom: none !important;}
+.appleLinksGray a {color:#666666 !important; text-decoration:none !important;}
+.appleLinksWhite a {color:#FFFFFF !important; text-decoration:none !important;}
+.appleLinksBlack a {color:#000000 !important; text-decoration:none !important;}
 
-:root {
-  --accent: #bf1a0c;
+
+.hover-box:hover {
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	box-shadow: 0 2px 10px 0 rgba(0,0,0,0.1);
+	transition: .5s;
+	}
+	
+.hover-button:hover {
+	background-color: #0078ff;
+	transition: .5s;
+	}
+	
+	
+	
+	
+/* INSERT CUSTOM FONT EMBED HERE */
+
+
+	@font-face {
+	font-family: "farnham headline";
+	font-style: normal;
+	font-weight: 400;
+	src: url(https://fonts.advance.net/fonts/v1/farnham-headline-regular/farnhamheadline-regular.woff) format('woff');
+	}
+
+@font-face {
+	font-family: "farnham headline";
+	font-style: normal;
+	font-weight: 600;
+	src: url(https://fonts.advance.net/fonts/v1/farnham-headline-semi-bold/farnhamheadline-semi-bold.woff) format('woff');
+	}
+	
+@font-face {
+	font-family: 'benton sans';
+	font-style: normal;
+	font-weight: 400;
+	src: url(https://fonts.advance.net/fonts/v1/benton-sans-regular/166b5d40-3430-46a0-8fb2-43f30962dec7-3.woff) format('woff');
+	}
+	
+@font-face {
+	font-family: 'benton sans';
+	font-style: normal;
+	font-weight: 500;
+	src: url(https://fonts.advance.net/fonts/v1/benton-sans-medium/448c4642-c106-472f-9c6a-a4d7b5347b03-3.woff) format('woff');
+	}
+
+
+
+</style>
+
+
+<style>
+@media only screen and (max-width: 600px) {
+           
+/************************************ MAIN *************************************/ 
+		   
+.remove { display:none !important; width:0 !important; height:0 !important; }
+.stack { display:block !important; }
+.stack-header {display:table-header-group !important;}
+.stack-footer {display:table-footer-group !important;}
+.stack-image img {margin-bottom:20px !important;}
+			
+/************************************ ALIGNERS *************************************/
+		   
+.center-align {text-align:center !important; margin:0 auto !important;}
+.left-align {text-align:left !important;}
+.right-align {text-align:right !important;}
+		   
+/************************************ WIDTH RESIZERS *************************************/
+		   
+.min-300  {min-width:300px !important;}
+.max-300  {max-width:300px !important;}
+.max-320  {max-width:320px !important;}
+.max-340  {max-width:340px !important;}
+.w-resize100 { width:100% !important; }
+.w-resize90 { width:90% !important; }
+.w-resize80 { width:80% !important; }
+.w-resize280px { width:280px !important; }
+.w-resize300px { width:300px !important; }
+.w-resize320px { width:320px !important; }
+		   
+/************************************ HEIGHT RESIZERS *************************************/
+			
+.h-resize10px { height:10px !important; }
+.h-resize20px { height:20px !important; }
+.h-resize30px { height:30px !important; }
+.h-resize40px { height:40px !important; }
+.h-resize50px { height:50px !important; }
+.h-resize60px { height:60px !important; }
+.h-resize70px { height:70px !important; }
+.h-resize80px { height:80px !important; }
+.h-resize90px { height:90px !important; }
+.h-resize100px { height:100px !important; }
+		   
+/************************************ IMAGE RESIZERS *************************************/
+			
+.resize90 img {width:90% !important; height:auto !important;}
+.resize100 img {width:100% !important; height:auto !important;}
+.resize280px img {width:280px !important; height:auto !important;}
+.resize300px img {width:300px !important; height:auto !important;}
+.resize320px img {width:320px !important; height:auto !important;}
+			
+/************************************ TEXT RESIZERS *************************************/
+
+.text14 {font-size:14px !important;}
+.text15 {font-size:15px !important;}
+.text16 {font-size:16px !important;}
+.text17 {font-size:17px !important;}
+.text18 {font-size:18px !important;}
+.text19 {font-size:19px !important;}
+.text20 {font-size:20px !important;}
+.text21 {font-size:21px !important;}
+.text22 {font-size:22px !important;}
+.text23 {font-size:23px !important;}
+.text24 {font-size:24px !important;}
+.text25 {font-size:25px !important;}
+.text26 {font-size:26px !important;}
+.text27 {font-size:27px !important;}
+.text28 {font-size:28px !important;}
+.text29 {font-size:29px !important;}
+.text30 {font-size:30px !important;}
+
+/************************************ LINE HEIGHT RESIZERS *************************************/
+			
+.lh15 {line-height:15px !important;}
+.lh16 {line-height:16px !important;}
+.lh17 {line-height:17px !important;}
+.lh18 {line-height:18px !important;}
+.lh19 {line-height:19px !important;}
+.lh20 {line-height:20px !important;}
+.lh21 {line-height:21px !important;}
+.lh22 {line-height:22px !important;}
+.lh23 {line-height:23px !important;}
+.lh24 {line-height:24px !important;}
+.lh25 {line-height:25px !important;}
+.lh26 {line-height:26px !important;}
+.lh27 {line-height:27px !important;}
+.lh28 {line-height:28px !important;}
+.lh29 {line-height:29px !important;}
+.lh30 {line-height:30px !important;}
+.lh35 {line-height:35px !important;}
+.lh40 {line-height:40px !important;}
+
+/************************************ ADDITIONAL MEDIA QUERIES *************************************/
+
+.logo-control img {max-width:250px !important; height:auto !important;}
+}
+	
+@media only screen and (max-width: 480px) {
+
+.stack-480 { display:block !important; }
+.center-480 { text-align:center !important; margin:0 auto !important; }
+.w-resize100-480 { width:100% !important; }
+	
 }
 
-    .backHeader {
-        color:#d3d3d3; 
-        background: linear-gradient(157deg, #333333 0%, #000000 100%);
-    }
+
+
+
+/* CONSISTENT STYLES - SPECIAL SECTIONS MARKETING */ 
+
+
+
+@media (prefers-color-scheme: dark) {
+  /* defaults to dark theme */
+  body {
+    background: linear-gradient(157deg, #333333 0%, #000000 100%);
+    background-repeat: no-repeat;
+    background-color: #c5c5c5;
+    max-width: 100vw;
+}	
+body.dark-theme {
+    background: linear-gradient(157deg, #333333 0%, #000000 100%);
+    background-repeat: no-repeat;
+    background-color: #c5c5c5;
+    max-width: 100vw;
+}	
+body.light-theme {
+    background: linear-gradient(157deg, #333333 0%, #000000 100%);
+    background-repeat: no-repeat;
+    background-color: #c5c5c5;
+    max-width: 100vw;
+}	
+accentColor.dark-theme {
+    color:#bf1a0c; 
+}
+accentDark.dark-theme {
+    color:#bf1a0c; 
+    filter: brightness(85%);
+}
+accentColor.light-theme {
+    color:#bf1a0c; 
+}
+accentDark.light-theme {
+    color:#bf1a0c; 
+    filter: brightness(85%);
+}
+}
+
 body {
-        color:#333333; 
-        background-color: #d3d3d3;
-    }
+    background: linear-gradient(157deg, #333333 0%, #000000 100%);
+    background-repeat: no-repeat;
+    background-color: #c5c5c5;
+    max-width: 100vw;
+}	
+
+
+main {
+    padding: 30px;
+    max-width: 100vw;
+}
+.footerBack {
+    background-color: #c5c5c5;
+    padding: 30px;
+}
+.finePrint {
+    font-family:Arial, sans-serif; 
+    font-size: 14px; 
+    line-height: 22px; 
+    -webkit-text-size-adjust: none; 
+    font-weight:400; 
+    text-decoration: none;
+    color: #2a2a2a;
+}
+@media only screen and (max-width: 600px) {
+    .finePrint {
+    font-family:Arial, sans-serif; 
+    font-size: 3vw; 
+    line-height: calc(5px + 3vw);
+    -webkit-text-size-adjust: none; 
+    font-weight:400; 
+    text-decoration: none
+}
+  }
+  @media only screen and (max-width: 400px) {
+    .finePrint {
+    font-family:Arial, sans-serif; 
+    font-size: 5vw; 
+    line-height: calc(5px + 5vw);
+    -webkit-text-size-adjust: none; 
+    font-weight:400; 
+    text-decoration: none
+}
+  }
+
+accentColor {
+    color:#bf1a0c; 
+}
+accentDark {
+    color:#bf1a0c; 
+    filter: brightness(85%);
+}
+accentDark:hover {
+    color:#bf1a0c; 
+    filter: brightness(20%);
+    text-decoration: underline;
+}
+.headLine {
+    font-family: farnham headline, Times, serif; 
+    font-size: 90px; 
+    font-weight: 600; 
+    color:#ffffff; 
+    line-height:80px; 
+    -webkit-text-size-adjust: none;
+}
+@media only screen and (max-width: 600px) {
+    .headLine {
+    font-family: farnham headline, Times, serif; 
+    font-size: 12vw; 
+    font-weight: 600; 
+    color:#ffffff; 
+    line-height: 11vw; 
+    -webkit-text-size-adjust: none;
+}
+  }
+  @media only screen and (max-width: 400px) {
+    .headLine {
+    font-family: farnham headline, Times, serif; 
+    font-size: 18vw; 
+    font-weight: 600; 
+    color:#ffffff; 
+    line-height: 17vw; 
+    -webkit-text-size-adjust: none;
+}
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: left;
+}
+
+.icon {
+    padding-right: 10px;
+    -webkit-text-size-adjust: none;
+}
+.siteName {
+    color: #FFFFFF;
+    font-family:Georgia, serif; 
+    font-size: 20px; 
+    font-weight: 900; 
+    line-height:24px; 
+    position: relative;
+    padding-left: 5px;
+    -webkit-text-size-adjust: none;
+}
+.online {
+    color: #a6a6a6;
+    font-family:Georgia, serif; 
+    font-size: 20px; 
+    font-weight: 900; 
+    line-height:24px; 
+    position: relative;
+    padding-left: 8px;
+    -webkit-text-size-adjust: none;
+    float: left;
+    opacity: 0;
+    animation: introDigital 2s ease 2s 1 normal forwards;
+}
+
+@keyframes introDigital {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+#arrow {
+    width: 20px;
+    transform:  translate(5px, 10px);
+    opacity: 0;
+    transform: translate(-72px, 8px);
+    animation: inArrow 0.5s ease 0s 1 normal forwards, blinkArrow 1s ease 1s 1 normal forwards, outArrow 1s ease 2s 1 reverse forwards;
+}
+@keyframes inArrow {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes blinkArrow {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+
+	25%,
+	75% {
+		opacity: 0;
+	}
+}
+@keyframes outArrow {
+	0% {
+        transform: translate(0px, 8px);
+		opacity: 0;
+	}
+
+	100% {
+        transform: translate(-72px, 8px);
+		opacity: 1;
+	}
+}
+
+.button {
+    text-decoration: none; 
+    background-color: #bf1a0c; 
+    color: #000000;
+    padding: 20px 30px 20px 20px;
+    font-family:'benton sans', Arial, sans-serif; 
+    font-weight: 500; 
+    font-size:20px; 
+    line-height:30px; 
+    -webkit-text-size-adjust: none;
+    transition: 0.5s;
+    animation: blinkButton 2s ease 2s infinite normal forwards;
+}
+@keyframes blinkButton {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+
+	25%,
+	75% {
+		opacity: 0.8;
+	}
+}
+.button:hover {
+    text-decoration: none; 
+    background-color: #bf1a0c; 
+    color: #ffffff;
+    padding: 20px 30px 20px 20px;
+    font-family:'benton sans', Arial, sans-serif; 
+    font-weight: 500; 
+    font-size:20px; 
+    line-height:30px; 
+    -webkit-text-size-adjust: none;
+    transition: 0.5s;
+}
+
+@media only screen and (max-width: 600px) {
+    .button {
+    text-decoration: none; 
+    background-color: #bf1a0c; 
+    color: #ffffff;
+    padding: 20px 250px 20px 20px;
+    font-family:'benton sans', Arial, sans-serif; 
+    font-weight: 500; 
+    font-size:20px; 
+    line-height:30px; 
+    -webkit-text-size-adjust: none;
+}
+  }
+  @media only screen and (max-width: 400px) {
+    .button {
+    text-decoration: none; 
+    background-color: #bf1a0c; 
+    color: #ffffff;
+    padding: 20px 150px 20px 20px;
+    font-family:'benton sans', Arial, sans-serif; 
+    font-weight: 500; 
+    font-size:20px; 
+    line-height:30px; 
+    -webkit-text-size-adjust: none;
+}
+  }
+
 </style>
 </head>
-
-<body>
-<!-- start EMAIL MAIN BODY DESIGN AND TEXT -->
-<!-- start EMAIL MAIN BODY DESIGN AND TEXT -->
-<!-- start EMAIL MAIN BODY DESIGN AND TEXT -->
-<!-- start EMAIL MAIN BODY DESIGN AND TEXT -->
-
-<HEADER class="backHeader">
-        <tbody><tr>
-          <td class="paint-area" align="center">
-              <table class="w-resize100" width="600" border="0" cellspacing="0" cellpadding="0" align="center">
-              <td class="w-resize90">
-
-<!-- HEADER LOCALIZATION HERE START !!!! TRENTON-->
-<!-- HEADER LOCALIZATION HERE START !!!! TRENTON-->
-<!-- HEADER LOCALIZATION HERE START !!!! TRENTON-->
-    <div class="flex-container">
-      <div>
-        <div class="siteLogo">
-          <img src="https://media.sailthru.com/composer/images/sailthru-prod-6fj/NJtrenton.png" alt="The Times of Trenton logo" style="width:100%">
-        </div>
-      </div>
-      <div>
-        <div class="Online">
-          <img src="https://media.sailthru.com/composer/images/sailthru-prod-6fj/ONLINE.png" alt="Online" style="width:100%">
-        </div>
-        <introArrow>
-          <?xml version="1.0" encoding="UTF-8"?><svg id="start" viewBox="0 0 15.53 22.09"><polygon points="15.53 15.86 .16 0 0 22.09 6.83 16.64 15.53 15.86" style="fill:var(--accent)"/></svg>
-        </introArrow>
-      </div>
-
-    </div>
-  </div>
-<!-- HEADER LOCALIZATION HERE END !!!! TRENTON-->
-<!-- HEADER LOCALIZATION HERE END !!!! TRENTON-->
-<!-- HEADER LOCALIZATION HERE END !!!! TRENTON-->
+<main>
 
 
 
 
 
+<!-- start ◆PREHEADER◆ -->
 
-
-<!-- HEADLINE -->   
-<h1>
-    Read it online.<br>
-            <accentColor>
-    August 13
-            </accentColor>
-            </h1>
-
-<!-- INTRO PARAGRAPH  -->   
-<intro>
-    <leadin>Special online-only section.</leadin> Another school year is almost here. Get the latest back to school tips in “Back in Class” — a subscriber-exclusive special section publishing with your online paper.
-            </intro>
-              </td>
-            </tr>
-        </tbody></table>
-
-
-<!-- HERO  -->   
-
-    <!-- start HERO - SPLIT INFORMATION-->
-    <div class="HERO">
-
-        <table class="w-resize100 min-300" width="600" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:600px; margin-top: 30px;">
-
-            <tbody><tr>
-              <td class="paint-area" align="center">
-                <table class="w-resize100" width="600" border="0" cellspacing="0" cellpadding="0" align="center">
-    
-    <!-- FIRST COLUMN HERO IMAGE -->
-    
-                    <tbody>
-                        
-                    <tr>
-                        
-                    <th class="stack" width="400" valign="top" align="left">
-                    <table>
-                        <div class="heroImage">
-                            <img src="https://media.sailthru.com/composer/images/sailthru-prod-6fj/BACK%20TO%20CLASS.jpg" alt="Main art" width="400vw" height="776vh">
-                        </div>
-
-                    </tbody></table> 
-                    </th>
-                    
-    <!-- SECOND COLUMN HERO CONTENT -->
-    
-                      <th class="stack left-align" width="150" height="400" valign="top" align="left">
-                      <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" z-index="5">
-                        <tbody><tr>
-                            <tr>
-                              <ul>
-                                    <accentColor><subhead>
-                                        FREE for subscribers
-                                    </subhead></accentColor><br>
-<li>Print subscribers get free access to the online newspaper with more content, special sections, the New York Times Book Review, and Washington Post Weekly edition by activating their account.</li>
-                                  </ul>
-
-
-<!-- BUTTON LOCALIZATION HERE START !!!! TRENTON-->
-<!-- BUTTON LOCALIZATION HERE START !!!! TRENTON-->
-<!-- BUTTON LOCALIZATION HERE START !!!! TRENTON-->
-<a href="https://subscribe.nj.com/?SiteCode=TT" target="_blank">
-<!-- BUTTON LOCALIZATION HERE END !!!! TRENTON-->
-<!-- BUTTON LOCALIZATION HERE END !!!! TRENTON-->
-<!-- BUTTON LOCALIZATION HERE END !!!! TRENTON-->     
-                                        <button>Activate!</button></a>
-                                </td>
-                              </tr>
-                          </td>
-                        </tr>                      
-                    </tbody></table>
-                </div>
+<div class="PREHEADER">
+<table class="remove" width="640" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:640px;">
+    <tbody><tr><td class="paint-area" style="font-size:0px; line-height:0px" height="10">&nbsp;</td></tr>
+    <tr>
+	<td class="paint-area" align="center">
+    <table width="570" border="0" cellspacing="0" cellpadding="0" align="center">
+    <tbody><tr>
+      <td width="400" height="0" align="left" style="font-family:Arial, sans-serif; font-size:0px; color:#4a4a4a; -webkit-text-size-adjust: none;">
+      <font face="Arial, sans-serif" class="paint-area paint-area--text">
+      Online only special section.
+      </font>
+      </td>
+    </tr>
     </tbody></table>
+    </td>
+    </tr>
+    <tr><td class="paint-area" style="font-size:0px; line-height:0px" height="10">&nbsp;</td></tr>
 </tbody></table>
 </div>
-</HEADER>
+
+<!-- end ◆PREHEADER-1◆ -->
 
 
-<!-- start FOOTER - SUB OUT ALL BETWEEN THIS AND THE ENDPOINT FOR LOCALIZATION -->
 
-<FOOTER class="backFooter">
-<tbody><tr>
-    <td class="paint-area" align="center">
-<table class="w-resize100" width="600" border="0" cellspacing="0" cellpadding="0" align="center">
-  <tbody><tr>
-      <td class="w-resize100"> 
-        <footerSub>
-        We're here to help
-        </footerSub>
-    </td>
-  </tr>
-</tbody></table>&nbsp;
-</div>
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+<!----------------- START HEADER - TRENTON SUB  ------------------------->	
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
 
-<!-- start FOOTER - SPLIT INFORMATION-->
+<!-- start ◆HEADER◆ -->
 
+<div class="HEADER">
+
+<table class="w-resize100 min-300" width="640" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:640px;">
     
-    <table class="w-resize100 min-300" width="600" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:600px;">
+    <tbody><tr><td class="paint-area" style="font-size:0px; line-height:0px" height="25">&nbsp;</td></tr>
+    <tr>
+        
+      <td class="paint-area" align="left">
+      <table class="w-resize90 min-300" width="570" border="0" cellspacing="0" cellpadding="0" align="center">
+    <tbody><tr>
+        <td class="stack-480 left-480" width="100%" align="left" style="font-size:0px">
+        <div class="container">
+            <div class="icon">
+
+                <!-- TRENTON TIMES LOGO ICON START -->
+<?xml version="1.0" encoding="UTF-8"?><svg id="TRENTON_LABEL" xmlns="http://www.w3.org/2000/svg" width="auto" height="35" viewBox="0 0 92.96 55.64"><path d="m38.27,11.43v.45c0,.06.38.62.38.51v-.96c0-.06-.38-.06-.38,0Z" style="fill:#fff;"/><path d="m27.8,11.54c.05,3.5.05,7.29.09,10.91v10.85c-.09,3.62.09,7.29-.24,10.8-.05.11.66.06.66-.06.05-3.45-.05-7.12,0-10.74,0-3.62.05-7.24.09-10.85.05-3.62.14-7.35.14-10.91,0-.11-.76-.11-.76,0Z" style="fill:#fff;"/><path d="m26.85,11.54c.09,2.26.05,4.75.09,7.07v8.59c0,2.83,0,5.65-.05,8.48-.05,2.83.09,5.71-.24,8.42,0,.11.62.11.66,0,.14-2.71,0-5.6.05-8.42,0-2.83,0-5.65.05-8.48.05-2.88.09-5.71.09-8.59,0-2.32.09-4.8.05-7.07,0-.11-.71-.11-.71,0Z" style="fill:#fff;"/><path d="m47.57,11.31c-.05,4.35-.05,9.5-.24,13.85,0,.11.43-.79.43-.9.05-4.24.14-8.71.24-12.95,0-.11-.43-.11-.43,0Z" style="fill:#fff;"/><path d="m41.4,11.43c.09,1.58.24,5.26.24,5.65,0,.06.43.96.43.85,0-1.92.05-4.64.05-6.56,0-.11-.71-.06-.71.06Z" style="fill:#fff;"/><path d="m39.83,11.43c0,.51.09,2.26.09,2.6,0,.11.47.85.47.73,0-.96-.05-2.54-.05-3.34,0-.11-.52-.11-.52,0Z" style="fill:#fff;"/><path d="m40.59,11.43c.09,1.02.19,3.96.19,4.01,0,.17.43.96.43.85.05-1.58.05-3.56.05-4.86-.05-.11-.66-.11-.66,0Z" style="fill:#fff;"/><path d="m39.03,11.43c0,.06.05,1.07.05,1.41,0,.11.47.73.47.62,0-.45-.05-1.7-.05-2.03,0-.11-.47-.11-.47,0Z" style="fill:#fff;"/><path d="m14.62,11.31c0,3.84.05,7.86-.09,11.87,0,.11.38-.73.38-.85.05-2.43.14-7.46.24-10.97,0-.11-.52-.17-.52-.06Z" style="fill:#fff;"/><path d="m13.86,11.31c-.05,4.35-.05,9.5-.24,13.85,0,.11.43-.79.43-.9.05-4.24.14-8.71.24-12.95,0-.11-.43-.11-.43,0Z" style="fill:#fff;"/><path d="m25.95,11.48c.09,2.15.05,4.64.05,6.84v17.24c-.09,2.88.09,5.77-.28,8.54,0,.11.57.11.57,0,.24-2.71.09-5.71.14-8.54,0-2.83.05-5.71.05-8.59.05-2.88.05-5.77.09-8.65,0-2.2.05-4.52-.05-6.78,0-.11-.57-.17-.57-.06Z" style="fill:#fff;"/><path d="m15.43,11.37c0,3.17.09,6.67-.05,9.95,0,.11.43-.68.43-.79-.05-1.81.14-6.27.24-9.16,0-.11-.62-.11-.62,0Z" style="fill:#fff;"/><path d="m25,11.48c.14,2.04.05,4.41.09,6.56,0,2.94,0,5.82-.05,8.76v8.71c-.05,2.88.09,5.77-.33,8.65,0,.11.57.06.57-.06.33-2.77.14-5.77.19-8.59,0-2.94.05-5.82.05-8.71.05-2.94.05-5.82.05-8.76,0-2.15.09-4.41-.05-6.56,0-.11-.52-.11-.52,0Z" style="fill:#fff;"/><path d="m24.1,11.48c.14,1.98.05,4.3.05,6.33v8.82c-.05,2.94-.05,5.88-.05,8.82-.05,2.94.09,5.77-.33,8.71,0,.11.47.11.52,0,.38-2.83.19-5.82.24-8.71,0-2.94.05-5.88.05-8.82s.05-5.88.05-8.82c0-2.04.09-4.3-.09-6.33-.05-.11-.43-.11-.43,0Z" style="fill:#fff;"/><path d="m16.23,11.37c0,2.54.09,5.54.05,8.14,0,.11.38-.57.38-.68,0-1.36.14-5.14.24-7.46,0-.11-.66-.11-.66,0Z" style="fill:#fff;"/><path d="m28.7,11.54c.05,3.5.09,7.29.09,10.85.05,3.67.05,7.29.05,10.91-.05,3.62.05,7.29-.24,10.74,0,.11.71.11.71,0,0-3.45-.05-7.12-.05-10.74s.05-7.24.14-10.85c.05-3.62.14-7.35.14-10.91,0-.11-.85-.11-.85,0Z" style="fill:#fff;"/><path d="m73.54,11.43c0,.51.09,2.26.09,2.6,0,.11.47.85.47.73,0-.96-.05-2.54-.05-3.34,0-.11-.52-.11-.52,0Z" style="fill:#fff;"/><path d="m61.51,11.54c.05,3.5.05,7.29.09,10.91v10.85c-.09,3.62.09,7.29-.24,10.8-.05.11.66.06.66-.06.05-3.45-.05-7.12,0-10.74,0-3.62.05-7.24.09-10.85.05-3.62.14-7.35.14-10.91,0-.11-.76-.11-.76,0Z" style="fill:#fff;"/><path d="m71.98,11.43v.45c0,.06.38.62.38.51v-.96c0-.06-.38-.06-.38,0Z" style="fill:#fff;"/><path d="m62.41,11.54c.05,3.5.09,7.29.09,10.85.05,3.67.05,7.29.05,10.91-.05,3.62.05,7.29-.24,10.74,0,.11.71.11.71,0,0-3.45-.05-7.12-.05-10.74s.05-7.24.14-10.85c.05-3.62.14-7.35.14-10.91,0-.11-.85-.11-.85,0Z" style="fill:#fff;"/><path d="m48.33,11.31c0,3.84.05,7.86-.09,11.87,0,.11.38-.73.38-.85.05-2.43.14-7.46.24-10.97,0-.11-.52-.17-.52-.06Z" style="fill:#fff;"/><path d="m74.3,11.43c.09,1.02.19,3.96.19,4.01,0,.17.43.96.43.85.05-1.58.05-3.56.05-4.86-.05-.11-.66-.11-.66,0Z" style="fill:#fff;"/><path d="m0,0v55.64h92.96V0H0Zm45.71,26.92c0,.23-.38.23-.43.06-1.8-4.58-4.98-11.53-7.16-14.13-.76-.9-1.56-1.53-2.18-1.53-.09,0-.19,0-.24.06s-.05.57-.09,7.01c-.05,7.35-.09,16.56-.09,23.52,0,1.7.14,2.15.24,2.26.09.11.28.17,3.6.4.09,0,.09.57-.05.57-5.83-.28-14.22-.23-19.72,0-.09,0-.14-.57,0-.57,1.66-.11,3.51-.28,3.6-.4.14-.17.28-1.87.28-4.75,0-7.91.09-16.79.09-25.1,0-2.54,0-2.77-.05-2.83-.05-.06-.09-.06-.19-.06-.76,0-1.52.51-2.37,1.53-2.27,2.71-5.59,9.27-7.63,14.41-.09.17-.43.06-.43-.11.24-5.26.28-13,.33-16.45,0-.17.14-.23.33-.23,1.23.06,11.61.17,16.26.23,5.36.06,12.47-.11,15.36-.28.38,0,.43.11.43.4.09,3.96.19,10.85.09,16Zm33.71,0c0,.23-.38.23-.43.06-1.8-4.58-4.98-11.53-7.16-14.13-.76-.9-1.56-1.53-2.18-1.53-.09,0-.19,0-.24.06s-.05.57-.09,7.01c-.05,7.35-.09,16.56-.09,23.52,0,1.7.14,2.15.24,2.26.09.11.28.17,3.6.4.09,0,.09.57-.05.57-5.83-.28-14.22-.23-19.72,0-.09,0-.14-.57,0-.57,1.66-.11,3.51-.28,3.6-.4.14-.17.28-1.87.28-4.75,0-7.91.09-16.79.09-25.1,0-2.54,0-2.77-.05-2.83-.05-.06-.09-.06-.19-.06-.76,0-1.52.51-2.37,1.53-2.27,2.71-5.59,9.27-7.63,14.41-.09.17-.43.06-.43-.11.24-5.26.28-13,.33-16.45,0-.17.14-.23.33-.23,1.23.06,11.61.17,16.26.23,5.36.06,12.47-.11,15.36-.28.38,0,.43.11.43.4.09,3.96.19,10.85.09,16Z" style="fill:#fff;"/><path d="m75.11,11.43c.09,1.58.24,5.26.24,5.65,0,.06.43.96.43.85,0-1.92.05-4.64.05-6.56,0-.11-.71-.06-.71.06Z" style="fill:#fff;"/><path d="m72.74,11.43c0,.06.05,1.07.05,1.41,0,.11.47.73.47.62,0-.45-.05-1.7-.05-2.03,0-.11-.47-.11-.47,0Z" style="fill:#fff;"/><path d="m57.81,11.48c.14,1.98.05,4.3.05,6.33v8.82c-.05,2.94-.05,5.88-.05,8.82-.05,2.94.09,5.77-.33,8.71,0,.11.47.11.52,0,.38-2.83.19-5.82.24-8.71,0-2.94.05-5.88.05-8.82s.05-5.88.05-8.82c0-2.04.09-4.3-.09-6.33-.05-.11-.43-.11-.43,0Z" style="fill:#fff;"/><path d="m49.94,11.37c0,2.54.09,5.54.05,8.14,0,.11.38-.57.38-.68,0-1.36.14-5.14.24-7.46,0-.11-.66-.11-.66,0Z" style="fill:#fff;"/><path d="m49.13,11.37c0,3.17.09,6.67-.05,9.95,0,.11.43-.68.43-.79-.05-1.81.14-6.27.24-9.16,0-.11-.62-.11-.62,0Z" style="fill:#fff;"/><path d="m59.66,11.48c.09,2.15.05,4.64.05,6.84v17.24c-.09,2.88.09,5.77-.28,8.54,0,.11.57.11.57,0,.24-2.71.09-5.71.14-8.54,0-2.83.05-5.71.05-8.59.05-2.88.05-5.77.09-8.65,0-2.2.05-4.52-.05-6.78,0-.11-.57-.17-.57-.06Z" style="fill:#fff;"/><path d="m58.71,11.48c.14,2.04.05,4.41.09,6.56,0,2.94,0,5.82-.05,8.76v8.71c-.05,2.88.09,5.77-.33,8.65,0,.11.57.06.57-.06.33-2.77.14-5.77.19-8.59,0-2.94.05-5.82.05-8.71.05-2.94.05-5.82.05-8.76,0-2.15.09-4.41-.05-6.56,0-.11-.52-.11-.52,0Z" style="fill:#fff;"/><path d="m60.56,11.54c.09,2.26.05,4.75.09,7.07v8.59c0,2.83,0,5.65-.05,8.48-.05,2.83.09,5.71-.24,8.42,0,.11.62.11.66,0,.14-2.71,0-5.6.05-8.42,0-2.83,0-5.65.05-8.48.05-2.88.09-5.71.09-8.59,0-2.32.09-4.8.05-7.07,0-.11-.71-.11-.71,0Z" style="fill:#fff;"/></svg>
+                <!-- TRENTON TIMES LOGO ICON END -->
+            </div>
+            <div class="siteName">
+                The Times
+            </div>
+            <div class="online" style="color:#a6a6a6;">
+                Online
+            </div>
+            <introArrow>
+                <accentColor><?xml version="1.0" encoding="UTF-8"?><svg id="arrow" viewBox="0 0 15.53 22.09"><polygon points="15.53 15.86 .16 0 0 22.09 6.83 16.64 15.53 15.86" style="fill:currentColor"/></svg></accentColor>
+              </introArrow>
+          </div>
+
+      </td>
+    </tr>
+</tbody></table>
+      </td>
+    </tr>
+    <tr><td class="paint-area" style="font-size:0px; line-height:0px" height="50">&nbsp;</td></tr>
+</tbody></table>
+
+</div>
+<!-- end ◆HEADER◆ -->
+
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+<!----------------- END HEADER - TRENTON SUB  ------------------------->	
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+
+
+
+
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+<!-- START CAMPAIGN  -->	
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+
+<!-- start ◆HEADLINE◆ -->
+
+<div class="headLine">
+    <table class="w-resize100 min-300" width="640" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:640px;">
         <tbody><tr>
           <td class="paint-area" align="center">
-            <table class="w-resize100" width="600" border="0" cellspacing="0" cellpadding="0" align="center">
+    <table class="w-resize90" width="570" border="0" cellspacing="0" cellpadding="0" align="center">
+        <tbody><tr>
+            <td class="w-resize90" align="left" class="paint-area paint-area--text">
+          Read it online <br>
+          <accentColor>August 13.</accentColor>
+          </td>
+        </tr>
+    </tbody></table>
+    </td></tr>
+    </tbody></table>
+    </div>
 
-<!-- FIRST COLUMN CONTENT TABLE -->
-                <tbody>
-                <tr>
-                <th class="stack" width="280" valign="top" align="center">
-                <table>
-                    <tbody>               
-                    <tr>
-                        <td class="leftText">
-                            Having trouble viewing this email? <a href="{view_url}" target="_blank"><nobr><accentDark><underLine>View in your browser.</underLine></accentDark></nobr> </a>
-                            <br><br>
-<!-- FOOTER LOCALIZATION HERE START !!!! TRENTON-->
-<!-- FOOTER LOCALIZATION HERE START !!!! TRENTON-->
-<!-- FOOTER LOCALIZATION HERE START !!!! TRENTON-->
-                            To ensure receipt of our emails, please add <a href="mailto:digitalservice@nj.com" style="text-decoration: underline" target="_blank"><accentDark><underLine>digitalservice@nj.com</underLine></accentDark></a> to your address book or safe sender list. You received this email because you are a subscriber to <a href="https://nj.com" target="_blank">
-                            <accentDark><underLine>nj.com</underLine></accentDark></a> <nobr> or The Times of Trenton.</nobr><br><br> 
-                        </td></tr>
-                      </td>
-                </tr>  
-                </tbody></table> 
-                </th>
-                
-<!-- SECOND COLUMN CONTENT TABLE -->
+<!-- end ◆HEADLINE◆ -->
 
-                  <th class="stack left-align" width="150" valign="top" align="right">
-                  <table width="100%" align="right">
-                    <tbody><tr>
-                        <tr>
-<!-- LOCALIZATION HERE!!!! ALL HELP INFO NEEDS LOCALIZED TARGETING -->
-                            <td>
-                            <a href="https://www.nj.com/mercer/2015/05/how_to_contact_the_times_of_trenton.html" target="_blank" class="rightText">
-                            Contact us</a><br>
-                            <a href="https://www.nj.com/mobile-device/" target="_blank" class="rightText">
-                            Download our app</a><br>
-                            <a href="https://www.nj.com/privacy-policy/" target="_blank" class="rightText">
-                            Privacy policy</a><br>
-                            <a href="https://subscription.nj.com/newsletters/" target="_blank" class="rightText">
-                            More newsletters</a><br>
-                            <a href="https://myaccount.nj.com" target="_blank" class="rightText">
-                            Manage subscription</a><br>
-                            <a href="{optout_confirm_url + '&list_param=' + blast.list}" target="_blank" class="rightText">
-                            Unsubscribe</a><br>
-                            </td>
-                          </tr>
-                      </td>
-                    </tr>
-                    
-                </tbody></table>
-<!-- END SECOND COLUMN CONTENT TABLE -->
-                  </th>
-                </tr>
-            </tbody></table>
+<div class="SPACER-25">
+<table class="w-resize100" width="640" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:640px;">
+    <tbody><tr><td style="font-size:0px; line-height:0px" height="25">&nbsp;</td></tr>
+</tbody></table>
+</div>
 
-<div class="footerText">
-<table class="w-resize100 min-300" width="600" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:640px;">
+<!-- start ◆INTRO◆ -->
+
+<div class="BODY-COPY">
+<table class="w-resize100 min-300" width="640" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:640px;">
     <tbody><tr>
       <td class="paint-area" align="center">
-<table class="w-resize100" width="600" border="0" cellspacing="0" cellpadding="0" align="center">
+<table class="w-resize90" width="570" border="0" cellspacing="0" cellpadding="0" align="center">
     <tbody><tr>
-    	<td class="footerText"  class="paint-area paint-area--text">
-<!-- SITE LOGO-->
-<!-- LOCALIZATION HERE!!!! ADD LOGO FOR SITE -->
-<a href="https://www.nj.com/times/" target="_blank"> 
-    <img src="https://media.sailthru.com/composer/images/sailthru-prod-6fn/NJ%20TRENTON%20ADDRESS%20BAR.png" 
-    class="logo" alt="The Times of Trenton | nj.com logo">
-    </a>
-</td>
-    <tr>
-        <td class="logoText">
-<!-- LOCALIZATION HERE!!!! ADD ADDRESS FOR SITE -->
-485 Route 1S Bldg. E, Suite 300 Iselin, NJ 08830-3009
-        </td>
-    </tr>
-    <tr>
-        <td style="font-size:0px; line-height:0px" height="50" colspan="3">&nbsp;</td>
-    </tr>
-   
-    </tbody>
-</table>
-</tr>
+    	<td align="left" style="font-family:'benton sans', Arial, sans-serif; font-weight: 400; font-size:20px; color:#ffffff; line-height:35px; -webkit-text-size-adjust: none;"><font face="'benton sans', Arial, sans-serif" class="paint-area paint-area--text">
 
-<!-- FOOTER LOCALIZATION HERE END !!!! TRENTON-->
-<!-- FOOTER LOCALIZATION HERE END !!!! TRENTON-->
-<!-- FOOTER LOCALIZATION HERE END !!!! TRENTON-->
+<strong>Special online-only section. </strong> Another school year is almost here. Get the latest back to school tips in “Back in Class” — a subscriber-exclusive special section publishing with your online paper. 
+
+</font></td>
+    </tr>
+</tbody></table>
+</td></tr>
 </tbody></table>
 </div>
 
+<!-- end ◆INTRO◆ -->
 
-</tbody></table> {beacon}
+<div class="SPACER-25">
+    <table class="w-resize100" width="640" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:640px;">
+        <tbody><tr><td style="font-size:0px; line-height:0px" height="35">&nbsp;</td></tr>
+    </tbody></table>
+    </div>
 
+<!-- start ◆2 WIDE HERO/BODY◆ -->
 
-</FOOTER>
+    <div class="MOD-1">
+        <table class="w-resize100 min-300" width="640" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:640px;">
+            <tbody><tr>
+              <td class="paint-area" align="center">
+                <table class="w-resize90" width="570" border="0" cellspacing="0" cellpadding="0" align="center">
+                    <tbody><tr>
 
+<!--HERO STARTS HERE - 2C SIDE-BY-SIDE ON DESKTOP, STACKED ON MOBILE--->
+                      <th class="stack w-resize100 resize100 max300" width="240" valign="top" align="left"><a href="#link" target="_blank"><img src="https://media.sailthru.com/composer/images/sailthru-prod-6fj/BACK%20TO%20CLASS.jpg" width="400" alt="" border="0" style="display:block"></a></th>
+                      <th class="stack w-resize100 h-resize20px" style="font-size:0px; line-height:0px" width="30">&nbsp;</th>
+                      <th class="stack w-resize100" width="120" valign="top" align="center">
 
+<!-- BODY CONTENT STARTS HERE - 2 C SIDE-BY-SIDE ON DESKTOP, STACKED ON MOBILE -->
+       
+                <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                    <tbody><tr>
+                            <td align="left" style="font-family:farnham headline, Times, serif; font-size:26px; color:#bf1a0c;font-weight: bolder; line-height:30px; -webkit-text-size-adjust: none; ">
+                            <font face="farnham headline, Times, serif" class="paint-area paint-area--text">
+<!-- SUBHEAD -->   
+                                FREE for subscribers
+                            </font>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="font-size:0px; line-height:0px" height="5">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td align="left" style="font-family: Arial, sans-serif; font-size:18px; color:#ffffff; line-height:27px; -webkit-text-size-adjust: none; font-weight:400">
+                          <font face=" Arial, sans-serif" class="paint-area paint-area--text">
+<!-- BODY -->   
+                            Print subscribers get free access to the online newspaper with more content, special sections, the New York Times Book Review, and Washington Post Weekly edition by activating their account.
+                          </font>
+                          </td>
+                        </tr>
+                        <td style="font-size:0px; line-height:0px" height="35">&nbsp;</td>
+                        <tr>
+                            <td align="left" class="paint-area paint-area--text">
 
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+<!----------------- START LOCALIZATION SUB - TRENTON  ------------------->	
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+                            <a href="https://subscribe.nj.com/?SiteCode=TT" target="_blank" class="button">Activate!</a>
+                            </td>
+                        </tr>
+                    </tbody></table>
+                      </th></tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+        </tbody></table>
+        </div>
+
+<!-- end ◆2 WIDE HERO/BODY◆ -->
+
+<div class="SPACER-75">
+    <table class="w-resize100" width="640" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:640px;">
+        <tbody><tr><td style="font-size:0px; line-height:0px" height="75">&nbsp;</td></tr>
+    </tbody></table>
+    </div>
 </body>
+</main>
+
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+<!-- END CAMPAIGN  -->	
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+
+
+
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+<!----------------- START FOOTER - TRENTON SUB  ------------------------->	
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+<div class="footerBack">
+<table class="w-resize100 min-300" width="640" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:640px;">
+    <tbody><tr>
+      <td class="paint-area" align="center">
+<table class="w-resize90" width="570" border="0" cellspacing="0" cellpadding="0" align="center">
+
+</td></tr>
+</tbody></table>
+</div>
+
+<div class="FOOTER">
+    
+    <div class="FooterHead">
+        
+        <table class="w-resize100 min-300" width="640" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:640px;">
+            <tbody><tr>
+              <td class="paint-area" align="center">
+                
+        <table class="w-resize90" width="570" border="0" cellspacing="0" cellpadding="0" align="center">
+            <tbody><tr>
+                <tr><td style="font-size:0px; line-height:0px" height="30" colspan="3">&nbsp;</td></tr>
+                <td align="left" style="font-family:farnham headline, Times, serif; font-weight: 800; font-size:26px; color:#bf1a0c; line-height:22px; -webkit-text-size-adjust: none;"><font face="farnham headline, Times, serif" class="paint-area paint-area--text">
+     We're here to help.
+        </font></td>
+        <tr><td style="font-size:0px; line-height:0px" height="20" colspan="3">&nbsp;</td></tr>
+            </tr>
+        </tbody></table>
+        </td></tr>
+        </tbody></table>
+        </div>
+<table class="w-resize100 min-300" width="640" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:640px;">
+    <tbody><tr>
+      <td class="paint-area" align="center">
+        
+        <table class="w-resize90" width="570" border="0" cellspacing="0" cellpadding="0" align="center">
+            <tbody>
+
+             <tr>
+              <th class="stack w-resize100" width="550" valign="top" align="center">
+              
+              <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                <tbody>
+                        
+                <tr>
+
+                        <td class="finePrint" align="left">
+                        <class="paint-area paint-area--text">
+                        Having trouble viewing this email? <a href="{view_url}" target="_blank" style="text-decoration: none;"><accentDark>View in your browser.</accentDark></a>
+                        <br><br>
+                        To ensure receipt of our emails, please add <a href="mailto:customercare@sts.nj.com" style="text-decoration: none;" target="_blank"><accentDark>customercare@sts.nj.com</accentDark></a> to your address book or safe sender list. You received this email because you are a subscriber to <a href="https://nj.com" target="_blank"style="text-decoration: none;">
+                            <accentDark>nj.com</accentDark></a> <nobr> or The Times.
+                        </td>
+                </tr>               
+            </tbody></table>
+              </th>
+              <th class="stack w-resize100 h-resize30px" style="font-size:0px; line-height:0px" width="30">&nbsp;</th>
+              <th class="stack left-align" width="220" valign="top" align="right">
+
+              <table width="100%" border="0" cellspacing="0" cellpadding="0" align="right">
+                <tbody><tr>
+                  <td class="left-align" align="left">
+                        <a href="https://www.nj.com/interact/page/contact_us_information_user_services_and_more_on_njcom.html" target="_blank" class="finePrint">
+                            <accentDark>Contact us</accentDark></a><br>
+                          <a href="https://www.nj.com/mobile-device/" target="_blank" class="finePrint">
+                            <accentDark>Download our app</accentDark></a><br>
+                          <a href="https://www.nj.com/privacy-policy/" target="_blank" class="finePrint">
+                            <accentDark>Privacy policy</accentDark></a><br>
+                          <a href="https://subscription.nj.com/newsletters/" target="_blank" class="finePrint">
+                            <accentDark>More newsletters</accentDark></a><br>
+                          <a href="https://myaccount.nj.com" target="_blank" class="finePrint">
+                            <accentDark>Manage subscription</accentDark></a><br>
+                          <a href="{optout_confirm_url + '&list_param=' + blast.list}" target="_blank" class="finePrint">
+                            <accentDark>Unsubscribe</accentDark></a><br>
+                        </font>
+                      </td>
+                </tr>  
+            </tbody></table></th>
+
+<div class="SITELOGO">
+<table class="w-resize100 min-300" width="640" border="0" cellspacing="0" cellpadding="0" align="left" style="margin:0 auto; width:640px;">
+    <tbody><tr><td class="paint-area" style="font-size:0px; line-height:0px" height="25">&nbsp;</td></tr>
+    <tr>
+      <td class="paint-area" align="left">
+        <table class="w-resize90" width="630" border="0" cellspacing="0" cellpadding="30" align="center">
+    <tbody><tr>
+      <td class="stack-480 left-480" width="480" align="left">
+        <a href="https://www.nj.com/times/" target="_blank"> 
+      <img src="https://media.sailthru.com/composer/images/sailthru-prod-6fn/NJ%20TRENTON%20ADDRESS%20BAR.png" width="500" alt="The Times of Trenton | nj.com logo" border="0">
+      <br></a>
+      <span style="font-family:'benton sans', Arial, sans-serif; font-weight: 400; font-size:14px; color:#272727; line-height:22px; -webkit-text-size-adjust: none; text-transform: uppercase; text-decoration: none;">
+        485 Route 1S Bldg. E, Suite 300 Iselin, NJ 08830-3009</span>
+      </td>
+    </tr>
+</tbody>
+</table>
+      </td>
+            <tr>
+                <td style="font-size:0px; line-height:0px" height="50" colspan="3">&nbsp;</td>
+            </tr>
+        </tbody></table>
+</td></tr>
+</tbody></table> {beacon}
+</div>
 </html>
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+<!----------------- END FOOTER - TRENTON SUB  ------------------------->	
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+
+<!-- FIXES GMAIL DISPLAY ISSUES -->
+<table class="remove" width="640" border="0" cellspacing="0" cellpadding="0" align="center">
+    <tbody><tr>
+    <td><img src="http://media.whatcounts.com/adv_mlive/170327_ADI-Generic/spcr.gif" width="640" height="1" alt="" style="display:block; min-height:1px; max-height:1px; width:640px; min-width:640px;"></td>
+    </tr>
+    </tbody></table>
+    <!-- FIXES GMAIL DISPLAY ISSUES -->
+
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+<!----------------- END LOCALIZATION SUB - TRENTON  ------------------->	
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->

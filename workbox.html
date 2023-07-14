@@ -1,5 +1,4 @@
 <!doctype html>
-<!--updated 12/05/2017-->
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
@@ -15,56 +14,68 @@
 <meta property="og:title" content="" />
 <meta property="og:description" content="" />
 <meta property="og:image" content="" />
+<meta name="color-scheme" content="light dark">
+<meta name="supported-color-schemes" content="light dark">
+
+    <script>
+const currentTheme = localStorage.getItem("theme");
+if (currentTheme == "dark") {
+  document.body.classList.toggle("dark-theme");
+} else if (currentTheme == "light") {
+  document.body.classList.toggle("dark-theme");
+}
+    </script>
 
 
 
-<!-- STYLES INHERENT TO THIS SPECIFIC CAMPAIGN - ALL OTHER STYLES CONTROLLED BY 'EMAIL.CSS' -->
+
+<!-- Use for social sharing (if any) -->
+
+
+<!--[if gte mso 9]><xml> 
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+  <o:PixelsPerInch>96</o:PixelsPerInch>
+ </o:OfficeDocumentSettings>
+ </xml><![endif]-->
+
+ <title>Back in Class.</title>
+
 <style>
-
-
-
-
-
-/* CSS LANGUAGE FOR SAILTHRU */
-
 html {-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%}
-body {margin:0; padding:0; -webkit-text-size-adjust: 100vw !important; -ms-text-size-adjust: 100% !important; -webkit-font-smoothing: antialiased !important; border-spacing:0} 
-table {border-collapse: collapse; mso-table-lspace: 0px; mso-table-rspace: 0px;}
+body {margin:0; padding:0; -webkit-text-size-adjust: 100% !important; -ms-text-size-adjust: 100% !important; -webkit-font-smoothing: antialiased !important; border-spacing:0} 
+table {border-collapse: collapse; mso-table-lspace: 0px; mso-table-rspace: 0px; }
 table td {border-collapse: collapse; mso-line-height-rule: exactly; }
-table th { margin:0 !important; padding:0 !important; vertical-align:top; font-weight:normal;}
+table th { margin:0 !important; padding:0 !important; vertical-align:top; font-weight:normal; }
 img, a img {border:none; outline:none; -ms-interpolation-mode: bicubic;}
 .ReadMsgBody {width: 100%;}
 .ExternalClass {width: 100%;}
-.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, 
-.ExternalClass div {line-height:100%;}
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height:100%;}
 .yshortcuts a {border-bottom: none !important;}
 .appleLinksGray a {color:#666666 !important; text-decoration:none !important;}
 .appleLinksWhite a {color:#FFFFFF !important; text-decoration:none !important;}
 .appleLinksBlack a {color:#000000 !important; text-decoration:none !important;}
 
-html {
-  scrollbar-face-color: #646464;
-  scrollbar-base-color: #646464;
-  scrollbar-3dlight-color: #646464;
-  scrollbar-highlight-color: #646464;
-  scrollbar-track-color: #000;
-  scrollbar-arrow-color: #000;
-  scrollbar-shadow-color: #646464;
-  scrollbar-dark-shadow-color: #646464;
-}
 
-::-webkit-scrollbar { width: 8px; height: 3px;}
-::-webkit-scrollbar-button {  background-color: #666; }
-::-webkit-scrollbar-track {  background-color: #646464;}
-::-webkit-scrollbar-track-piece { background-color: #000;}
-::-webkit-scrollbar-thumb { height: 50px; background-color: #666; border-radius: 3px;}
-::-webkit-scrollbar-corner { background-color: #646464;}
-::-webkit-resizer { background-color: #666;}
-
-/* CUSTOM FONTS */
+.hover-box:hover {
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	box-shadow: 0 2px 10px 0 rgba(0,0,0,0.1);
+	transition: .5s;
+	}
+	
+.hover-button:hover {
+	background-color: #0078ff;
+	transition: .5s;
+	}
+	
+	
+	
+	
+/* INSERT CUSTOM FONT EMBED HERE */
 
 
-@font-face {
+	@font-face {
 	font-family: "farnham headline";
 	font-style: normal;
 	font-weight: 400;
@@ -85,294 +96,286 @@ html {
 	src: url(https://fonts.advance.net/fonts/v1/benton-sans-regular/166b5d40-3430-46a0-8fb2-43f30962dec7-3.woff) format('woff');
 	}
 	
-    @font-face {
-        font-family: Benton Sans;
-        font-display: swap;
-        src: url(/pf/resources/fonts/166b5d40-3430-46a0-8fb2-43f30962dec7-2.eot?d=1063);
-        src: url(/pf/resources/fonts/166b5d40-3430-46a0-8fb2-43f30962dec7-2.eot?d=1063) format("embedded-opentype"), url(/pf/resources/fonts/166b5d40-3430-46a0-8fb2-43f30962dec7-3.woff?d=1063) format("woff"), url(/pf/resources/fonts/166b5d40-3430-46a0-8fb2-43f30962dec7-1.ttf?d=1063) format("truetype"), url(/pf/resources/fonts/166b5d40-3430-46a0-8fb2-43f30962dec7-4.svg?d=1063#web) format("svg");
-        font-style: normal;
-        font-weight:400
-    }
-    
-    @font-face {
-        font-family: Benton Sans Medium;
-        font-display: swap;
-        src: url(/pf/resources/fonts/448c4642-c106-472f-9c6a-a4d7b5347b03-2.eot?d=1063);
-        src: url(/pf/resources/fonts/448c4642-c106-472f-9c6a-a4d7b5347b03-2.eot?d=1063) format("embedded-opentype"), url(/pf/resources/fonts/448c4642-c106-472f-9c6a-a4d7b5347b03-3.woff?d=1063) format("woff"), url(/pf/resources/fonts/448c4642-c106-472f-9c6a-a4d7b5347b03-1.ttf?d=1063) format("truetype"), url(/pf/resources/fonts/448c4642-c106-472f-9c6a-a4d7b5347b03-4.svg?d=1063#web) format("svg");
-        font-style: normal;
-        font-weight:700
-    }
-    
-    @font-face {
-        font-family: Benton Sans Bold;
-        font-display: swap;
-        src: url(/pf/resources/fonts/a408f907-3ee4-4578-a3d1-4134558cb82a-2.eot?d=1063);
-        src: url(/pf/resources/fonts/a408f907-3ee4-4578-a3d1-4134558cb82a-2.eot?d=1063) format("embedded-opentype"), url(/pf/resources/fonts/a408f907-3ee4-4578-a3d1-4134558cb82a-3.woff?d=1063) format("woff"), url(/pf/resources/fonts/a408f907-3ee4-4578-a3d1-4134558cb82a-1.ttf?d=1063) format("truetype"), url(/pf/resources/fonts/a408f907-3ee4-4578-a3d1-4134558cb82a-4.svg?d=1063#web) format("svg");
-        font-style: normal;
-        font-weight:700
-    }
-    
-    @font-face {
-        font-family: Farnham Regular;
-        font-display: swap;
-        src: url(/pf/resources/fonts/farnhamheadline-regular.eot?d=1063);
-        src: url(/pf/resources/fonts/farnhamheadline-regular.eot?d=1063) format("embedded-opentype"), url(/pf/resources/fonts/farnhamheadline-regular.woff?d=1063) format("woff"), url(/pf/resources/fonts/farnhamheadline-regular.woff2?d=1063) format("woff2");
-        font-style: normal;
-        font-weight:400
-    }
-    
-    @font-face {
-        font-family: Farnham Medium;
-        font-display: swap;
-        src: url(/pf/resources/fonts/farnhamheadline-medium.eot?d=1063);
-        src: url(/pf/resources/fonts/farnhamheadline-medium.eot?d=1063) format("embedded-opentype"), url(/pf/resources/fonts/farnhamheadline-medium.woff?d=1063) format("woff"), url(/pf/resources/fonts/farnhamheadline-medium.woff2?d=1063) format("woff2");
-        font-style: normal;
-        font-weight:700
-    }
-    
-    @font-face {
-        font-family: Farnham Semi Bold;
-        font-display: swap;
-        src: url(/pf/resources/fonts/farnhamheadline-semi-bold.eot?d=1063);
-        src: url(/pf/resources/fonts/farnhamheadline-semi-bold.eot?d=1063) format("embedded-opentype"), url(/pf/resources/fonts/farnhamheadline-semi-bold.woff?d=1063) format("woff"), url(/pf/resources/fonts/farnhamheadline-semi-bold.woff2?d=1063) format("woff2");
-        font-style: normal;
-        font-weight:700
-    }
+@font-face {
+	font-family: 'benton sans';
+	font-style: normal;
+	font-weight: 500;
+	src: url(https://fonts.advance.net/fonts/v1/benton-sans-medium/448c4642-c106-472f-9c6a-a4d7b5347b03-3.woff) format('woff');
+	}
 
 
-    @media only screen and (max-width: 600px) {
+
+</style>
+
+
+<style>
+@media only screen and (max-width: 600px) {
            
 /************************************ MAIN *************************************/ 
-                   
-        .remove { display:none !important; width:0 !important; height:0 !important; }
-        .stack { display:block !important; }
-        .stack-header {display:table-header-group !important;}
-        .stack-footer {display:table-footer-group !important;}
-        .stack-image img {margin-bottom:20px !important;}
-                    
-        /************************************ ALIGNERS *************************************/
-                   
-        .center-align {text-align:center !important; margin:0 auto !important;}
-        .left-align {text-align:left !important;}
-        .right-align {text-align:right !important;}
-                   
-        /************************************ WIDTH RESIZERS *************************************/
-                   
-        .min-300  {min-width:300px !important;}
-        .max-300  {max-width:300px !important;}
-        .max-320  {max-width:320px !important;}
-        .max-340  {max-width:340px !important;}
-        .w-resize100 { width:100% !important; }
-        .w-resize90 { width:90% !important; }
-        .w-resize80 { width:80% !important; }
-        .w-resize280px { width:280px !important; }
-        .w-resize300px { width:300px !important; }
-        .w-resize320px { width:320px !important; }
-                   
-        /************************************ HEIGHT RESIZERS *************************************/
-                    
-        .h-resize10px { height:10px !important; }
-        .h-resize20px { height:20px !important; }
-        .h-resize30px { height:30px !important; }
-        .h-resize40px { height:40px !important; }
-        .h-resize50px { height:50px !important; }
-        .h-resize60px { height:60px !important; }
-        .h-resize70px { height:70px !important; }
-        .h-resize80px { height:80px !important; }
-        .h-resize90px { height:90px !important; }
-        .h-resize100px { height:100px !important; }
-                   
-        /************************************ IMAGE RESIZERS *************************************/
-                    
-        .resize90 img {width:90% !important; height:auto !important;}
-        .resize100 img {width:100% !important; height:auto !important;}
-        .resize280px img {width:280px !important; height:auto !important;}
-        .resize300px img {width:300px !important; height:auto !important;}
-        .resize320px img {width:320px !important; height:auto !important;}
-                    
-        /************************************ TEXT RESIZERS *************************************/
-        
-        .text14 {font-size:14px !important;}
-        .text15 {font-size:15px !important;}
-        .text16 {font-size:16px !important;}
-        .text17 {font-size:17px !important;}
-        .text18 {font-size:18px !important;}
-        .text19 {font-size:19px !important;}
-        .text20 {font-size:20px !important;}
-        .text21 {font-size:21px !important;}
-        .text22 {font-size:22px !important;}
-        .text23 {font-size:23px !important;}
-        .text24 {font-size:24px !important;}
-        .text25 {font-size:25px !important;}
-        .text26 {font-size:26px !important;}
-        .text27 {font-size:27px !important;}
-        .text28 {font-size:28px !important;}
-        .text29 {font-size:29px !important;}
-        .text30 {font-size:30px !important;}
-        
-        /************************************ LINE HEIGHT RESIZERS *************************************/
-                    
-        .lh15 {line-height:15px !important;}
-        .lh16 {line-height:16px !important;}
-        .lh17 {line-height:17px !important;}
-        .lh18 {line-height:18px !important;}
-        .lh19 {line-height:19px !important;}
-        .lh20 {line-height:20px !important;}
-        .lh21 {line-height:21px !important;}
-        .lh22 {line-height:22px !important;}
-        .lh23 {line-height:23px !important;}
-        .lh24 {line-height:24px !important;}
-        .lh25 {line-height:25px !important;}
-        .lh26 {line-height:26px !important;}
-        .lh27 {line-height:27px !important;}
-        .lh28 {line-height:28px !important;}
-        .lh29 {line-height:29px !important;}
-        .lh30 {line-height:30px !important;}
-        .lh35 {line-height:35px !important;}
-        .lh40 {line-height:40px !important;}
-        
-        /************************************ ADDITIONAL MEDIA QUERIES *************************************/
-        
-        .logo-control img {max-width:250px !important; height:auto !important;}
-        }
-            
-        @media only screen and (max-width: 480px) {
-        
-        .stack-480 { display:block !important; }
-        .center-480 { text-align:center !important; margin:0 auto !important; }
-        .w-resizeMOB { width:80% !important;}
-        .w-resize100-480 { width:100% !important; }
-            
-        }
+		   
+.remove { display:none !important; width:0 !important; height:0 !important; }
+.stack { display:block !important; }
+.stack-header {display:table-header-group !important;}
+.stack-footer {display:table-footer-group !important;}
+.stack-image img {margin-bottom:20px !important;}
+			
+/************************************ ALIGNERS *************************************/
+		   
+.center-align {text-align:center !important; margin:0 auto !important;}
+.left-align {text-align:left !important;}
+.right-align {text-align:right !important;}
+		   
+/************************************ WIDTH RESIZERS *************************************/
+		   
+.min-300  {min-width:300px !important;}
+.max-300  {max-width:300px !important;}
+.max-320  {max-width:320px !important;}
+.max-340  {max-width:340px !important;}
+.w-resize100 { width:100% !important; }
+.w-resize90 { width:90% !important; }
+.w-resize80 { width:80% !important; }
+.w-resize280px { width:280px !important; }
+.w-resize300px { width:300px !important; }
+.w-resize320px { width:320px !important; }
+		   
+/************************************ HEIGHT RESIZERS *************************************/
+			
+.h-resize10px { height:10px !important; }
+.h-resize20px { height:20px !important; }
+.h-resize30px { height:30px !important; }
+.h-resize40px { height:40px !important; }
+.h-resize50px { height:50px !important; }
+.h-resize60px { height:60px !important; }
+.h-resize70px { height:70px !important; }
+.h-resize80px { height:80px !important; }
+.h-resize90px { height:90px !important; }
+.h-resize100px { height:100px !important; }
+		   
+/************************************ IMAGE RESIZERS *************************************/
+			
+.resize90 img {width:90% !important; height:auto !important;}
+.resize100 img {width:100% !important; height:auto !important;}
+.resize280px img {width:280px !important; height:auto !important;}
+.resize300px img {width:300px !important; height:auto !important;}
+.resize320px img {width:320px !important; height:auto !important;}
+			
+/************************************ TEXT RESIZERS *************************************/
 
-        
-/* CONSISTENT BACKGROUND STYLES FOR EMAIL CAMPAIGNS */ 
-.backHeader {
-        color:#d3d3d3; 
-        background: linear-gradient(157deg, #333333 0%, #000000 100%);
-    }
-body {
-        color:#333333; 
-        background-color: #d3d3d3;
-    }
-accentColor {
-    color:#bf1a0c;
+.text14 {font-size:14px !important;}
+.text15 {font-size:15px !important;}
+.text16 {font-size:16px !important;}
+.text17 {font-size:17px !important;}
+.text18 {font-size:18px !important;}
+.text19 {font-size:19px !important;}
+.text20 {font-size:20px !important;}
+.text21 {font-size:21px !important;}
+.text22 {font-size:22px !important;}
+.text23 {font-size:23px !important;}
+.text24 {font-size:24px !important;}
+.text25 {font-size:25px !important;}
+.text26 {font-size:26px !important;}
+.text27 {font-size:27px !important;}
+.text28 {font-size:28px !important;}
+.text29 {font-size:29px !important;}
+.text30 {font-size:30px !important;}
+
+/************************************ LINE HEIGHT RESIZERS *************************************/
+			
+.lh15 {line-height:15px !important;}
+.lh16 {line-height:16px !important;}
+.lh17 {line-height:17px !important;}
+.lh18 {line-height:18px !important;}
+.lh19 {line-height:19px !important;}
+.lh20 {line-height:20px !important;}
+.lh21 {line-height:21px !important;}
+.lh22 {line-height:22px !important;}
+.lh23 {line-height:23px !important;}
+.lh24 {line-height:24px !important;}
+.lh25 {line-height:25px !important;}
+.lh26 {line-height:26px !important;}
+.lh27 {line-height:27px !important;}
+.lh28 {line-height:28px !important;}
+.lh29 {line-height:29px !important;}
+.lh30 {line-height:30px !important;}
+.lh35 {line-height:35px !important;}
+.lh40 {line-height:40px !important;}
+
+/************************************ ADDITIONAL MEDIA QUERIES *************************************/
+
+.logo-control img {max-width:250px !important; height:auto !important;}
+}
+	
+@media only screen and (max-width: 480px) {
+
+.stack-480 { display:block !important; }
+.center-480 { text-align:center !important; margin:0 auto !important; }
+.w-resize100-480 { width:100% !important; }
+	
 }
 
+
+
+
+/* CONSISTENT STYLES - SPECIAL SECTIONS MARKETING */ 
+
+
+
+@media (prefers-color-scheme: dark) {
+  /* defaults to dark theme */
+  body {
+    background: linear-gradient(157deg, #333333 0%, #000000 100%);
+    background-repeat: no-repeat;
+    background-color: #c5c5c5;
+    max-width: 100vw;
+}	
+body.dark-theme {
+    background: linear-gradient(157deg, #333333 0%, #000000 100%);
+    background-repeat: no-repeat;
+    background-color: #c5c5c5;
+    max-width: 100vw;
+}	
+body.light-theme {
+    background: linear-gradient(157deg, #333333 0%, #000000 100%);
+    background-repeat: no-repeat;
+    background-color: #c5c5c5;
+    max-width: 100vw;
+}	
+accentColor.dark-theme {
+    color:#bf1a0c; 
+}
+accentDark.dark-theme {
+    color:#bf1a0c; 
+    filter: brightness(85%);
+}
+accentColor.light-theme {
+    color:#bf1a0c; 
+}
+accentDark.light-theme {
+    color:#bf1a0c; 
+    filter: brightness(85%);
+}
+}
+
+body {
+    background: linear-gradient(157deg, #333333 0%, #000000 100%);
+    background-repeat: no-repeat;
+    background-color: #c5c5c5;
+    max-width: 100vw;
+}	
+
+
+main {
+    padding: 30px;
+    max-width: 100vw;
+}
+.footerBack {
+    background-color: #c5c5c5;
+    padding: 30px;
+}
+.finePrint {
+    font-family:Arial, sans-serif; 
+    font-size: 14px; 
+    line-height: 22px; 
+    -webkit-text-size-adjust: none; 
+    font-weight:400; 
+    text-decoration: none;
+    color: #2a2a2a;
+}
+@media only screen and (max-width: 600px) {
+    .finePrint {
+    font-family:Arial, sans-serif; 
+    font-size: 3vw; 
+    line-height: calc(5px + 3vw);
+    -webkit-text-size-adjust: none; 
+    font-weight:400; 
+    text-decoration: none
+}
+  }
+  @media only screen and (max-width: 400px) {
+    .finePrint {
+    font-family:Arial, sans-serif; 
+    font-size: 5vw; 
+    line-height: calc(5px + 5vw);
+    -webkit-text-size-adjust: none; 
+    font-weight:400; 
+    text-decoration: none
+}
+  }
+
+accentColor {
+    color:#bf1a0c; 
+}
 accentDark {
-    color:#bf1a0c;
+    color:#bf1a0c; 
     filter: brightness(85%);
 }
 accentDark:hover {
-    color:#bf1a0c;
-    filter: brightness(0%);
+    color:#bf1a0c; 
+    filter: brightness(20%);
+    text-decoration: underline;
 }
-.accentDark {
-    color:#bf1a0c;
-    filter: brightness(85%);
-}
-.accentDark:hover {
-    color:#bf1a0c;
-    filter: brightness(0%);
-}
-accentBack{
-  background-color: #bf1a0c;
-}
-button {
-    font-family: "farnham headline", Times, serif;
-	  font-style: normal;
-	  font-weight: 800;
-    font-size: 28px;
-    color: #000;
-    background-color: #bf1a0c;
-    border: 3px solid #bf1a0c;
-    padding: 15px 30px 15px 15px;
-    z-index: 5;
-    transition: 0.3s;
-    margin-top: 20px;
-}
-
-button:hover {
-    background-color: #bf1a0c;
-    border: 3px solid #bf1a0c;
-    color: #000;
-    padding: 15px 30px 15px 15px;
-    z-index: 5;
-    animation: buttonHover 2s ease 0s infinite normal forwards;
-}
-
-@keyframes buttonHover {
-	0%,
-	50%,
-	100% {
-        -webkit-box-shadow: 0px 0px 45px 2px #bf1a0c;
-        -moz-box-shadow: 0px 0px 45px 2px #bf1a0c;
-        box-shadow: 0px 0px 45px 2px #bf1a0c;
-	}
-
-	25%,
-	75% {
-        -webkit-box-shadow: 10px 0px 45px 12px #bf1a0c;
-        -moz-box-shadow: 0px 0px 45px 12px #bf1a0c;
-        box-shadow: 0px 0px 45px 12px #bf1a0c;
-	}
-}
-a {
-  text-decoration: none;
-}
-body {
-    font-family:'benton sans', sans-serif; 
-    font-smooth: always;
-    font-style: normal;
-	  font-weight: 400;
-} 
-.backHeader {
-    margin: 0%;
-    height: 100%;
-    width: 100vw;
-    padding-top: 50px;
-    padding-bottom: 120px;
+.headLine {
+    font-family: farnham headline, Times, serif; 
+    font-size: 90px; 
+    font-weight: 600; 
+    color:#ffffff; 
+    line-height:80px; 
+    -webkit-text-size-adjust: none;
 }
 @media only screen and (max-width: 600px) {
-.backHeader {
-    padding-top: 50px;
-    padding-left: 50px;
-    padding-bottom: 0px;
-    width: 100vw;
-    height: 100%;
-    }
-    }
-@media only screen and (max-width: 400px) {
-.backHeader {
-    padding-top: 50px;
-    padding-left: 50px;
-    padding-bottom: 50px;
-    width: 100vw;
-    height: 100%;
-    }
-    }
-
-/* CONSISTENT TEXT STYLES FOR EMAIL CAMPAIGNS */  
-.flex-container {
+    .headLine {
+    font-family: farnham headline, Times, serif; 
+    font-size: 12vw; 
+    font-weight: 600; 
+    color:#ffffff; 
+    line-height: 11vw; 
+    -webkit-text-size-adjust: none;
+}
+  }
+  @media only screen and (max-width: 400px) {
+    .headLine {
+    font-family: farnham headline, Times, serif; 
+    font-size: 18vw; 
+    font-weight: 600; 
+    color:#ffffff; 
+    line-height: 17vw; 
+    -webkit-text-size-adjust: none;
+}
+  }
+  .container {
     display: flex;
-    padding-right: 30%;
-  }
-  
-  .flex-container > div {
-    margin: 0px;
-    padding-right: 10px;
-  }
-  .siteLogo {
-    float: left;
-  }
+    align-items: center;
+    text-align: center;
+    justify-content: left;
+}
 
-  .Online {
+.icon {
+    padding-right: 10px;
+    -webkit-text-size-adjust: none;
+}
+.siteName {
+    color: #FFFFFF;
+    font-family:Georgia, serif; 
+    font-size: 20px; 
+    font-weight: 900; 
+    line-height:24px; 
+    position: relative;
+    padding-left: 5px;
+    -webkit-text-size-adjust: none;
+}
+.online {
+    color: #a6a6a6;
+    font-family:Georgia, serif; 
+    font-size: 20px; 
+    font-weight: 900; 
+    line-height:24px; 
+    position: relative;
+    padding-left: 8px;
+    -webkit-text-size-adjust: none;
     float: left;
     opacity: 0;
     animation: introDigital 2s ease 2s 1 normal forwards;
-    transform: translate(0px, -3px);
-  }
-
+}
 
 @keyframes introDigital {
 	0% {
@@ -384,21 +387,23 @@ body {
 	}
 }
 
-#start {
+#arrow {
     width: 20px;
-    animation: startArrow 1s ease 0s 1 normal forwards, blinkArrow 1s ease 1.5s 1 normal forwards, outArrow 1s ease 3.5s 1 reverse forwards;
+    transform:  translate(5px, 10px);
+    opacity: 0;
+    transform: translate(-72px, 8px);
+    animation: inArrow 0.5s ease 0s 1 normal forwards, blinkArrow 1s ease 1s 1 normal forwards, outArrow 1s ease 2s 1 reverse forwards;
 }
-@keyframes startArrow {
+@keyframes inArrow {
 	0% {
 		opacity: 0;
-		transform: translate(950px, -50px) rotate(-200deg);
 	}
 
 	100% {
 		opacity: 1;
-		transform:  translate(-5px, -20px) rotate(0deg);
 	}
 }
+
 @keyframes blinkArrow {
 	0%,
 	50%,
@@ -413,35 +418,30 @@ body {
 }
 @keyframes outArrow {
 	0% {
+        transform: translate(0px, 8px);
 		opacity: 0;
-		transform: translate(950px, -50px) rotate(-200deg);
 	}
 
 	100% {
+        transform: translate(-72px, 8px);
 		opacity: 1;
-		transform:  translate(-5px, -20px) rotate(0deg);
 	}
 }
 
-@media only screen and (max-width: 600px) {
-    #start {
-        position: absolute;
-        width: 15px;
-        animation: startArrowM 1s ease 0s 1 normal forwards, blinkArrowM 1s ease 1.5s 1 normal forwards, outArrowM 1s ease 3.5s 1 reverse forwards;
-    }
+.button {
+    text-decoration: none; 
+    background-color: #bf1a0c; 
+    color: #000000;
+    padding: 20px 30px 20px 20px;
+    font-family:'benton sans', Arial, sans-serif; 
+    font-weight: 500; 
+    font-size:20px; 
+    line-height:30px; 
+    -webkit-text-size-adjust: none;
+    transition: 0.5s;
+    animation: blinkButton 2s ease 2s infinite normal forwards;
 }
-@keyframes startArrowM {
-	0% {
-		opacity: 0;
-		transform: translate(950px, -50px) rotate(-200deg);
-	}
-
-	100% {
-		opacity: 1;
-		transform:  translate(250px, -20px) rotate(0deg);
-	}
-}
-@keyframes blinkArrowM {
+@keyframes blinkButton {
 	0%,
 	50%,
 	100% {
@@ -450,566 +450,400 @@ body {
 
 	25%,
 	75% {
-		opacity: 0;
+		opacity: 0.8;
 	}
 }
-@keyframes outArrowM {
-	0% {
-		opacity: 0;
-		transform: translate(950px, -50px) rotate(-200deg);
-	}
-
-	100% {
-		opacity: 1;
-		transform:  translate(250px, -20px) rotate(0deg);
-	}
-}
-
-@media only screen and (max-width: 400px) {
-    #start {
-        position: absolute;
-        width: 15px;
-        animation: startArrowS 1s ease 0s 1 normal forwards, blinkArrowS 1s ease 1.5s 1 normal forwards, outArrowS 1s ease 3.5s 1 reverse forwards;
-    }
-}
-@keyframes startArrowS {
-	0% {
-		opacity: 0;
-		transform: translate(950px, -50px) rotate(-200deg);
-	}
-
-	100% {
-		opacity: 1;
-		transform:  translate(190px, -20px) rotate(0deg);
-	}
-}
-@keyframes blinkArrowS {
-	0%,
-	50%,
-	100% {
-		opacity: 1;
-	}
-
-	25%,
-	75% {
-		opacity: 0;
-	}
-}
-@keyframes outArrowS {
-	0% {
-		opacity: 0;
-		transform: translate(950px, -50px) rotate(-200deg);
-	}
-
-	100% {
-		opacity: 1;
-		transform:  translate(190px, -20px) rotate(0deg);
-	}
-}
-
-h1 {
-    font-family: "farnham headline", Times, serif;
-	  font-style: normal;
-	  font-weight: 800;
-    font-size: 90px;
-    line-height: 80px;
-    margin-top:50;
-    margin-bottom: 35px;
-    animation: logoIntro 2s ease 0s 1 normal forwards;
-	}
-@media only screen and (max-width: 600px) {
-    h1 {
-    font-family: "farnham headline", Times, serif;
-    margin-bottom: 25px;
-	  font-style: normal;
-	  font-weight: 800;
-    font-size: calc(15px + 10vw);
-    line-height: calc(5px + 10vw);
-    margin-right: 10vw;
-	}
-    }
-
-intro {
-    box-align: left;
-    font-family: 'benton sans', sans-serif; 
-    font-weight: 400; 
-    font-size: 20px; 
-    line-height: 35px;
-    }
-
-    @media only screen and (max-width: 600px) {
-    intro {
-    font-size: calc(17px + 0.390625vw);
-    line-height: calc(27px + 0.390625vw);
-    width: 65vw;
-    float: left;
-    }
-    }
-
-leadin {
-    font-weight: 700;
-    font-family: 'Benton Sans Bold' sans-serif;
-    color: #FFFFFF;
-}
-
-ul {
-    text-align: left;
-    color: #FFFFFF;
-    width: 150;
-    font-family: 'benton sans', sans-serif; 
-    font-weight: 400; 
-    font-size: 18px; 
-    line-height: 24px;
-    z-index: 3;
-    list-style-type: none;
-    list-style-position: inside;
-    padding-left: 0;
-    padding-top: 10px;
-    }
-
-    @media only screen and (max-width: 600px) {
-        ul {
-            text-align: left;
-            width: 65vw;
-            font-family: 'benton sans', sans-serif; 
-            font-weight: 400; 
-            font-size: calc(15px + 0.390625vw);
-            line-height: calc(25px + 0.390625vw);
-            z-index: 5;
-            }
-        }
-li {
-    padding-top: 20px;
-}
-    
-subhead {
-    font-family: "farnham headline", Times, serif;
-	  font-style: normal;
-	  font-weight: 800;
-    font-size: 28px;
-    line-height: 30px;
-    text-align: left;
-}
-    @media only screen and (max-width: 600px) {
-        subhead {
-            width: 600px;
-    }
-    }
-
-
-FOOTER {
-    margin: 0;
-    width: 100%;
-    height: 100%;
-    padding-top: 50px;
-}
-@media only screen and (max-width: 600px) {
-    FOOTER {
-        padding-left: 50px;
-        float: left;
-    }
-}
-
-.leftText {
-    text-align: left;
-    font-family:'benton sans', sans-serif; 
-    font-size: 14px; 
-    line-height: 20px; 
-    text-size-adjust: none; 
-    font-weight: 400;
-}
-.rightText {
-    text-align: left;
-    padding-left: 30px;
-    font-family:'benton sans', sans-serif; 
-    font-size:14px; 
-    line-height: 20px; 
-    text-size-adjust: none; 
-    font-weight: 400;
-    filter: brightness(85%);
-}
-.rightText:hover {
-    text-align: left;
-    font-family:'benton sans', sans-serif; 
-    font-size:14px; 
-    line-height: 20px; 
-    text-size-adjust: none; 
-    font-weight: 400;
-    transition: 0.3s;
-    cursor: pointer;
-    filter: brightness(0%);
+.button:hover {
+    text-decoration: none; 
+    background-color: #bf1a0c; 
+    color: #ffffff;
+    padding: 20px 30px 20px 20px;
+    font-family:'benton sans', Arial, sans-serif; 
+    font-weight: 500; 
+    font-size:20px; 
+    line-height:30px; 
+    -webkit-text-size-adjust: none;
+    transition: 0.5s;
 }
 
 @media only screen and (max-width: 600px) {
-    .rightText {
-    padding-left: 0px;
-    padding-top: 40px;
-    margin-top: 0;
-    }
+    .button {
+    text-decoration: none; 
+    background-color: #bf1a0c; 
+    color: #ffffff;
+    padding: 20px 250px 20px 20px;
+    font-family:'benton sans', Arial, sans-serif; 
+    font-weight: 500; 
+    font-size:20px; 
+    line-height:30px; 
+    -webkit-text-size-adjust: none;
+}
   }
-.logoText {
-    font-family:'benton sans', sans-serif; 
-    text-transform: uppercase; 
-    font-size:14px; 
-    color:#4a4a4a; 
-    line-height:20px; 
-    -webkit-text-size-adjust: none; 
-    font-weight:400"
+  @media only screen and (max-width: 400px) {
+    .button {
+    text-decoration: none; 
+    background-color: #bf1a0c; 
+    color: #ffffff;
+    padding: 20px 150px 20px 20px;
+    font-family:'benton sans', Arial, sans-serif; 
+    font-weight: 500; 
+    font-size:20px; 
+    line-height:30px; 
+    -webkit-text-size-adjust: none;
 }
-@media only screen and (max-width: 600px) {
-    .logoText {
-        text-transform: none; 
-        text-transform: uppercase; 
-    }
-}
-@media only screen and (max-width: 400px) {
-    .logoText {
-        font-size:11px; 
-    }
-}
-.logo {
-    padding-top: 60px;
-    padding-bottom: 10px;
-    width: 100%;
-    height: auto;
-}
-@media only screen and (max-width: 600px) {
-    .logo {
-    padding-top: 30px;
-    width: 80vw;
-    height: auto;
-    }
-}
-.backFooter {
-    height: 100vw;
-    padding-top: 50px;
-}
-underLine {
-    text-decoration: underline;
-}
-
-.HERO {
-    margin-top: 10px;
-}
-
-.heroImage {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-    animation: coverAnim 3s cubic-bezier(0.68, -0.6, 0.32, 1.6) 0s 1 normal forwards;
-}
-@keyframes coverAnim {
-	0% {
-		opacity: 0;
-		transform: scale(2);
-	}
-
-	100% {
-		opacity: 1;
-		transform: translateX(calc(85% - 285px)) scale(1);
-	}
-}
-
-@media only screen and (max-width: 600px) {
-    .heroImage {
-        transform: scale(0.8);
-        transform-origin: 0% 0%;
-        padding-bottom: 100px;
-        height: 550px;
-        margin-left: 0;
-        animation: coverAnimM 3s cubic-bezier(0.68, -0.6, 0.32, 1.6) 0s 1 normal forwards;
-    }
-}
-
-@keyframes coverAnimM {
-	0% {
-		opacity: 0;
-		transform: scale(2);
-	}
-
-	100% {
-		opacity: 1;
-		transform: translateX(calc(85% - 285px)) scale(0.8) transform-origin 0% 0%;
-	}
-}
-
-@media only screen and (max-width: 400px) {
-    .heroImage {
-        transform: scale(0.7);
-        transform-origin: 0% 0%;
-        padding-bottom: 10px;
-        height: 550px;
-        margin-left: 0;
-        animation: coverAnimM 3s cubic-bezier(0.68, -0.6, 0.32, 1.6) 0s 1 normal forwards;
-    }
-}
-
-@keyframes coverAnimM {
-	0% {
-		opacity: 0;
-		transform: scale(2);
-	}
-
-	100% {
-		opacity: 1;
-		transform: translateX(calc(85% - 285px)) scale(0.7) transform-origin 0% 0%;
-	}
-}
-
-
-
-
+  }
 
 </style>
 </head>
-
-<body>
-<!-- start EMAIL MAIN BODY DESIGN AND TEXT -->
-<!-- start EMAIL MAIN BODY DESIGN AND TEXT -->
-<!-- start EMAIL MAIN BODY DESIGN AND TEXT -->
-<!-- start EMAIL MAIN BODY DESIGN AND TEXT -->
-
-<HEADER class="backHeader">
-        <tbody><tr>
-          <td class="paint-area" align="center">
-              <table class="w-resize100" width="600" border="0" cellspacing="0" cellpadding="0" align="center">
-              <td class="w-resize90">
-
-
-<!-- HEADER LOCALIZATION HERE START !!!! CLEVELAND-->
-<!-- HEADER LOCALIZATION HERE START !!!! CLEVELAND-->
-<!-- HEADER LOCALIZATION HERE START !!!! CLEVELAND-->
-    <div class="flex-container">
-
-      <div>
-        <div class="siteLogo">
-          <img src="https://media.sailthru.com/composer/images/sailthru-prod-6fj/PD%20LABEL.png" loading="eager" alt="Cleveland Plain Dealer logo" style="width:100%">
-        </div>
-      </div>
-      <div>
-        <div class="Online">
-            <img src="https://media.sailthru.com/composer/images/sailthru-prod-6fj/ONLINE.png" alt="Online" style="width:100%">
-          </div>
-          <introArrow>
-            <accentColor><?xml version="1.0" encoding="UTF-8"?><svg id="start" viewBox="0 0 15.53 22.09"><polygon points="15.53 15.86 .16 0 0 22.09 6.83 16.64 15.53 15.86" style="fill:currentColor"/></svg></accentColor>
-          </introArrow>
-        </div>
-  
-      </div>
-    </div>
-  <!-- HEADER LOCALIZATION HERE END !!!! CLEVELAND-->
-  <!-- HEADER LOCALIZATION HERE END !!!! CLEVELAND-->
-  <!-- HEADER LOCALIZATION HERE END !!!! CLEVELAND-->
-
-
-<!-- HEADLINE -->   
-<h1>
-    Read it online.<br>
-            <accentColor>
-    August 13
-            </accentColor>
-            </h1>
-
-<!-- INTRO PARAGRAPH  -->   
-<intro>
-    <leadin>Special online-only section.</leadin> Another school year is almost here. Get the latest back to school tips in “Back in Class” — a subscriber-exclusive special section publishing with your online paper.
-            </intro>
-              </td>
-            </tr>
-        </tbody></table>
-
-
-<!-- HERO  -->   
-
-    <!-- start HERO - SPLIT INFORMATION-->
-    <div class="HERO">
-
-        <table class="w-resize100 min-300" width="600" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:600px; margin-top: 30px;">
-
-            <tbody><tr>
-              <td class="paint-area" align="center">
-                <table class="w-resize100" width="600" border="0" cellspacing="0" cellpadding="0" align="center">
-    
-    <!-- FIRST COLUMN HERO IMAGE -->
-    
-                    <tbody>
-                        
-                    <tr>
-                        
-                    <th class="stack" width="400" valign="top" align="left">
-                    <table>
-                        <div class="heroImage">
-                            <img src="https://media.sailthru.com/composer/images/sailthru-prod-6fj/BACK%20TO%20CLASS.jpg" alt="Main art" width="400vw" height="776vh">
-                        </div>
-
-                    </tbody></table> 
-                    </th>
-                    
-    <!-- SECOND COLUMN HERO CONTENT -->
-    
-                      <th class="stack left-align" width="150" height="400" valign="top" align="left">
-                      <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" z-index="5">
-                        <tbody><tr>
-                            <tr>
-                              <ul>
-                                    <accentColor><subhead>
-                                        FREE for subscribers
-                                    </subhead></accentColor><br>
-<li>Print subscribers get free access to the online newspaper with more content, special sections, the New York Times Book Review, and Washington Post Weekly edition by activating their account.</li>
-                                  </ul>
+<main>
 
 
 
-                
-    
-<!-- BUTTON LOCALIZATION HERE START !!!! CLEVELAND-->
-<!-- BUTTON LOCALIZATION HERE START !!!! CLEVELAND-->
-<!-- BUTTON LOCALIZATION HERE START !!!! CLEVELAND-->
-<a href="https://subscribe.cleveland.com" target="_blank">
-  <!-- BUTTON LOCALIZATION HERE END !!!! CLEVELAND-->
-  <!-- BUTTON LOCALIZATION HERE END !!!! CLEVELAND-->
-  <!-- BUTTON LOCALIZATION HERE END !!!! CLEVELAND-->      
-  
-  
-  
-                                          <button>Activate!</button></a>
-
-                                </td>
-                              </tr>
-                          </td>
-                        </tr>                      
-                    </tbody></table>
-                </div>
-    </tbody></table>
-</tbody></table>
-</div>
-</HEADER>
 
 
-<!-- start FOOTER  -->
+<!-- start ◆PREHEADER◆ -->
 
-<FOOTER class="backFooter">
-<tbody><tr>
-    <td class="paint-area" align="center">
-<table class="w-resize100" width="600" border="0" cellspacing="0" cellpadding="0" align="center">
-  <tbody><tr>
-      <td class="w-resize100"> 
-        <accentColor><subhead>
-          We're here to help
-      </subhead></accentColor>
-    </td>
-  </tr>
-</tbody></table>&nbsp;
-</div>
-
-<!-- start FOOTER - SPLIT INFORMATION-->
-
-    
-    <table class="w-resize100 min-300" width="600" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:600px;">
-        <tbody><tr>
-          <td class="paint-area" align="center">
-            <table class="w-resize100" width="600" border="0" cellspacing="0" cellpadding="0" align="center">
-
-<!-- FIRST COLUMN CONTENT TABLE -->
-                <tbody>
-                <tr>
-                <th class="stack" width="280" valign="top" align="center">
-                <table>
-                    <tbody>               
-                    <tr>
-                        <td class="leftText">
-                            Having trouble viewing this email? <a href="{view_url}" target="_blank"><nobr><accentDark><underLine>View in your browser.</underLine></accentDark></nobr> </a>
-                            <br><br>
-
-
-
-                
-    
-<!-- FOOTER LOCALIZATION HERE START !!!! CLEVELAND-->
-<!-- FOOTER LOCALIZATION HERE START !!!! CLEVELAND-->
-<!-- FOOTER LOCALIZATION HERE START !!!! CLEVELAND-->
-                            To ensure receipt of our emails, please add <a href="mailto:digitalservice@cleveland.com" style="text-decoration: underline" target="_blank"><accentDark><underLine>digitalservice@cleveland.com</underLine></accentDark></a> to your address book or safe sender list. You received this email because you are a subscriber to <a href="https://cleveland.com" target="_blank">
-                            <accentDark><underLine>cleveland.com</underLine></accentDark></a> <nobr> or The Plain-Dealer.</nobr><br><br> 
-                        </td></tr>
-                      </td>
-                </tr>  
-                </tbody></table> 
-                </th>
-                
-<!-- SECOND COLUMN CONTENT TABLE -->
-
-                  <th class="stack left-align" width="150" valign="top" align="right">
-                  <table width="100%" align="right">
-                    <tbody><tr>
-                        <tr>
-<!-- LOCALIZATION HERE!!!! ALL HELP INFO NEEDS LOCALIZED TARGETING -->
-
-
-                            <td>
-                              <a href="https://www.cleveland.com/contactus/" target="_blank" style="rightText">
-                                <accentDark>Contact us</accentDark></a><br>
-                                <a href="https://www.cleveland.com/mobile-device/" target="_blank" class="rightText">
-                                  <accentDark>Download our app</accentDark></a><br>
-                                <a href="https://www.cleveland.com/privacy-policy/" target="_blank" class="rightText">
-                                  <accentDark>Privacy policy</accentDark></a><br>
-                                <a href="https://subscription.cleveland.com/newsletters/" target="_blank" class="rightText">
-                                  <accentDark>More newsletters</accentDark></a><br>
-                                <a href="https://myaccount.cleveland.com" target="_blank" class="rightText">
-                                  <accentDark>Manage subscription</accentDark></a><br>
-                                <a href="{optout_confirm_url + '&list_param=' + blast.list}" target="_blank" class="rightText">
-                                  <accentDark>Unsubscribe</accentDark></a><br>
-                            </td>
-                          </tr>
-                      </td>
-                    </tr>
-                    
-                </tbody></table>
-<!-- END SECOND COLUMN CONTENT TABLE -->
-                  </th>
-                </tr>
-            </tbody></table>
-
-<div class="footerText">
-<table class="w-resize100 min-300" width="600" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:640px;">
-    <tbody><tr>
-      <td class="paint-area" align="center">
-<table class="w-resize100" width="600" border="0" cellspacing="0" cellpadding="0" align="center">
-    <tbody><tr>
-    	<td class="footerText"  class="paint-area paint-area--text">
-<!-- SITE LOGO-->
-<!-- LOCALIZATION HERE!!!! ADD LOGO FOR SITE -->
-<a href="https://www.cleveland.com" target="_blank"> 
-    <img src="https://media.sailthru.com/composer/images/sailthru-prod-6fn/OH%20CLEV%20ELAND%20ADDRESS%20BAR.png" 
-    class="logo" alt="The Plain Dealer | cleveland.com logo">
-    </a>
-</td>
+<div class="PREHEADER">
+<table class="remove" width="640" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:640px;">
+    <tbody><tr><td class="paint-area" style="font-size:0px; line-height:0px" height="10">&nbsp;</td></tr>
     <tr>
-        <td class="logoText">
-<!-- LOCALIZATION HERE!!!! ADD ADDRESS FOR SITE -->
-        4800 Tiedeman Rd., Brooklyn, Ohio 44144
+	<td class="paint-area" align="center">
+    <table width="570" border="0" cellspacing="0" cellpadding="0" align="center">
+    <tbody><tr>
+      <td width="400" height="0" align="left" style="font-family:Arial, sans-serif; font-size:0px; color:#4a4a4a; -webkit-text-size-adjust: none;">
+      <font face="Arial, sans-serif" class="paint-area paint-area--text">
+      Online only special section.
+      </font>
       </td>
     </tr>
-    
+    </tbody></table>
+    </td>
+    </tr>
+    <tr><td class="paint-area" style="font-size:0px; line-height:0px" height="10">&nbsp;</td></tr>
 </tbody></table>
-<!-- END SECOND COLUMN CONTENT TABLE -->
-<!-- FOOTER LOCALIZATION HERE END !!!! CLEVELAND-->
-<!-- FOOTER LOCALIZATION HERE END !!!! CLEVELAND-->
-<!-- FOOTER LOCALIZATION HERE END !!!! CLEVELAND-->
-  </th>
-</tr>
-  <tr>
-    <td style="font-size:0px; line-height:0px" height="50" colspan="3">&nbsp;
-    {beacon}
-        </td>
+</div>
+
+<!-- end ◆PREHEADER-1◆ -->
+
+
+
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+<!----------------- START HEADER - HARRISBURG SUB  ------------------------->	
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+
+<!-- start ◆HEADER◆ -->
+
+<div class="HEADER">
+
+<table class="w-resize100 min-300" width="640" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:640px;">
+    
+    <tbody><tr><td class="paint-area" style="font-size:0px; line-height:0px" height="25">&nbsp;</td></tr>
+    <tr>
+        
+      <td class="paint-area" align="left">
+      <table class="w-resize90 min-300" width="570" border="0" cellspacing="0" cellpadding="0" align="center">
+    <tbody><tr>
+        <td class="stack-480 left-480" width="100%" align="left" style="font-size:0px">
+        <div class="container">
+            <div class="icon">
+
+                <!-- THE HARRISBURG PATRIOT NEWS LOGO ICON START -->
+                    <?xml version="1.0" encoding="UTF-8"?><svg id="HARRISBURG_LABEL" xmlns="http://www.w3.org/2000/svg" width="auto" height="35"  viewBox="0 0 92.96 55.64"><path d="m19.8,11.31c.05,3.56.16,7.34.21,11.01.05,3.61.05,7.23.05,10.84s-.05,7.29-.21,10.96c0,.11.73.11.73,0-.05-3.61,0-7.34,0-10.96s.05-7.23.05-10.9v-10.96c0-.11-.83-.17-.83,0Z" style="fill:#fff;"/><path d="m20.78,11.31c.1,3.61.16,7.4.26,11.01.05,3.61.05,7.23.05,10.84s-.05,7.34-.21,10.96c0,.11.78.11.78,0-.1-3.61-.05-7.34-.05-10.96s0-7.23.05-10.84c.05-3.61,0-7.46.05-11.01,0-.11-.93-.11-.93,0Z" style="fill:#fff;"/><path d="m18.76,11.31c.1,3.61.16,7.34.21,11.01.05,3.56.05,7.17.05,10.79s-.05,7.34-.26,11.01c0,.11.67.11.67,0,.05-3.61.1-7.4.1-11.01v-10.84c0-3.61.05-7.4-.05-10.96,0-.11-.73-.11-.73,0Z" style="fill:#fff;"/><path d="m44.15,17.77h.05c-.42-1.65-1.35-3.12-2.55-4.01,1.46.83,2.92,2.16,3.59,4.07h.05c-.26-1.08-.78-2.04-1.46-2.86-2.03-2.48-6.15-3.56-11.67-3.75v.06c2.97.57,6.61,2.67,7.66,5.85h.05c-.31-1.4-1.09-2.8-2.14-3.69,1.56.83,2.66,2.23,3.23,3.94h.05c-.36-1.53-1.2-2.86-2.24-3.82,1.35.76,2.66,2.16,3.23,3.94h.05c-.42-1.53-1.25-2.93-2.4-3.88,1.67.89,2.81,2.23,3.44,4.07h.05c-.42-1.65-1.41-3.12-2.55-4.07,1.2.64,2.86,2.1,3.54,4.13Z" style="fill:#fff;"/><path d="m37.12,14.02c1.93,2.29,2.03,5.98,1.77,9.09-.21,1.91-.78,3.88-1.56,5.15.31-.7.47-1.46.78-2.99.47-2.35.62-5.79-.31-8.9-.36-1.14-.99-2.23-1.82-2.99l-.05.06c.78.83,1.3,1.97,1.56,3.05.73,3.05.62,6.36.1,8.71-.36,1.59-.73,2.42-1.2,3.18.42-.95.68-2.1.89-3.88.26-2.54.36-5.85-.73-8.97-.36-1.02-.94-1.97-1.67-2.61l-.05.06c.68.7,1.2,1.72,1.46,2.67.89,2.99.78,6.36.42,8.78-.26,1.97-.73,3.18-1.25,4.26.73-2.35.89-4.77.89-7.19,0-3.12-.26-7.25-2.6-9.16l-.05.06c2.14,2.16,2.14,5.98,2.14,9.09,0,2.8-.57,6.04-1.25,7.31.36-1.27.52-3.24.62-4.9.16-2.1.05-4.2-.1-6.3-.16-2.03-.78-4.32-2.19-5.6l-.05.06c1.3,1.4,1.72,3.56,1.82,5.6.21,4.07.1,8.97-1.04,11.64.52-2.03.57-4.45.57-6.49,0-2.73-.05-6.1-.47-8.14-.26-1.27-.73-1.97-1.46-2.86l-.05.06c.68.89.94,1.78,1.15,2.86.42,1.91.36,5.41.31,8.08-.05,2.86-.16,5.21-.89,7.12-.36.95-.89,1.72-1.61,2.16v.06c2.71,0,5.94-1.4,7.24-4.39.62-1.46.94-3.05,1.04-4.64.26-3.18-.1-7.12-2.29-9.22l-.05.06Z" style="fill:#fff;"/><path d="m17.72,11.31c.16,3.56.26,7.4.26,11.01v10.84c0,3.61-.05,7.34-.26,10.96,0,.11.62.11.62,0,.1-3.61.16-7.34.16-10.9v-10.9c0-3.61,0-7.4-.1-11.01,0-.11-.67-.11-.67,0Z" style="fill:#fff;"/><path d="m15.7,11.31c.21,3.56.21,7.4.21,11.01s.05,7.23,0,10.9c-.05,3.56-.05,7.29-.31,10.9,0,.11.52.11.52,0,.26-3.61.31-7.34.31-10.9v-10.96c0-3.61,0-7.34-.26-10.96,0-.11-.47-.11-.47,0Z" style="fill:#fff;"/><path d="m16.74,11.31c.16,3.56.16,7.4.21,11.01.05,3.61.05,7.23,0,10.84-.05,3.61-.05,7.34-.26,10.96,0,.11.57.11.57,0,.16-3.61.21-7.34.21-10.96v-10.84c0-3.61,0-7.4-.21-11.01,0-.11-.52-.11-.52,0Z" style="fill:#fff;"/><path d="m0,0v55.64h92.96V0H0Zm32.34,44.81c-1.61,0-6.95.06-10.26.06-3.63,0-7.39-.08-10.13-.02,0,0-.03-.49.07-.49,2.59-.11,2.85-.11,2.96-.23.16-.17.26-.96.31-11.75v-9.71c0-10.51-.1-11.18-.26-11.35-.1-.11-.73-.11-2.95-.17-.16,0-.16-.56,0-.56,2.82,0,10.8-.05,16.38-.06v20.52h0v5.63c0,6.61,0,7.17.16,7.34.16.17.41.23,3.73.23.1,0,.16.56,0,.56Zm-1.52-11.71c-1.67,0-2.14-.13-2.29-.13-.03,0-.05,0-.07.01v-.81c.08.05.25.1.64.1,1.2,0,2.29-.57,3.07-2.48.62-1.53.89-3.43.89-8.71,0-4.01-.26-6.49-.89-8.01-.42-1.02-1.2-1.91-2.92-1.91-.42,0-.73,0-.78.06,0,0-.01.02-.02.04v-.74c.44,0,.86,0,1.27,0,8.75,0,12.6,1.34,14.95,4.2,1.09,1.34,1.87,3.43,1.87,6.04,0,3.69-.99,5.79-2.4,7.5-2.08,2.54-6.88,4.83-13.33,4.83Zm48.6-21.91c-.45.28-.72.73-1.12,1.12-1.18,1.18-1.63,2.3-1.63,7.14,0,6.24-.11,10.51-.11,14.49,0,2.92.06,8.09.06,11.01,0,.11-.17.17-3.26.17s-5.17,0-5.22-.11c-6.18-9.27-13.03-19.94-18.93-28.65h-.06c-.17,6.63-.11,11.57-.11,19.49,0,5.22.67,6.46,1.63,7.42.67.67,2.08,1.18,3.65,1.4.11,0,.11.39-.06.39-1.91-.11-4.16-.11-5.56-.11-1.63,0-2.58,0-4.49.06-.11,0-.17-.34-.06-.39.73-.28,1.8-.84,2.36-1.4,1.12-1.12,1.69-2.81,1.69-10.23s0-10.39.17-17.7c0-.17-1.69-2.81-2.13-3.37-.28-.34-.84-.51-2.19-.56-.11,0-.11-.56,0-.56,1.85.06,6.4.11,8.65.11,5.67,0,8.82-.17,10.23-.17.22,0,.28.06.67.67,4.66,7.14,9.1,13.76,12.08,18.26h.06c.06-2.42.11-6.07.11-8.54,0-5.56-.51-7.36-1.63-8.48-.84-.84-1.91-1.29-3.2-1.52-.17-.06-.06-.39.06-.39,1.69.06,3.54.17,5.45.17.96,0,1.79-.06,2.8-.11.11,0,.22.34.11.39Z" style="fill:#fff;"/><path d="m63.86,27.87c-1.85-2.81-3.65-5.56-5.45-8.37-1.69-2.58-3.88-6.01-5.06-7.87-.06-.11-1.24-.11-1.18,0,1.91,2.81,3.76,5.56,5.62,8.26,1.85,2.75,3.71,5.51,5.56,8.26,1.85,2.81,3.71,5.56,5.56,8.37,1.69,2.58,3.76,5.79,5.11,7.98.06.06,1.01.06.9-.06-1.97-2.81-3.76-5.51-5.56-8.2-1.85-2.81-3.71-5.56-5.51-8.37Z" style="fill:#fff;"/><path d="m70.66,36.02c-1.85-2.75-3.65-5.45-5.45-8.2-1.8-2.75-3.6-5.56-5.39-8.32-1.63-2.58-3.88-6.07-5.06-7.87-.06-.11-1.29-.11-1.24,0,1.91,2.81,3.76,5.56,5.67,8.31,1.85,2.7,3.71,5.45,5.51,8.15,1.85,2.75,3.65,5.51,5.45,8.26,1.74,2.64,3.76,5.73,5.22,8.09.06.11.9.06.73-.28-2.02-2.87-3.65-5.39-5.45-8.15Z" style="fill:#fff;"/><path d="m61.11,27.98c-1.8-2.75-3.6-5.51-5.39-8.31-1.74-2.64-3.99-6.01-5.28-8.03-.06-.11-.96-.11-.9,0,1.85,2.75,3.76,5.62,5.62,8.43,1.85,2.75,3.71,5.51,5.51,8.26,1.85,2.75,3.65,5.51,5.45,8.26,1.74,2.58,3.82,5.73,5.22,7.92.06.11.84.11.79,0-1.91-2.81-3.71-5.51-5.51-8.26-1.85-2.75-3.65-5.51-5.51-8.26Z" style="fill:#fff;"/><path d="m62.45,27.93c-1.8-2.81-3.65-5.62-5.45-8.37-1.74-2.64-3.88-6.01-5.11-7.92-.06-.11-1.07-.11-1.01,0,1.85,2.75,3.71,5.56,5.56,8.31,1.85,2.75,3.71,5.51,5.56,8.26,1.8,2.75,3.6,5.45,5.45,8.2,1.74,2.64,3.82,5.84,5.22,8.09.06.11.95.06.84,0-1.97-2.87-3.76-5.62-5.62-8.37-1.8-2.75-3.65-5.51-5.45-8.2Z" style="fill:#fff;"/><path d="m59.7,27.98c-1.85-2.81-3.65-5.62-5.51-8.43-1.74-2.64-3.88-5.84-5.22-7.92-.06-.11-.84-.11-.79,0,1.8,2.7,3.71,5.51,5.51,8.26,1.85,2.81,3.71,5.62,5.56,8.37,1.85,2.75,3.65,5.51,5.45,8.26,1.74,2.64,3.82,5.79,5.28,7.98.06.11.79.11.73,0-1.91-2.81-3.71-5.51-5.51-8.26-1.85-2.75-3.71-5.51-5.51-8.26Z" style="fill:#fff;"/><path d="m58.35,28.04c-1.85-2.81-3.65-5.56-5.51-8.31-1.74-2.7-3.76-5.79-5.34-8.15-.06-.06-.73-.11-.67,0,1.97,2.98,3.71,5.62,5.56,8.43,1.85,2.75,3.65,5.56,5.51,8.31,1.8,2.75,3.6,5.51,5.45,8.26,1.69,2.58,3.82,5.79,5.23,7.87.06.06.73.11.67.06-1.8-2.75-3.65-5.51-5.45-8.26-1.8-2.7-3.65-5.45-5.45-8.2Z" style="fill:#fff;"/></svg>
+                <!-- THE HARRISBURG PATRIOT NEWS LOGO ICON END -->
+            </div>
+            <div class="siteName">
+                The Patriot News
+            </div>
+            <div class="online" style="color:#a6a6a6;">
+                Online
+            </div>
+            <introArrow>
+                <accentColor><?xml version="1.0" encoding="UTF-8"?><svg id="arrow" viewBox="0 0 15.53 22.09"><polygon points="15.53 15.86 .16 0 0 22.09 6.83 16.64 15.53 15.86" style="fill:currentColor"/></svg></accentColor>
+              </introArrow>
+          </div>
+
+      </td>
+    </tr>
+</tbody></table>
+      </td>
+    </tr>
+    <tr><td class="paint-area" style="font-size:0px; line-height:0px" height="50">&nbsp;</td></tr>
+</tbody></table>
+
+</div>
+<!-- end ◆HEADER◆ -->
+
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+<!----------------- END HEADER - HARRISBURG SUB  ------------------------->	
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+
+
+
+
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+<!-- START CAMPAIGN  -->	
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+
+<!-- start ◆HEADLINE◆ -->
+
+<div class="headLine">
+    <table class="w-resize100 min-300" width="640" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:640px;">
+        <tbody><tr>
+          <td class="paint-area" align="center">
+    <table class="w-resize90" width="570" border="0" cellspacing="0" cellpadding="0" align="center">
+        <tbody><tr>
+            <td class="w-resize90" align="left" class="paint-area paint-area--text">
+          Read it online <br>
+          <accentColor>August 13.</accentColor>
+          </td>
+        </tr>
+    </tbody></table>
+    </td></tr>
+    </tbody></table>
+    </div>
+
+<!-- end ◆HEADLINE◆ -->
+
+<div class="SPACER-25">
+<table class="w-resize100" width="640" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:640px;">
+    <tbody><tr><td style="font-size:0px; line-height:0px" height="25">&nbsp;</td></tr>
+</tbody></table>
+</div>
+
+<!-- start ◆INTRO◆ -->
+
+<div class="BODY-COPY">
+<table class="w-resize100 min-300" width="640" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:640px;">
+    <tbody><tr>
+      <td class="paint-area" align="center">
+<table class="w-resize90" width="570" border="0" cellspacing="0" cellpadding="0" align="center">
+    <tbody><tr>
+    	<td align="left" style="font-family:'benton sans', Arial, sans-serif; font-weight: 400; font-size:20px; color:#ffffff; line-height:35px; -webkit-text-size-adjust: none;"><font face="'benton sans', Arial, sans-serif" class="paint-area paint-area--text">
+
+<strong>Special online-only section. </strong> Another school year is almost here. Get the latest back to school tips in “Back in Class” — a subscriber-exclusive special section publishing with your online paper. 
+
+</font></td>
     </tr>
 </tbody></table>
 </td></tr>
 </tbody></table>
+</div>
 
+<!-- end ◆INTRO◆ -->
 
+<div class="SPACER-25">
+    <table class="w-resize100" width="640" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:640px;">
+        <tbody><tr><td style="font-size:0px; line-height:0px" height="35">&nbsp;</td></tr>
+    </tbody></table>
+    </div>
+
+<!-- start ◆2 WIDE HERO/BODY◆ -->
+
+    <div class="MOD-1">
+        <table class="w-resize100 min-300" width="640" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:640px;">
+            <tbody><tr>
+              <td class="paint-area" align="center">
+                <table class="w-resize90" width="570" border="0" cellspacing="0" cellpadding="0" align="center">
+                    <tbody><tr>
+
+<!--HERO STARTS HERE - 2C SIDE-BY-SIDE ON DESKTOP, STACKED ON MOBILE--->
+                      <th class="stack w-resize100 resize100 max300" width="240" valign="top" align="left"><a href="#link" target="_blank"><img src="https://media.sailthru.com/composer/images/sailthru-prod-6fj/BACK%20TO%20CLASS.jpg" width="400" alt="" border="0" style="display:block"></a></th>
+                      <th class="stack w-resize100 h-resize20px" style="font-size:0px; line-height:0px" width="30">&nbsp;</th>
+                      <th class="stack w-resize100" width="120" valign="top" align="center">
+
+<!-- BODY CONTENT STARTS HERE - 2 C SIDE-BY-SIDE ON DESKTOP, STACKED ON MOBILE -->
+       
+                <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                    <tbody><tr>
+                            <td align="left" style="font-family:farnham headline, Times, serif; font-size:26px; color:#bf1a0c;font-weight: bolder; line-height:30px; -webkit-text-size-adjust: none; ">
+                            <font face="farnham headline, Times, serif" class="paint-area paint-area--text">
+<!-- SUBHEAD -->   
+                                FREE for subscribers
+                            </font>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="font-size:0px; line-height:0px" height="5">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td align="left" style="font-family: Arial, sans-serif; font-size:18px; color:#ffffff; line-height:27px; -webkit-text-size-adjust: none; font-weight:400">
+                          <font face=" Arial, sans-serif" class="paint-area paint-area--text">
+<!-- BODY -->   
+                            Print subscribers get free access to the online newspaper with more content, special sections, the New York Times Book Review, and Washington Post Weekly edition by activating their account.
+                          </font>
+                          </td>
+                        </tr>
+                        <td style="font-size:0px; line-height:0px" height="35">&nbsp;</td>
+                        <tr>
+                            <td align="left" class="paint-area paint-area--text">
+
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+<!----------------- START LOCALIZATION SUB - HARRISBURG  ------------------->	
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+                            <a href="https://subscribe.pennlive.com" target="_blank" class="button">Activate!</a>
+                            </td>
+                        </tr>
+                    </tbody></table>
+                      </th></tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+        </tbody></table>
+        </div>
+
+<!-- end ◆2 WIDE HERO/BODY◆ -->
+
+<div class="SPACER-75">
+    <table class="w-resize100" width="640" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:640px;">
+        <tbody><tr><td style="font-size:0px; line-height:0px" height="75">&nbsp;</td></tr>
+    </tbody></table>
+    </div>
 </body>
+</main>
 
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+<!-- END CAMPAIGN  -->	
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+
+
+
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+<!----------------- START FOOTER - HARRISBURG SUB  ------------------------->	
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+<div class="footerBack">
+<table class="w-resize100 min-300" width="640" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:640px;">
+    <tbody><tr>
+      <td class="paint-area" align="center">
+<table class="w-resize90" width="570" border="0" cellspacing="0" cellpadding="0" align="center">
+
+</td></tr>
+</tbody></table>
+</div>
+
+<div class="FOOTER">
+    
+    <div class="FooterHead">
+        
+        <table class="w-resize100 min-300" width="640" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:640px;">
+            <tbody><tr>
+              <td class="paint-area" align="center">
+                
+        <table class="w-resize90" width="570" border="0" cellspacing="0" cellpadding="0" align="center">
+            <tbody><tr>
+                <tr><td style="font-size:0px; line-height:0px" height="30" colspan="3">&nbsp;</td></tr>
+                <td align="left" style="font-family:farnham headline, Times, serif; font-weight: 800; font-size:26px; color:#bf1a0c; line-height:22px; -webkit-text-size-adjust: none;"><font face="farnham headline, Times, serif" class="paint-area paint-area--text">
+     We're here to help.
+        </font></td>
+        <tr><td style="font-size:0px; line-height:0px" height="20" colspan="3">&nbsp;</td></tr>
+            </tr>
+        </tbody></table>
+        </td></tr>
+        </tbody></table>
+        </div>
+<table class="w-resize100 min-300" width="640" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:640px;">
+    <tbody><tr>
+      <td class="paint-area" align="center">
+        
+        <table class="w-resize90" width="570" border="0" cellspacing="0" cellpadding="0" align="center">
+            <tbody>
+
+             <tr>
+              <th class="stack w-resize100" width="550" valign="top" align="center">
+              
+              <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                <tbody>
+                        
+                <tr>
+
+                        <td class="finePrint" align="left">
+                        <class="paint-area paint-area--text">
+                        Having trouble viewing this email? <a href="{view_url}" target="_blank" style="text-decoration: none;"><accentDark>View in your browser.</accentDark></a>
+                        <br><br>
+                        To ensure receipt of our emails, please add <a href="mailto:customercare@sts.pennlive.com" style="text-decoration: none;" target="_blank"><accentDark>customercare@sts.pennlive.com</accentDark></a> to your address book or safe sender list. You received this email because you are a subscriber to <a href="https://pennlive.com" target="_blank"style="text-decoration: none;">
+                            <accentDark>pennlive.com</accentDark></a> <nobr> or The Patriot News.
+                        </td>
+                </tr>               
+            </tbody></table>
+              </th>
+              <th class="stack w-resize100 h-resize30px" style="font-size:0px; line-height:0px" width="30">&nbsp;</th>
+              <th class="stack left-align" width="220" valign="top" align="right">
+
+              <table width="100%" border="0" cellspacing="0" cellpadding="0" align="right">
+                <tbody><tr>
+                  <td class="left-align" align="left">
+                        <a href="https://www.thepamediagroup.com/contact/" target="_blank" class="finePrint">
+                            <accentDark>Contact us</accentDark></a><br>
+                          <a href="https://www.pennlive.com/mobile-device/" target="_blank" class="finePrint">
+                            <accentDark>Download our app</accentDark></a><br>
+                          <a href="https://www.pennlive.com/privacy-policy/" target="_blank" class="finePrint">
+                            <accentDark>Privacy policy</accentDark></a><br>
+                          <a href="https://subscription.pennlive.com/newsletters/" target="_blank" class="finePrint">
+                            <accentDark>More newsletters</accentDark></a><br>
+                          <a href="https://myaccount.pennlive.com" target="_blank" class="finePrint">
+                            <accentDark>Manage subscription</accentDark></a><br>
+                          <a href="{optout_confirm_url + '&list_param=' + blast.list}" target="_blank" class="finePrint">
+                            <accentDark>Unsubscribe</accentDark></a><br>
+                        </font>
+                      </td>
+                </tr>  
+            </tbody></table></th>
+
+<div class="SITELOGO">
+<table class="w-resize100 min-300" width="640" border="0" cellspacing="0" cellpadding="0" align="left" style="margin:0 auto; width:640px;">
+    <tbody><tr><td class="paint-area" style="font-size:0px; line-height:0px" height="25">&nbsp;</td></tr>
+    <tr>
+      <td class="paint-area" align="left">
+        <table class="w-resize90" width="630" border="0" cellspacing="0" cellpadding="30" align="center">
+    <tbody><tr>
+      <td class="stack-480 left-480" width="480" align="left">
+        <a href="https://www.oregonlive.com" target="_blank"> 
+      <img src="https://media.sailthru.com/composer/images/sailthru-prod-6fj/PA%20HARRISBURG%20ADDRESS%20BAR.png" width="500" alt="The Patriot News | pennlive.com logo" border="0">
+      <br></a>
+      <span style="font-family:'benton sans', Arial, sans-serif; font-weight: 400; font-size:14px; color:#272727; line-height:22px; -webkit-text-size-adjust: none; text-transform: uppercase; text-decoration: none;">
+        1900 Patriot Drive, Mechanicsburg, PA 17050</span>
+      </td>
+    </tr>
+</tbody>
+</table>
+      </td>
+            <tr>
+                <td style="font-size:0px; line-height:0px" height="50" colspan="3">&nbsp;</td>
+            </tr>
+        </tbody></table>
+</td></tr>
+</tbody></table> {beacon}
+</div>
 </html>
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+<!----------------- END FOOTER - HARRISBURG SUB  ------------------------->	
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+
+<!-- FIXES GMAIL DISPLAY ISSUES -->
+<table class="remove" width="640" border="0" cellspacing="0" cellpadding="0" align="center">
+    <tbody><tr>
+    <td><img src="http://media.whatcounts.com/adv_mlive/170327_ADI-Generic/spcr.gif" width="640" height="1" alt="" style="display:block; min-height:1px; max-height:1px; width:640px; min-width:640px;"></td>
+    </tr>
+    </tbody></table>
+    <!-- FIXES GMAIL DISPLAY ISSUES -->
 
 
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+<!----------------- END LOCALIZATION SUB - HARRISBURG  ------------------->	
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->

@@ -1,278 +1,848 @@
-<!DOCTYPE html>
-
-
-<!-- UPDATE ◆Title should be Special Section Title◆ -->
-<title>Back in Class.</title>
-<link rel="stylesheet" type="text/css" href="stylesheet.css"/> 
-
+<!doctype html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<!-- Tells your web/email client how to handle special characters  -->
 <meta name="x-apple-disable-message-reformatting">
 <!-- Disables scaling in iOS10  -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<!-- Helps responsive version function when viewed in a web browser -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+<!-- Use the latest (edge) version of IE rendering engine -->
 <meta property="og:url" content="" />
 <meta property="og:type" content="" />
 <meta property="og:title" content="" />
 <meta property="og:description" content="" />
 <meta property="og:image" content="" />
+<meta name="color-scheme" content="light dark">
+<meta name="supported-color-schemes" content="light dark">
+
+    <script>
+const currentTheme = localStorage.getItem("theme");
+if (currentTheme == "dark") {
+  document.body.classList.toggle("dark-theme");
+} else if (currentTheme == "light") {
+  document.body.classList.toggle("dark-theme");
+}
+    </script>
 
 
-<!-- STYLES INHERENT TO THIS SPECIFIC CAMPAIGN - ALL OTHER STYLES CONTROLLED BY 'EMAIL.CSS' -->
+
+
+<!-- Use for social sharing (if any) -->
+
+
+<!--[if gte mso 9]><xml> 
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+  <o:PixelsPerInch>96</o:PixelsPerInch>
+ </o:OfficeDocumentSettings>
+ </xml><![endif]-->
+
+ <title>Back in Class.</title>
+
 <style>
+html {-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%}
+body {margin:0; padding:0; -webkit-text-size-adjust: 100% !important; -ms-text-size-adjust: 100% !important; -webkit-font-smoothing: antialiased !important; border-spacing:0} 
+table {border-collapse: collapse; mso-table-lspace: 0px; mso-table-rspace: 0px; }
+table td {border-collapse: collapse; mso-line-height-rule: exactly; }
+table th { margin:0 !important; padding:0 !important; vertical-align:top; font-weight:normal; }
+img, a img {border:none; outline:none; -ms-interpolation-mode: bicubic;}
+.ReadMsgBody {width: 100%;}
+.ExternalClass {width: 100%;}
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height:100%;}
+.yshortcuts a {border-bottom: none !important;}
+.appleLinksGray a {color:#666666 !important; text-decoration:none !important;}
+.appleLinksWhite a {color:#FFFFFF !important; text-decoration:none !important;}
+.appleLinksBlack a {color:#000000 !important; text-decoration:none !important;}
 
-:root {
-  --accent: #bf1a0c;
+
+.hover-box:hover {
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	box-shadow: 0 2px 10px 0 rgba(0,0,0,0.1);
+	transition: .5s;
+	}
+	
+.hover-button:hover {
+	background-color: #0078ff;
+	transition: .5s;
+	}
+	
+	
+	
+	
+/* INSERT CUSTOM FONT EMBED HERE */
+
+
+	@font-face {
+	font-family: "farnham headline";
+	font-style: normal;
+	font-weight: 400;
+	src: url(https://fonts.advance.net/fonts/v1/farnham-headline-regular/farnhamheadline-regular.woff) format('woff');
+	}
+
+@font-face {
+	font-family: "farnham headline";
+	font-style: normal;
+	font-weight: 600;
+	src: url(https://fonts.advance.net/fonts/v1/farnham-headline-semi-bold/farnhamheadline-semi-bold.woff) format('woff');
+	}
+	
+@font-face {
+	font-family: 'benton sans';
+	font-style: normal;
+	font-weight: 400;
+	src: url(https://fonts.advance.net/fonts/v1/benton-sans-regular/166b5d40-3430-46a0-8fb2-43f30962dec7-3.woff) format('woff');
+	}
+	
+@font-face {
+	font-family: 'benton sans';
+	font-style: normal;
+	font-weight: 500;
+	src: url(https://fonts.advance.net/fonts/v1/benton-sans-medium/448c4642-c106-472f-9c6a-a4d7b5347b03-3.woff) format('woff');
+	}
+
+
+
+</style>
+
+
+<style>
+@media only screen and (max-width: 600px) {
+           
+/************************************ MAIN *************************************/ 
+		   
+.remove { display:none !important; width:0 !important; height:0 !important; }
+.stack { display:block !important; }
+.stack-header {display:table-header-group !important;}
+.stack-footer {display:table-footer-group !important;}
+.stack-image img {margin-bottom:20px !important;}
+			
+/************************************ ALIGNERS *************************************/
+		   
+.center-align {text-align:center !important; margin:0 auto !important;}
+.left-align {text-align:left !important;}
+.right-align {text-align:right !important;}
+		   
+/************************************ WIDTH RESIZERS *************************************/
+		   
+.min-300  {min-width:300px !important;}
+.max-300  {max-width:300px !important;}
+.max-320  {max-width:320px !important;}
+.max-340  {max-width:340px !important;}
+.w-resize100 { width:100% !important; }
+.w-resize90 { width:90% !important; }
+.w-resize80 { width:80% !important; }
+.w-resize280px { width:280px !important; }
+.w-resize300px { width:300px !important; }
+.w-resize320px { width:320px !important; }
+		   
+/************************************ HEIGHT RESIZERS *************************************/
+			
+.h-resize10px { height:10px !important; }
+.h-resize20px { height:20px !important; }
+.h-resize30px { height:30px !important; }
+.h-resize40px { height:40px !important; }
+.h-resize50px { height:50px !important; }
+.h-resize60px { height:60px !important; }
+.h-resize70px { height:70px !important; }
+.h-resize80px { height:80px !important; }
+.h-resize90px { height:90px !important; }
+.h-resize100px { height:100px !important; }
+		   
+/************************************ IMAGE RESIZERS *************************************/
+			
+.resize90 img {width:90% !important; height:auto !important;}
+.resize100 img {width:100% !important; height:auto !important;}
+.resize280px img {width:280px !important; height:auto !important;}
+.resize300px img {width:300px !important; height:auto !important;}
+.resize320px img {width:320px !important; height:auto !important;}
+			
+/************************************ TEXT RESIZERS *************************************/
+
+.text14 {font-size:14px !important;}
+.text15 {font-size:15px !important;}
+.text16 {font-size:16px !important;}
+.text17 {font-size:17px !important;}
+.text18 {font-size:18px !important;}
+.text19 {font-size:19px !important;}
+.text20 {font-size:20px !important;}
+.text21 {font-size:21px !important;}
+.text22 {font-size:22px !important;}
+.text23 {font-size:23px !important;}
+.text24 {font-size:24px !important;}
+.text25 {font-size:25px !important;}
+.text26 {font-size:26px !important;}
+.text27 {font-size:27px !important;}
+.text28 {font-size:28px !important;}
+.text29 {font-size:29px !important;}
+.text30 {font-size:30px !important;}
+
+/************************************ LINE HEIGHT RESIZERS *************************************/
+			
+.lh15 {line-height:15px !important;}
+.lh16 {line-height:16px !important;}
+.lh17 {line-height:17px !important;}
+.lh18 {line-height:18px !important;}
+.lh19 {line-height:19px !important;}
+.lh20 {line-height:20px !important;}
+.lh21 {line-height:21px !important;}
+.lh22 {line-height:22px !important;}
+.lh23 {line-height:23px !important;}
+.lh24 {line-height:24px !important;}
+.lh25 {line-height:25px !important;}
+.lh26 {line-height:26px !important;}
+.lh27 {line-height:27px !important;}
+.lh28 {line-height:28px !important;}
+.lh29 {line-height:29px !important;}
+.lh30 {line-height:30px !important;}
+.lh35 {line-height:35px !important;}
+.lh40 {line-height:40px !important;}
+
+/************************************ ADDITIONAL MEDIA QUERIES *************************************/
+
+.logo-control img {max-width:250px !important; height:auto !important;}
+}
+	
+@media only screen and (max-width: 480px) {
+
+.stack-480 { display:block !important; }
+.center-480 { text-align:center !important; margin:0 auto !important; }
+.w-resize100-480 { width:100% !important; }
+	
 }
 
-    .backHeader {
-        color:#d3d3d3; 
-        background: linear-gradient(157deg, #333333 0%, #000000 100%);
-    }
+
+
+
+/* CONSISTENT STYLES - SPECIAL SECTIONS MARKETING */ 
+
+
+
+@media (prefers-color-scheme: dark) {
+  /* defaults to dark theme */
+  body {
+    background: linear-gradient(157deg, #333333 0%, #000000 100%);
+    background-repeat: no-repeat;
+    background-color: #c5c5c5;
+    max-width: 100vw;
+}	
+body.dark-theme {
+    background: linear-gradient(157deg, #333333 0%, #000000 100%);
+    background-repeat: no-repeat;
+    background-color: #c5c5c5;
+    max-width: 100vw;
+}	
+body.light-theme {
+    background: linear-gradient(157deg, #333333 0%, #000000 100%);
+    background-repeat: no-repeat;
+    background-color: #c5c5c5;
+    max-width: 100vw;
+}	
+accentColor.dark-theme {
+    color:#bf1a0c; 
+}
+accentDark.dark-theme {
+    color:#bf1a0c; 
+    filter: brightness(85%);
+}
+accentColor.light-theme {
+    color:#bf1a0c; 
+}
+accentDark.light-theme {
+    color:#bf1a0c; 
+    filter: brightness(85%);
+}
+}
+
 body {
-        color:#333333; 
-        background-color: #d3d3d3;
-    }
+    background: linear-gradient(157deg, #333333 0%, #000000 100%);
+    background-repeat: no-repeat;
+    background-color: #c5c5c5;
+    max-width: 100vw;
+}	
+
+
+main {
+    padding: 30px;
+    max-width: 100vw;
+}
+.footerBack {
+    background-color: #c5c5c5;
+    padding: 30px;
+}
+.finePrint {
+    font-family:Arial, sans-serif; 
+    font-size: 14px; 
+    line-height: 22px; 
+    -webkit-text-size-adjust: none; 
+    font-weight:400; 
+    text-decoration: none;
+    color: #2a2a2a;
+}
+@media only screen and (max-width: 600px) {
+    .finePrint {
+    font-family:Arial, sans-serif; 
+    font-size: 3vw; 
+    line-height: calc(5px + 3vw);
+    -webkit-text-size-adjust: none; 
+    font-weight:400; 
+    text-decoration: none
+}
+  }
+  @media only screen and (max-width: 400px) {
+    .finePrint {
+    font-family:Arial, sans-serif; 
+    font-size: 5vw; 
+    line-height: calc(5px + 5vw);
+    -webkit-text-size-adjust: none; 
+    font-weight:400; 
+    text-decoration: none
+}
+  }
+
+accentColor {
+    color:#bf1a0c; 
+}
+accentDark {
+    color:#bf1a0c; 
+    filter: brightness(85%);
+}
+accentDark:hover {
+    color:#bf1a0c; 
+    filter: brightness(20%);
+    text-decoration: underline;
+}
+.headLine {
+    font-family: farnham headline, Times, serif; 
+    font-size: 90px; 
+    font-weight: 600; 
+    color:#ffffff; 
+    line-height:80px; 
+    -webkit-text-size-adjust: none;
+}
+@media only screen and (max-width: 600px) {
+    .headLine {
+    font-family: farnham headline, Times, serif; 
+    font-size: 12vw; 
+    font-weight: 600; 
+    color:#ffffff; 
+    line-height: 11vw; 
+    -webkit-text-size-adjust: none;
+}
+  }
+  @media only screen and (max-width: 400px) {
+    .headLine {
+    font-family: farnham headline, Times, serif; 
+    font-size: 18vw; 
+    font-weight: 600; 
+    color:#ffffff; 
+    line-height: 17vw; 
+    -webkit-text-size-adjust: none;
+}
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: left;
+}
+
+.icon {
+    padding-right: 10px;
+    -webkit-text-size-adjust: none;
+}
+.siteName {
+    color: #FFFFFF;
+    font-family:Georgia, serif; 
+    font-size: 20px; 
+    font-weight: 900; 
+    line-height:24px; 
+    position: relative;
+    padding-left: 5px;
+    -webkit-text-size-adjust: none;
+}
+.online {
+    color: #a6a6a6;
+    font-family:Georgia, serif; 
+    font-size: 20px; 
+    font-weight: 900; 
+    line-height:24px; 
+    position: relative;
+    padding-left: 8px;
+    -webkit-text-size-adjust: none;
+    float: left;
+    opacity: 0;
+    animation: introDigital 2s ease 2s 1 normal forwards;
+}
+
+@keyframes introDigital {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+#arrow {
+    width: 20px;
+    transform:  translate(5px, 10px);
+    opacity: 0;
+    transform: translate(-72px, 8px);
+    animation: inArrow 0.5s ease 0s 1 normal forwards, blinkArrow 1s ease 1s 1 normal forwards, outArrow 1s ease 2s 1 reverse forwards;
+}
+@keyframes inArrow {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes blinkArrow {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+
+	25%,
+	75% {
+		opacity: 0;
+	}
+}
+@keyframes outArrow {
+	0% {
+        transform: translate(0px, 8px);
+		opacity: 0;
+	}
+
+	100% {
+        transform: translate(-72px, 8px);
+		opacity: 1;
+	}
+}
+
+.button {
+    text-decoration: none; 
+    background-color: #bf1a0c; 
+    color: #000000;
+    padding: 20px 30px 20px 20px;
+    font-family:'benton sans', Arial, sans-serif; 
+    font-weight: 500; 
+    font-size:20px; 
+    line-height:30px; 
+    -webkit-text-size-adjust: none;
+    transition: 0.5s;
+    animation: blinkButton 2s ease 2s infinite normal forwards;
+}
+@keyframes blinkButton {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+
+	25%,
+	75% {
+		opacity: 0.8;
+	}
+}
+.button:hover {
+    text-decoration: none; 
+    background-color: #bf1a0c; 
+    color: #ffffff;
+    padding: 20px 30px 20px 20px;
+    font-family:'benton sans', Arial, sans-serif; 
+    font-weight: 500; 
+    font-size:20px; 
+    line-height:30px; 
+    -webkit-text-size-adjust: none;
+    transition: 0.5s;
+}
+
+@media only screen and (max-width: 600px) {
+    .button {
+    text-decoration: none; 
+    background-color: #bf1a0c; 
+    color: #ffffff;
+    padding: 20px 250px 20px 20px;
+    font-family:'benton sans', Arial, sans-serif; 
+    font-weight: 500; 
+    font-size:20px; 
+    line-height:30px; 
+    -webkit-text-size-adjust: none;
+}
+  }
+  @media only screen and (max-width: 400px) {
+    .button {
+    text-decoration: none; 
+    background-color: #bf1a0c; 
+    color: #ffffff;
+    padding: 20px 150px 20px 20px;
+    font-family:'benton sans', Arial, sans-serif; 
+    font-weight: 500; 
+    font-size:20px; 
+    line-height:30px; 
+    -webkit-text-size-adjust: none;
+}
+  }
+
 </style>
 </head>
-
-<body>
-<!-- start EMAIL MAIN BODY DESIGN AND TEXT -->
-<!-- start EMAIL MAIN BODY DESIGN AND TEXT -->
-<!-- start EMAIL MAIN BODY DESIGN AND TEXT -->
-<!-- start EMAIL MAIN BODY DESIGN AND TEXT -->
-
-<HEADER class="backHeader">
-        <tbody><tr>
-          <td class="paint-area" align="center">
-              <table class="w-resize100" width="600" border="0" cellspacing="0" cellpadding="0" align="center">
-              <td class="w-resize90">
-
-<!-- HEADER LOCALIZATION HERE START !!!! NEWARK-->
-<!-- HEADER LOCALIZATION HERE START !!!! NEWARK-->
-<!-- HEADER LOCALIZATION HERE START !!!! NEWARK-->
-    <div class="flex-container">
-      <div>
-        <div class="siteLogo">
-          <img src="https://media.sailthru.com/composer/images/sailthru-prod-6fj/NJnewark.png" alt="The Star Ledger logo" style="width:100%">
-        </div>
-      </div>
-      <div>
-        <div class="Online">
-          <img src="https://media.sailthru.com/composer/images/sailthru-prod-6fj/ONLINE.png" alt="Online" style="width:100%">
-        </div>
-        <introArrow>
-          <?xml version="1.0" encoding="UTF-8"?><svg id="start" viewBox="0 0 15.53 22.09"><polygon points="15.53 15.86 .16 0 0 22.09 6.83 16.64 15.53 15.86" style="fill:var(--accent)"/></svg>
-        </introArrow>
-      </div>
-
-    </div>
-  </div>
-<!-- HEADER LOCALIZATION HERE END !!!! NEWARK-->
-<!-- HEADER LOCALIZATION HERE END !!!! NEWARK-->
-<!-- HEADER LOCALIZATION HERE END !!!! NEWARK-->
+<main>
 
 
 
 
 
+<!-- start ◆PREHEADER◆ -->
 
-
-<!-- HEADLINE -->   
-<h1>
-    Read it online.<br>
-            <accentColor>
-    August 13
-            </accentColor>
-            </h1>
-
-<!-- INTRO PARAGRAPH  -->   
-<intro>
-    <leadin>Special online-only section.</leadin> Another school year is almost here. Get the latest back to school tips in “Back in Class” — a subscriber-exclusive special section publishing with your online paper.
-            </intro>
-              </td>
-            </tr>
-        </tbody></table>
-
-
-<!-- HERO  -->   
-
-    <!-- start HERO - SPLIT INFORMATION-->
-    <div class="HERO">
-
-        <table class="w-resize100 min-300" width="600" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:600px; margin-top: 30px;">
-
-            <tbody><tr>
-              <td class="paint-area" align="center">
-                <table class="w-resize100" width="600" border="0" cellspacing="0" cellpadding="0" align="center">
-    
-    <!-- FIRST COLUMN HERO IMAGE -->
-    
-                    <tbody>
-                        
-                    <tr>
-                        
-                    <th class="stack" width="400" valign="top" align="left">
-                    <table>
-                        <div class="heroImage">
-                            <img src="https://media.sailthru.com/composer/images/sailthru-prod-6fj/BACK%20TO%20CLASS.jpg" alt="Main art" width="400vw" height="776vh">
-                        </div>
-
-                    </tbody></table> 
-                    </th>
-                    
-    <!-- SECOND COLUMN HERO CONTENT -->
-    
-                      <th class="stack left-align" width="150" height="400" valign="top" align="left">
-                      <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" z-index="5">
-                        <tbody><tr>
-                            <tr>
-                              <ul>
-                                    <accentColor><subhead>
-                                        FREE for subscribers
-                                    </subhead></accentColor><br>
-<li>Print subscribers get free access to the online newspaper with more content, special sections, the New York Times Book Review, and Washington Post Weekly edition by activating their account.</li>
-                                  </ul>
-
-
-<!-- BUTTON LOCALIZATION HERE START !!!! NEWARK-->
-<!-- BUTTON LOCALIZATION HERE START !!!! NEWARK-->
-<!-- BUTTON LOCALIZATION HERE START !!!! NEWARK-->
-<a href="https://subscribe.nj.com/?SiteCode=SL" target="_blank">
-<!-- BUTTON LOCALIZATION HERE END !!!! NEWARK-->
-<!-- BUTTON LOCALIZATION HERE END !!!! NEWARK-->
-<!-- BUTTON LOCALIZATION HERE END !!!! NEWARK-->     
-                                        <button>Activate!</button></a>
-                                </td>
-                              </tr>
-                          </td>
-                        </tr>                      
-                    </tbody></table>
-                </div>
+<div class="PREHEADER">
+<table class="remove" width="640" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:640px;">
+    <tbody><tr><td class="paint-area" style="font-size:0px; line-height:0px" height="10">&nbsp;</td></tr>
+    <tr>
+	<td class="paint-area" align="center">
+    <table width="570" border="0" cellspacing="0" cellpadding="0" align="center">
+    <tbody><tr>
+      <td width="400" height="0" align="left" style="font-family:Arial, sans-serif; font-size:0px; color:#4a4a4a; -webkit-text-size-adjust: none;">
+      <font face="Arial, sans-serif" class="paint-area paint-area--text">
+      Online only special section.
+      </font>
+      </td>
+    </tr>
     </tbody></table>
+    </td>
+    </tr>
+    <tr><td class="paint-area" style="font-size:0px; line-height:0px" height="10">&nbsp;</td></tr>
 </tbody></table>
 </div>
-</HEADER>
+
+<!-- end ◆PREHEADER-1◆ -->
 
 
-<!-- start FOOTER - SUB OUT ALL BETWEEN THIS AND THE ENDPOINT FOR LOCALIZATION -->
 
-<FOOTER class="backFooter">
-<tbody><tr>
-    <td class="paint-area" align="center">
-<table class="w-resize100" width="600" border="0" cellspacing="0" cellpadding="0" align="center">
-  <tbody><tr>
-      <td class="w-resize100"> 
-        <footerSub>
-        We're here to help
-        </footerSub>
-    </td>
-  </tr>
-</tbody></table>&nbsp;
-</div>
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+<!----------------- START HEADER - NEWARK SUB  ------------------------->	
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
 
-<!-- start FOOTER - SPLIT INFORMATION-->
+<!-- start ◆HEADER◆ -->
 
+<div class="HEADER">
+
+<table class="w-resize100 min-300" width="640" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:640px;">
     
-    <table class="w-resize100 min-300" width="600" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:600px;">
+    <tbody><tr><td class="paint-area" style="font-size:0px; line-height:0px" height="25">&nbsp;</td></tr>
+    <tr>
+        
+      <td class="paint-area" align="left">
+      <table class="w-resize90 min-300" width="570" border="0" cellspacing="0" cellpadding="0" align="center">
+    <tbody><tr>
+        <td class="stack-480 left-480" width="100%" align="left" style="font-size:0px">
+        <div class="container">
+            <div class="icon">
+
+                <!-- THE STAR LEDGER LOGO ICON START -->
+<?xml version="1.0" encoding="UTF-8"?><svg id="NEWARK_BAR_LABEL" xmlns="http://www.w3.org/2000/svg" width="auto" height="35"  viewBox="0 0 92.96 55.64"><path d="m40.05,25.27c-1.11-.65-2.33-1.2-3.56-1.63-1.4-.49-2.74-.92-4.14-1.31-1.58-.43-3.21-.82-4.79-1.2-.99-.22-1.98-.54-2.98-.87-.99-.27-1.93-.65-2.8-1.14-.76-.38-1.46-.92-1.81-1.69h-.06c.23.82.88,1.58,1.63,2.07.88.54,1.87.98,2.86,1.31.99.33,1.98.6,2.98.87,1.63.38,3.21.76,4.79,1.2,1.34.38,2.74.76,4.09,1.25,1.23.44,2.39.92,3.5,1.52,1.63.87,3.04,2.23,3.74,3.92h.06c-.53-1.85-1.87-3.32-3.5-4.3Z" style="fill:#fff;"/><path d="m39.7,26.3c-1.11-.65-2.34-1.25-3.62-1.69-1.34-.49-2.69-.87-4.09-1.25-1.52-.44-3.09-.82-4.67-1.2-.99-.27-2.04-.54-3.04-.87-.99-.33-1.98-.71-2.86-1.25-.76-.44-1.46-1.03-1.81-1.79h-.06c.23.82.82,1.63,1.58,2.12.93.65,1.93,1.14,2.92,1.47,1.05.38,2.04.6,3.09.87,1.58.38,3.15.76,4.67,1.2,1.4.38,2.74.76,4.09,1.2,1.23.43,2.45.92,3.56,1.52,1.58.87,2.92,2.18,3.62,3.75h.06c-.53-1.69-1.81-3.1-3.44-4.08Z" style="fill:#fff;"/><path d="m49.04,11.98c.23,2.05.23,4.44.23,6.6v8.54c0,2.83-.06,5.66-.06,8.54s.11,5.71-.29,8.54c0,.11.57.11.63,0,.34-2.77.12-5.77.17-8.54.06-2.88.06-5.71.06-8.54s.06-5.71.06-8.54c0-2.16,0-4.49-.35-6.6,0-.11-.46-.11-.46,0Z" style="fill:#fff;"/><path d="m39.35,27.23c-1.11-.65-2.34-1.14-3.56-1.58-1.34-.49-2.69-.87-4.03-1.25-1.58-.44-3.09-.82-4.67-1.2-1.05-.27-2.1-.49-3.15-.87-.99-.33-2.04-.82-2.92-1.36-.76-.49-1.4-1.09-1.75-1.9h-.06c.23.87.82,1.69,1.58,2.23.88.65,1.93,1.14,2.98,1.52,1.05.38,2.1.71,3.15.98,1.58.38,3.15.76,4.67,1.14,1.34.38,2.69.76,4.03,1.2,1.17.44,2.39.87,3.5,1.47,1.52.82,2.92,2.07,3.56,3.64h.06c-.53-1.63-1.81-3.1-3.39-4.02Z" style="fill:#fff;"/><path d="m50.25,11.98c.17,2.16.17,4.66.17,6.93v8.43c0,2.77-.06,5.6-.06,8.43s.12,5.66-.29,8.43c0,.11.69.11.69,0,.29-2.77.06-5.66.12-8.43.06-2.83.06-5.66.06-8.43s.11-5.6.11-8.43c0-2.27,0-4.71-.29-6.93,0-.11-.57-.11-.52,0Z" style="fill:#fff;"/><path d="m38.94,28.21c-1.11-.65-2.28-1.14-3.5-1.58-1.28-.44-2.63-.82-3.97-1.2-1.52-.43-3.09-.76-4.61-1.14-1.11-.33-2.22-.6-3.27-.98-1.05-.38-2.04-.82-2.98-1.41-.7-.49-1.28-1.14-1.69-1.9h-.06c.29.82.82,1.63,1.52,2.18.88.71,1.93,1.25,2.98,1.63,1.11.43,2.22.76,3.33,1.03,1.58.44,3.09.76,4.61,1.14,1.34.38,2.63.76,3.97,1.2,1.17.38,2.34.82,3.44,1.41,1.52.76,2.92,1.96,3.56,3.48h.06c-.47-1.58-1.81-2.99-3.39-3.86Z" style="fill:#fff;"/><path d="m17.63,20.05c0-2.72,1.11-5.44,3.74-7.07l-.06-.05c-3.97,1.79-6.25,5.6-6.25,9.9,0,3.26,1.05,5.82,3.44,7.4l.06-.05c-1.87-1.47-2.86-3.92-2.86-5.66.29,1.58,1.23,3.37,2.86,4.57l.06-.05c-1.63-1.36-2.39-3.32-2.57-5.27.23,1.47,1.23,3.21,2.8,4.35l.06-.05c-1.58-1.31-2.33-3.37-2.51-4.95.53,1.69,1.34,2.99,2.74,4.02l.06-.05c-1.4-1.2-2.34-2.99-2.34-4.73.29,1.52,1.23,2.83,2.51,3.75l.06-.05c-1.4-1.2-2.16-2.72-2.16-4.51.35,1.63,1.23,2.77,2.39,3.59l.06-.05c-1.52-1.25-2.1-3.15-2.1-5Z" style="fill:#fff;"/><path d="m51.4,11.98c.17,3.44.17,7.21.17,10.76s0,7.15-.06,10.7c-.06,3.55.12,7.21-.23,10.76,0,.11.69.11.69,0,.17-3.55.12-7.21.12-10.76s.12-7.15.12-10.7.11-7.21-.17-10.76c0-.11-.69-.11-.63,0Z" style="fill:#fff;"/><path d="m41.39,33.75h.06c-.47-1.47-1.63-2.72-3.09-3.53-1.05-.6-2.16-1.09-3.33-1.47-1.28-.43-2.51-.82-3.79-1.14-1.52-.44-2.98-.76-4.5-1.14-1.28-.33-2.51-.71-3.74-1.14-1.11-.44-2.16-.87-3.09-1.58-.76-.54-1.34-1.2-1.75-2.07h-.06c.29.87.82,1.69,1.58,2.34.88.82,1.98,1.36,3.09,1.79,1.23.49,2.51.92,3.79,1.25,1.52.43,3.04.71,4.5,1.09,1.28.33,2.51.71,3.74,1.09,1.17.38,2.28.82,3.33,1.36,1.4.71,2.69,1.74,3.27,3.15Z" style="fill:#fff;"/><path d="m38.65,29.24c-1.05-.6-2.22-1.14-3.44-1.58-1.28-.44-2.57-.82-3.85-1.14-1.52-.44-3.04-.76-4.5-1.14-1.17-.27-2.39-.65-3.5-1.03-1.11-.38-2.16-.87-3.09-1.52-.76-.49-1.28-1.2-1.69-2.01h-.06c.29.87.76,1.69,1.52,2.28.88.71,1.98,1.31,3.09,1.74,1.17.44,2.39.82,3.56,1.14,1.52.38,2.98.71,4.5,1.09,1.28.33,2.57.71,3.85,1.14,1.17.38,2.34.87,3.39,1.41,1.46.76,2.74,1.85,3.44,3.32h.06c-.53-1.58-1.75-2.83-3.27-3.7Z" style="fill:#fff;"/><path d="m39.05,32.12l-.06.05c1.28,1.09,2.04,2.66,2.16,4.3-.35-1.36-1.17-2.5-2.39-3.37l-.06.05c1.34,1.14,1.93,2.56,2.04,4.08-.35-1.25-1.11-2.34-2.22-3.05l-.06.05c1.17.92,1.81,2.34,1.81,3.75-.12-1.14-.93-2.18-2.04-2.83l-.06.05c1.11.87,1.58,1.79,1.69,3.48-.29-1.25-1.11-1.96-1.93-2.56l-.06.05c.99.87,1.58,1.74,1.58,3.15-.23-.87-.93-1.58-1.75-2.12l-.06.05c1.05.82,1.52,2.01,1.52,3.05,0,1.14-.35,2.07-1.11,2.83l.06.05c2.28-1.2,3.62-3.53,3.62-6.04,0-1.9-.88-3.92-2.69-5.06Z" style="fill:#fff;"/><path d="m69.86,42.3c0,.28-.06,1.22-.17,1.89,0,.11.69.11.69,0v-2.33c0-.11-.52.33-.52.44Z" style="fill:#fff;"/><path d="m0,0v55.64h92.96V0H0Zm32.11,45.12c-7.41,0-12.38-4.08-12.43-4.08-.12,0-3.21,2.34-4.67,3.81-.23.22-.88.03-.88-.18.12-3.81.53-6.89,0-11.89,0-.27.41-.33.53-.11,1.58,3.05,3.56,5.38,5.49,7.18,3.33,3.1,7.53,4.62,12.03,4.62,2.57,0,4.32-.65,5.25-1.52.58-.54,1.05-1.31,1.05-2.56,0-2.23-2.04-3.75-8.99-5.33-6.6-1.52-10.22-2.99-12.14-4.73-1.93-1.74-2.92-3.7-2.92-7.5,0-6.58,4.96-11.64,13.13-11.64,6.3,0,10.27,3.7,10.57,3.7s2.98-2.61,4.26-4.24c.18-.22.41-.11.41.11-.29,3.92-.23,7.34-.12,11.04,0,.22-.29.27-.47.05-1.69-2.5-3.21-4.4-4.73-5.82-2.92-2.72-5.66-4.19-10.1-4.19-2.74,0-4.73.76-5.78,1.74-.7.65-.99,1.41-.99,2.39,0,1.96,1.58,3.21,6.42,4.4,9.87,2.45,12.96,3.7,15.18,5.71,1.81,1.63,2.74,3.81,2.74,7.23,0,6.14-4.5,11.8-12.84,11.8Zm46.89-.49c0,.28-.06.39-.29.39-4.43-.17-7.19-.11-13.11-.11-6.38,0-17.31,0-20.87.06-.17,0-.17-.55,0-.55,2.99-.11,3.39-.11,3.51-.22.11-.11.23-1.11.23-3.71,0-7.32.11-15.91.11-20.24,0-7.43-.06-7.98-.29-8.21-.17-.17-1.15-.22-3.39-.28-.17,0-.17-.55,0-.55,2.53,0,8.57.11,11.27.11,2.41,0,8.45-.06,11.04-.06.12,0,.12.55,0,.55-2.88,0-3.62.06-3.74.17-.11.11-.23,3.55-.23,8.09,0,5.66-.06,4.44-.06,19.35,0,4.44.06,4.66.12,4.71.06.06.17.06.29.06,2.64,0,4.83-1.5,6.9-3.49,2.59-2.5,5.69-6.88,8.39-12.42.12-.39.58-.33.58.06-.06,3.77-.23,13.08-.46,16.3Z" style="fill:#fff;"/><path d="m71.93,40.36c0,.17-.06,2.16-.29,3.83,0,.11.8.11.8,0-.06-1.83,0-3.16,0-4.44,0-.11-.52.5-.52.61Z" style="fill:#fff;"/><path d="m72.96,39.14c0,.5-.06,2.99-.35,5.05,0,.11.8.11.8,0-.06-2.22.06-3.99.06-5.71,0-.11-.52.55-.52.67Z" style="fill:#fff;"/><path d="m52.55,11.98c.12,3.44.17,7.26.17,10.76s0,7.15-.06,10.7c-.06,3.55.11,7.21-.23,10.76,0,.11.75.11.75,0,.11-3.55.06-7.21.06-10.76s.12-7.1.12-10.7.11-7.21-.06-10.76c0-.11-.75-.11-.75,0Z" style="fill:#fff;"/><path d="m70.89,41.42c0,.22-.11,1.5-.23,2.77,0,.11.75.11.75,0-.06-1.44,0-2.44,0-3.33,0-.11-.52.44-.52.55Z" style="fill:#fff;"/><path d="m53.7,11.98c.06,3.44.11,7.21.11,10.76s.06,7.1,0,10.7c-.06,3.55.06,7.21-.23,10.76,0,.11.8.11.8,0v-10.76c0-3.55.06-7.15.11-10.7.06-3.55.12-7.21.06-10.76,0-.11-.86-.11-.86,0Z" style="fill:#fff;"/><path d="m54.85,11.98c0,3.49.06,7.26.11,10.81.06,3.55,0,7.15,0,10.7s.06,7.15-.17,10.7c0,.11.86.11.86,0-.11-3.55-.11-7.15-.11-10.7s.06-7.15.17-10.7c.06-3.55.12-7.32.12-10.81,0-.11-.98-.11-.98,0Z" style="fill:#fff;"/><path d="m67.79,43.8c0,.06-.06.33-.06.39,0,.11.57.11.57,0v-.72c0-.11-.52.28-.52.33Z" style="fill:#fff;"/><path d="m68.82,43.14c-.06.33-.06.72-.12,1.05,0,.11.63.11.63,0v-1.5c0-.11-.52.33-.52.44Z" style="fill:#fff;"/></svg>
+                <!-- THE STAR LEDGER LOGO ICON END -->
+            </div>
+            <div class="siteName">
+                The Star-Ledger
+            </div>
+            <div class="online" style="color:#a6a6a6;">
+                Online
+            </div>
+            <introArrow>
+                <accentColor><?xml version="1.0" encoding="UTF-8"?><svg id="arrow" viewBox="0 0 15.53 22.09"><polygon points="15.53 15.86 .16 0 0 22.09 6.83 16.64 15.53 15.86" style="fill:currentColor"/></svg></accentColor>
+              </introArrow>
+          </div>
+
+      </td>
+    </tr>
+</tbody></table>
+      </td>
+    </tr>
+    <tr><td class="paint-area" style="font-size:0px; line-height:0px" height="50">&nbsp;</td></tr>
+</tbody></table>
+
+</div>
+<!-- end ◆HEADER◆ -->
+
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+<!----------------- END HEADER - NEWARK SUB  ------------------------->	
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+
+
+
+
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+<!-- START CAMPAIGN  -->	
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+
+<!-- start ◆HEADLINE◆ -->
+
+<div class="headLine">
+    <table class="w-resize100 min-300" width="640" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:640px;">
         <tbody><tr>
           <td class="paint-area" align="center">
-            <table class="w-resize100" width="600" border="0" cellspacing="0" cellpadding="0" align="center">
+    <table class="w-resize90" width="570" border="0" cellspacing="0" cellpadding="0" align="center">
+        <tbody><tr>
+            <td class="w-resize90" align="left" class="paint-area paint-area--text">
+          Read it online <br>
+          <accentColor>August 13.</accentColor>
+          </td>
+        </tr>
+    </tbody></table>
+    </td></tr>
+    </tbody></table>
+    </div>
 
-<!-- FIRST COLUMN CONTENT TABLE -->
-                <tbody>
-                <tr>
-                <th class="stack" width="280" valign="top" align="center">
-                <table>
-                    <tbody>               
-                    <tr>
-                        <td class="leftText">
-                            Having trouble viewing this email? <a href="{view_url}" target="_blank"><nobr><accentDark><underLine>View in your browser.</underLine></accentDark></nobr> </a>
-                            <br><br>
-<!-- FOOTER LOCALIZATION HERE START !!!! NEWARK-->
-<!-- FOOTER LOCALIZATION HERE START !!!! NEWARK-->
-<!-- FOOTER LOCALIZATION HERE START !!!! NEWARK-->
-                            To ensure receipt of our emails, please add <a href="mailto:digitalservice@nj.com" style="text-decoration: underline" target="_blank"><accentDark><underLine>digitalservice@nj.com</underLine></accentDark></a> to your address book or safe sender list. You received this email because you are a subscriber to <a href="https://nj.com" target="_blank">
-                            <accentDark><underLine>nj.com</underLine></accentDark></a> <nobr> or The Star-Ledger.</nobr><br><br> 
-                        </td></tr>
-                      </td>
-                </tr>  
-                </tbody></table> 
-                </th>
-                
-<!-- SECOND COLUMN CONTENT TABLE -->
+<!-- end ◆HEADLINE◆ -->
 
-                  <th class="stack left-align" width="150" valign="top" align="right">
-                  <table width="100%" align="right">
-                    <tbody><tr>
-                        <tr>
-<!-- LOCALIZATION HERE!!!! ALL HELP INFO NEEDS LOCALIZED TARGETING -->
-                            <td>
-                            <a href="https://www.nj.com/interact/page/contact_us_information_user_services_and_more_on_njcom.html" target="_blank" class="rightText">
-                            Contact us</a><br>
-                            <a href="https://www.nj.com/mobile-device/" target="_blank" class="rightText">
-                            Download our app</a><br>
-                            <a href="https://www.nj.com/privacy-policy/" target="_blank" class="rightText">
-                            Privacy policy</a><br>
-                            <a href="https://subscription.nj.com/newsletters/" target="_blank" class="rightText">
-                            More newsletters</a><br>
-                            <a href="https://myaccount.nj.com" target="_blank" class="rightText">
-                            Manage subscription</a><br>
-                            <a href="{optout_confirm_url + '&list_param=' + blast.list}" target="_blank" class="rightText">
-                            Unsubscribe</a><br>
-                            </td>
-                          </tr>
-                      </td>
-                    </tr>
-                    
-                </tbody></table>
-<!-- END SECOND COLUMN CONTENT TABLE -->
-                  </th>
-                </tr>
-            </tbody></table>
+<div class="SPACER-25">
+<table class="w-resize100" width="640" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:640px;">
+    <tbody><tr><td style="font-size:0px; line-height:0px" height="25">&nbsp;</td></tr>
+</tbody></table>
+</div>
 
-<div class="footerText">
-<table class="w-resize100 min-300" width="600" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:640px;">
+<!-- start ◆INTRO◆ -->
+
+<div class="BODY-COPY">
+<table class="w-resize100 min-300" width="640" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:640px;">
     <tbody><tr>
       <td class="paint-area" align="center">
-<table class="w-resize100" width="600" border="0" cellspacing="0" cellpadding="0" align="center">
+<table class="w-resize90" width="570" border="0" cellspacing="0" cellpadding="0" align="center">
     <tbody><tr>
-    	<td class="footerText"  class="paint-area paint-area--text">
-<!-- SITE LOGO-->
-<!-- LOCALIZATION HERE!!!! ADD LOGO FOR SITE -->
-<a href="https://www.nj.com/starledger/" target="_blank"> 
-    <img src="https://media.sailthru.com/composer/images/sailthru-prod-6fn/NJ%20NEWARK%20ADDRESS%20BAR.png" 
-    class="logo" alt="Star-Ledger | nj.com logo">
-    </a>
-</td>
-    <tr>
-        <td class="logoText">
-<!-- LOCALIZATION HERE!!!! ADD ADDRESS FOR SITE -->
-485 Route 1S Bldg. E, Suite 300 Iselin, NJ 08830-3009
-        </td>
-    </tr>
-    <tr>
-        <td style="font-size:0px; line-height:0px" height="50" colspan="3">&nbsp;</td>
-    </tr>
-   
-    </tbody>
-</table>
-</tr>
+    	<td align="left" style="font-family:'benton sans', Arial, sans-serif; font-weight: 400; font-size:20px; color:#ffffff; line-height:35px; -webkit-text-size-adjust: none;"><font face="'benton sans', Arial, sans-serif" class="paint-area paint-area--text">
 
-<!-- FOOTER LOCALIZATION HERE END !!!! NEWARK-->
-<!-- FOOTER LOCALIZATION HERE END !!!! NEWARK-->
-<!-- FOOTER LOCALIZATION HERE END !!!! NEWARK-->
+<strong>Special online-only section. </strong> Another school year is almost here. Get the latest back to school tips in “Back in Class” — a subscriber-exclusive special section publishing with your online paper. 
+
+</font></td>
+    </tr>
+</tbody></table>
+</td></tr>
 </tbody></table>
 </div>
 
+<!-- end ◆INTRO◆ -->
 
-</tbody></table> {beacon}
+<div class="SPACER-25">
+    <table class="w-resize100" width="640" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:640px;">
+        <tbody><tr><td style="font-size:0px; line-height:0px" height="35">&nbsp;</td></tr>
+    </tbody></table>
+    </div>
 
+<!-- start ◆2 WIDE HERO/BODY◆ -->
 
-</FOOTER>
+    <div class="MOD-1">
+        <table class="w-resize100 min-300" width="640" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:640px;">
+            <tbody><tr>
+              <td class="paint-area" align="center">
+                <table class="w-resize90" width="570" border="0" cellspacing="0" cellpadding="0" align="center">
+                    <tbody><tr>
 
+<!--HERO STARTS HERE - 2C SIDE-BY-SIDE ON DESKTOP, STACKED ON MOBILE--->
+                      <th class="stack w-resize100 resize100 max300" width="240" valign="top" align="left"><a href="#link" target="_blank"><img src="https://media.sailthru.com/composer/images/sailthru-prod-6fj/BACK%20TO%20CLASS.jpg" width="400" alt="" border="0" style="display:block"></a></th>
+                      <th class="stack w-resize100 h-resize20px" style="font-size:0px; line-height:0px" width="30">&nbsp;</th>
+                      <th class="stack w-resize100" width="120" valign="top" align="center">
 
+<!-- BODY CONTENT STARTS HERE - 2 C SIDE-BY-SIDE ON DESKTOP, STACKED ON MOBILE -->
+       
+                <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                    <tbody><tr>
+                            <td align="left" style="font-family:farnham headline, Times, serif; font-size:26px; color:#bf1a0c;font-weight: bolder; line-height:30px; -webkit-text-size-adjust: none; ">
+                            <font face="farnham headline, Times, serif" class="paint-area paint-area--text">
+<!-- SUBHEAD -->   
+                                FREE for subscribers
+                            </font>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="font-size:0px; line-height:0px" height="5">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td align="left" style="font-family: Arial, sans-serif; font-size:18px; color:#ffffff; line-height:27px; -webkit-text-size-adjust: none; font-weight:400">
+                          <font face=" Arial, sans-serif" class="paint-area paint-area--text">
+<!-- BODY -->   
+                            Print subscribers get free access to the online newspaper with more content, special sections, the New York Times Book Review, and Washington Post Weekly edition by activating their account.
+                          </font>
+                          </td>
+                        </tr>
+                        <td style="font-size:0px; line-height:0px" height="35">&nbsp;</td>
+                        <tr>
+                            <td align="left" class="paint-area paint-area--text">
 
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+<!----------------- START LOCALIZATION SUB - NEWARK  ------------------->	
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+                            <a href="https://subscribe.nj.com/?SiteCode=SL" target="_blank" class="button">Activate!</a>
+                            </td>
+                        </tr>
+                    </tbody></table>
+                      </th></tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+        </tbody></table>
+        </div>
+
+<!-- end ◆2 WIDE HERO/BODY◆ -->
+
+<div class="SPACER-75">
+    <table class="w-resize100" width="640" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:640px;">
+        <tbody><tr><td style="font-size:0px; line-height:0px" height="75">&nbsp;</td></tr>
+    </tbody></table>
+    </div>
 </body>
+</main>
+
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+<!-- END CAMPAIGN  -->	
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+
+
+
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+<!----------------- START FOOTER - NEWARK SUB  ------------------------->	
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+<div class="footerBack">
+<table class="w-resize100 min-300" width="640" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:640px;">
+    <tbody><tr>
+      <td class="paint-area" align="center">
+<table class="w-resize90" width="570" border="0" cellspacing="0" cellpadding="0" align="center">
+
+</td></tr>
+</tbody></table>
+</div>
+
+<div class="FOOTER">
+    
+    <div class="FooterHead">
+        
+        <table class="w-resize100 min-300" width="640" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:640px;">
+            <tbody><tr>
+              <td class="paint-area" align="center">
+                
+        <table class="w-resize90" width="570" border="0" cellspacing="0" cellpadding="0" align="center">
+            <tbody><tr>
+                <tr><td style="font-size:0px; line-height:0px" height="30" colspan="3">&nbsp;</td></tr>
+                <td align="left" style="font-family:farnham headline, Times, serif; font-weight: 800; font-size:26px; color:#bf1a0c; line-height:22px; -webkit-text-size-adjust: none;"><font face="farnham headline, Times, serif" class="paint-area paint-area--text">
+     We're here to help.
+        </font></td>
+        <tr><td style="font-size:0px; line-height:0px" height="20" colspan="3">&nbsp;</td></tr>
+            </tr>
+        </tbody></table>
+        </td></tr>
+        </tbody></table>
+        </div>
+<table class="w-resize100 min-300" width="640" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:640px;">
+    <tbody><tr>
+      <td class="paint-area" align="center">
+        
+        <table class="w-resize90" width="570" border="0" cellspacing="0" cellpadding="0" align="center">
+            <tbody>
+
+             <tr>
+              <th class="stack w-resize100" width="550" valign="top" align="center">
+              
+              <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                <tbody>
+                        
+                <tr>
+
+                        <td class="finePrint" align="left">
+                        <class="paint-area paint-area--text">
+                        Having trouble viewing this email? <a href="{view_url}" target="_blank" style="text-decoration: none;"><accentDark>View in your browser.</accentDark></a>
+                        <br><br>
+                        To ensure receipt of our emails, please add <a href="mailto:customercare@sts.nj.com" style="text-decoration: none;" target="_blank"><accentDark>customercare@sts.nj.com</accentDark></a> to your address book or safe sender list. You received this email because you are a subscriber to <a href="https://nj.com" target="_blank"style="text-decoration: none;">
+                            <accentDark>nj.com</accentDark></a> <nobr> or The Star-Ledger.
+                        </td>
+                </tr>               
+            </tbody></table>
+              </th>
+              <th class="stack w-resize100 h-resize30px" style="font-size:0px; line-height:0px" width="30">&nbsp;</th>
+              <th class="stack left-align" width="220" valign="top" align="right">
+
+              <table width="100%" border="0" cellspacing="0" cellpadding="0" align="right">
+                <tbody><tr>
+                  <td class="left-align" align="left">
+                        <a href="https://www.nj.com/interact/page/contact_us_information_user_services_and_more_on_njcom.html" target="_blank" class="finePrint">
+                            <accentDark>Contact us</accentDark></a><br>
+                          <a href="https://www.nj.com/mobile-device/" target="_blank" class="finePrint">
+                            <accentDark>Download our app</accentDark></a><br>
+                          <a href="https://www.nj.com/privacy-policy/" target="_blank" class="finePrint">
+                            <accentDark>Privacy policy</accentDark></a><br>
+                          <a href="https://subscription.nj.com/newsletters/" target="_blank" class="finePrint">
+                            <accentDark>More newsletters</accentDark></a><br>
+                          <a href="https://myaccount.nj.com" target="_blank" class="finePrint">
+                            <accentDark>Manage subscription</accentDark></a><br>
+                          <a href="{optout_confirm_url + '&list_param=' + blast.list}" target="_blank" class="finePrint">
+                            <accentDark>Unsubscribe</accentDark></a><br>
+                        </font>
+                      </td>
+                </tr>  
+            </tbody></table></th>
+
+<div class="SITELOGO">
+<table class="w-resize100 min-300" width="640" border="0" cellspacing="0" cellpadding="0" align="left" style="margin:0 auto; width:640px;">
+    <tbody><tr><td class="paint-area" style="font-size:0px; line-height:0px" height="25">&nbsp;</td></tr>
+    <tr>
+      <td class="paint-area" align="left">
+        <table class="w-resize90" width="630" border="0" cellspacing="0" cellpadding="30" align="center">
+    <tbody><tr>
+      <td class="stack-480 left-480" width="480" align="left">
+        <a href="https://www.nj.com/starledger/" target="_blank"> 
+      <img src="https://media.sailthru.com/composer/images/sailthru-prod-6fn/NJ%20NEWARK%20ADDRESS%20BAR.png" width="500" alt="The Star-Ledger | nj.com logo" border="0">
+      <br></a>
+      <span style="font-family:'benton sans', Arial, sans-serif; font-weight: 400; font-size:14px; color:#272727; line-height:22px; -webkit-text-size-adjust: none; text-transform: uppercase; text-decoration: none;">
+        485 Route 1S Bldg. E, Suite 300 Iselin, NJ 08830-3009</span>
+      </td>
+    </tr>
+</tbody>
+</table>
+      </td>
+            <tr>
+                <td style="font-size:0px; line-height:0px" height="50" colspan="3">&nbsp;</td>
+            </tr>
+        </tbody></table>
+</td></tr>
+</tbody></table> {beacon}
+</div>
 </html>
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+<!----------------- END FOOTER - NEWARK SUB  ------------------------->	
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+
+<!-- FIXES GMAIL DISPLAY ISSUES -->
+<table class="remove" width="640" border="0" cellspacing="0" cellpadding="0" align="center">
+    <tbody><tr>
+    <td><img src="http://media.whatcounts.com/adv_mlive/170327_ADI-Generic/spcr.gif" width="640" height="1" alt="" style="display:block; min-height:1px; max-height:1px; width:640px; min-width:640px;"></td>
+    </tr>
+    </tbody></table>
+    <!-- FIXES GMAIL DISPLAY ISSUES -->
+
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+<!----------------- END LOCALIZATION SUB - NEWARK  ------------------->	
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->

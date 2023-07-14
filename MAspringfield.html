@@ -1,278 +1,846 @@
-<!DOCTYPE html>
-
-
-<!-- UPDATE ◆Title should be Special Section Title◆ -->
-<title>Back in Class.</title>
-<link rel="stylesheet" type="text/css" href="stylesheet.css"/> 
-
+<!doctype html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<!-- Tells your web/email client how to handle special characters  -->
 <meta name="x-apple-disable-message-reformatting">
 <!-- Disables scaling in iOS10  -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<!-- Helps responsive version function when viewed in a web browser -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+<!-- Use the latest (edge) version of IE rendering engine -->
 <meta property="og:url" content="" />
 <meta property="og:type" content="" />
 <meta property="og:title" content="" />
 <meta property="og:description" content="" />
 <meta property="og:image" content="" />
+<meta name="color-scheme" content="light dark">
+<meta name="supported-color-schemes" content="light dark">
+
+    <script>
+const currentTheme = localStorage.getItem("theme");
+if (currentTheme == "dark") {
+  document.body.classList.toggle("dark-theme");
+} else if (currentTheme == "light") {
+  document.body.classList.toggle("dark-theme");
+}
+    </script>
 
 
-<!-- STYLES INHERENT TO THIS SPECIFIC CAMPAIGN - ALL OTHER STYLES CONTROLLED BY 'EMAIL.CSS' -->
+
+
+<!-- Use for social sharing (if any) -->
+
+
+<!--[if gte mso 9]><xml> 
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+  <o:PixelsPerInch>96</o:PixelsPerInch>
+ </o:OfficeDocumentSettings>
+ </xml><![endif]-->
+
+ <title>Back in Class.</title>
+
 <style>
+html {-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%}
+body {margin:0; padding:0; -webkit-text-size-adjust: 100% !important; -ms-text-size-adjust: 100% !important; -webkit-font-smoothing: antialiased !important; border-spacing:0} 
+table {border-collapse: collapse; mso-table-lspace: 0px; mso-table-rspace: 0px; }
+table td {border-collapse: collapse; mso-line-height-rule: exactly; }
+table th { margin:0 !important; padding:0 !important; vertical-align:top; font-weight:normal; }
+img, a img {border:none; outline:none; -ms-interpolation-mode: bicubic;}
+.ReadMsgBody {width: 100%;}
+.ExternalClass {width: 100%;}
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height:100%;}
+.yshortcuts a {border-bottom: none !important;}
+.appleLinksGray a {color:#666666 !important; text-decoration:none !important;}
+.appleLinksWhite a {color:#FFFFFF !important; text-decoration:none !important;}
+.appleLinksBlack a {color:#000000 !important; text-decoration:none !important;}
 
-:root {
-  --accent: #bf1a0c;
+
+.hover-box:hover {
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	box-shadow: 0 2px 10px 0 rgba(0,0,0,0.1);
+	transition: .5s;
+	}
+	
+.hover-button:hover {
+	background-color: #0078ff;
+	transition: .5s;
+	}
+	
+	
+	
+	
+/* INSERT CUSTOM FONT EMBED HERE */
+
+
+	@font-face {
+	font-family: "farnham headline";
+	font-style: normal;
+	font-weight: 400;
+	src: url(https://fonts.advance.net/fonts/v1/farnham-headline-regular/farnhamheadline-regular.woff) format('woff');
+	}
+
+@font-face {
+	font-family: "farnham headline";
+	font-style: normal;
+	font-weight: 600;
+	src: url(https://fonts.advance.net/fonts/v1/farnham-headline-semi-bold/farnhamheadline-semi-bold.woff) format('woff');
+	}
+	
+@font-face {
+	font-family: 'benton sans';
+	font-style: normal;
+	font-weight: 400;
+	src: url(https://fonts.advance.net/fonts/v1/benton-sans-regular/166b5d40-3430-46a0-8fb2-43f30962dec7-3.woff) format('woff');
+	}
+	
+@font-face {
+	font-family: 'benton sans';
+	font-style: normal;
+	font-weight: 500;
+	src: url(https://fonts.advance.net/fonts/v1/benton-sans-medium/448c4642-c106-472f-9c6a-a4d7b5347b03-3.woff) format('woff');
+	}
+
+
+
+</style>
+
+
+<style>
+@media only screen and (max-width: 600px) {
+           
+/************************************ MAIN *************************************/ 
+		   
+.remove { display:none !important; width:0 !important; height:0 !important; }
+.stack { display:block !important; }
+.stack-header {display:table-header-group !important;}
+.stack-footer {display:table-footer-group !important;}
+.stack-image img {margin-bottom:20px !important;}
+			
+/************************************ ALIGNERS *************************************/
+		   
+.center-align {text-align:center !important; margin:0 auto !important;}
+.left-align {text-align:left !important;}
+.right-align {text-align:right !important;}
+		   
+/************************************ WIDTH RESIZERS *************************************/
+		   
+.min-300  {min-width:300px !important;}
+.max-300  {max-width:300px !important;}
+.max-320  {max-width:320px !important;}
+.max-340  {max-width:340px !important;}
+.w-resize100 { width:100% !important; }
+.w-resize90 { width:90% !important; }
+.w-resize80 { width:80% !important; }
+.w-resize280px { width:280px !important; }
+.w-resize300px { width:300px !important; }
+.w-resize320px { width:320px !important; }
+		   
+/************************************ HEIGHT RESIZERS *************************************/
+			
+.h-resize10px { height:10px !important; }
+.h-resize20px { height:20px !important; }
+.h-resize30px { height:30px !important; }
+.h-resize40px { height:40px !important; }
+.h-resize50px { height:50px !important; }
+.h-resize60px { height:60px !important; }
+.h-resize70px { height:70px !important; }
+.h-resize80px { height:80px !important; }
+.h-resize90px { height:90px !important; }
+.h-resize100px { height:100px !important; }
+		   
+/************************************ IMAGE RESIZERS *************************************/
+			
+.resize90 img {width:90% !important; height:auto !important;}
+.resize100 img {width:100% !important; height:auto !important;}
+.resize280px img {width:280px !important; height:auto !important;}
+.resize300px img {width:300px !important; height:auto !important;}
+.resize320px img {width:320px !important; height:auto !important;}
+			
+/************************************ TEXT RESIZERS *************************************/
+
+.text14 {font-size:14px !important;}
+.text15 {font-size:15px !important;}
+.text16 {font-size:16px !important;}
+.text17 {font-size:17px !important;}
+.text18 {font-size:18px !important;}
+.text19 {font-size:19px !important;}
+.text20 {font-size:20px !important;}
+.text21 {font-size:21px !important;}
+.text22 {font-size:22px !important;}
+.text23 {font-size:23px !important;}
+.text24 {font-size:24px !important;}
+.text25 {font-size:25px !important;}
+.text26 {font-size:26px !important;}
+.text27 {font-size:27px !important;}
+.text28 {font-size:28px !important;}
+.text29 {font-size:29px !important;}
+.text30 {font-size:30px !important;}
+
+/************************************ LINE HEIGHT RESIZERS *************************************/
+			
+.lh15 {line-height:15px !important;}
+.lh16 {line-height:16px !important;}
+.lh17 {line-height:17px !important;}
+.lh18 {line-height:18px !important;}
+.lh19 {line-height:19px !important;}
+.lh20 {line-height:20px !important;}
+.lh21 {line-height:21px !important;}
+.lh22 {line-height:22px !important;}
+.lh23 {line-height:23px !important;}
+.lh24 {line-height:24px !important;}
+.lh25 {line-height:25px !important;}
+.lh26 {line-height:26px !important;}
+.lh27 {line-height:27px !important;}
+.lh28 {line-height:28px !important;}
+.lh29 {line-height:29px !important;}
+.lh30 {line-height:30px !important;}
+.lh35 {line-height:35px !important;}
+.lh40 {line-height:40px !important;}
+
+/************************************ ADDITIONAL MEDIA QUERIES *************************************/
+
+.logo-control img {max-width:250px !important; height:auto !important;}
+}
+	
+@media only screen and (max-width: 480px) {
+
+.stack-480 { display:block !important; }
+.center-480 { text-align:center !important; margin:0 auto !important; }
+.w-resize100-480 { width:100% !important; }
+	
 }
 
-    .backHeader {
-        color:#d3d3d3; 
-        background: linear-gradient(157deg, #333333 0%, #000000 100%);
-    }
+
+
+
+/* CONSISTENT STYLES - SPECIAL SECTIONS MARKETING */ 
+
+
+
+@media (prefers-color-scheme: dark) {
+  /* defaults to dark theme */
+  body {
+    background: linear-gradient(157deg, #333333 0%, #000000 100%);
+    background-repeat: no-repeat;
+    background-color: #c5c5c5;
+    max-width: 100vw;
+}	
+body.dark-theme {
+    background: linear-gradient(157deg, #333333 0%, #000000 100%);
+    background-repeat: no-repeat;
+    background-color: #c5c5c5;
+    max-width: 100vw;
+}	
+body.light-theme {
+    background: linear-gradient(157deg, #333333 0%, #000000 100%);
+    background-repeat: no-repeat;
+    background-color: #c5c5c5;
+    max-width: 100vw;
+}	
+accentColor.dark-theme {
+    color:#bf1a0c; 
+}
+accentDark.dark-theme {
+    color:#bf1a0c; 
+    filter: brightness(85%);
+}
+accentColor.light-theme {
+    color:#bf1a0c; 
+}
+accentDark.light-theme {
+    color:#bf1a0c; 
+    filter: brightness(85%);
+}
+}
+
 body {
-        color:#333333; 
-        background-color: #d3d3d3;
-    }
+    background: linear-gradient(157deg, #333333 0%, #000000 100%);
+    background-repeat: no-repeat;
+    background-color: #c5c5c5;
+    max-width: 100vw;
+}	
+
+
+main {
+    padding: 30px;
+    max-width: 100vw;
+}
+.footerBack {
+    background-color: #c5c5c5;
+    padding: 30px;
+}
+.finePrint {
+    font-family:Arial, sans-serif; 
+    font-size: 14px; 
+    line-height: 22px; 
+    -webkit-text-size-adjust: none; 
+    font-weight:400; 
+    text-decoration: none;
+    color: #2a2a2a;
+}
+@media only screen and (max-width: 600px) {
+    .finePrint {
+    font-family:Arial, sans-serif; 
+    font-size: 3vw; 
+    line-height: calc(5px + 3vw);
+    -webkit-text-size-adjust: none; 
+    font-weight:400; 
+    text-decoration: none
+}
+  }
+  @media only screen and (max-width: 400px) {
+    .finePrint {
+    font-family:Arial, sans-serif; 
+    font-size: 5vw; 
+    line-height: calc(5px + 5vw);
+    -webkit-text-size-adjust: none; 
+    font-weight:400; 
+    text-decoration: none
+}
+  }
+
+accentColor {
+    color:#bf1a0c; 
+}
+accentDark {
+    color:#bf1a0c; 
+    filter: brightness(85%);
+}
+accentDark:hover {
+    color:#bf1a0c; 
+    filter: brightness(20%);
+    text-decoration: underline;
+}
+.headLine {
+    font-family: farnham headline, Times, serif; 
+    font-size: 90px; 
+    font-weight: 600; 
+    color:#ffffff; 
+    line-height:80px; 
+    -webkit-text-size-adjust: none;
+}
+@media only screen and (max-width: 600px) {
+    .headLine {
+    font-family: farnham headline, Times, serif; 
+    font-size: 12vw; 
+    font-weight: 600; 
+    color:#ffffff; 
+    line-height: 11vw; 
+    -webkit-text-size-adjust: none;
+}
+  }
+  @media only screen and (max-width: 400px) {
+    .headLine {
+    font-family: farnham headline, Times, serif; 
+    font-size: 18vw; 
+    font-weight: 600; 
+    color:#ffffff; 
+    line-height: 17vw; 
+    -webkit-text-size-adjust: none;
+}
+  }
+  .container {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: left;
+}
+
+.icon {
+    padding-right: 10px;
+    -webkit-text-size-adjust: none;
+}
+.siteName {
+    color: #FFFFFF;
+    font-family:Georgia, serif; 
+    font-size: 20px; 
+    font-weight: 900; 
+    line-height:24px; 
+    position: relative;
+    padding-left: 5px;
+    -webkit-text-size-adjust: none;
+}
+.online {
+    color: #a6a6a6;
+    font-family:Georgia, serif; 
+    font-size: 20px; 
+    font-weight: 900; 
+    line-height:24px; 
+    position: relative;
+    padding-left: 8px;
+    -webkit-text-size-adjust: none;
+    float: left;
+    opacity: 0;
+    animation: introDigital 2s ease 2s 1 normal forwards;
+}
+
+@keyframes introDigital {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+#arrow {
+    width: 20px;
+    transform:  translate(5px, 10px);
+    opacity: 0;
+    transform: translate(-72px, 8px);
+    animation: inArrow 0.5s ease 0s 1 normal forwards, blinkArrow 1s ease 1s 1 normal forwards, outArrow 1s ease 2s 1 reverse forwards;
+}
+@keyframes inArrow {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes blinkArrow {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+
+	25%,
+	75% {
+		opacity: 0;
+	}
+}
+@keyframes outArrow {
+	0% {
+        transform: translate(0px, 8px);
+		opacity: 0;
+	}
+
+	100% {
+        transform: translate(-72px, 8px);
+		opacity: 1;
+	}
+}
+
+.button {
+    text-decoration: none; 
+    background-color: #bf1a0c; 
+    color: #000000;
+    padding: 20px 30px 20px 20px;
+    font-family:'benton sans', Arial, sans-serif; 
+    font-weight: 500; 
+    font-size:20px; 
+    line-height:30px; 
+    -webkit-text-size-adjust: none;
+    transition: 0.5s;
+    animation: blinkButton 2s ease 2s infinite normal forwards;
+}
+@keyframes blinkButton {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+
+	25%,
+	75% {
+		opacity: 0.8;
+	}
+}
+.button:hover {
+    text-decoration: none; 
+    background-color: #bf1a0c; 
+    color: #ffffff;
+    padding: 20px 30px 20px 20px;
+    font-family:'benton sans', Arial, sans-serif; 
+    font-weight: 500; 
+    font-size:20px; 
+    line-height:30px; 
+    -webkit-text-size-adjust: none;
+    transition: 0.5s;
+}
+
+@media only screen and (max-width: 600px) {
+    .button {
+    text-decoration: none; 
+    background-color: #bf1a0c; 
+    color: #ffffff;
+    padding: 20px 250px 20px 20px;
+    font-family:'benton sans', Arial, sans-serif; 
+    font-weight: 500; 
+    font-size:20px; 
+    line-height:30px; 
+    -webkit-text-size-adjust: none;
+}
+  }
+  @media only screen and (max-width: 400px) {
+    .button {
+    text-decoration: none; 
+    background-color: #bf1a0c; 
+    color: #ffffff;
+    padding: 20px 150px 20px 20px;
+    font-family:'benton sans', Arial, sans-serif; 
+    font-weight: 500; 
+    font-size:20px; 
+    line-height:30px; 
+    -webkit-text-size-adjust: none;
+}
+  }
+
 </style>
 </head>
-
-<body>
-<!-- start EMAIL MAIN BODY DESIGN AND TEXT -->
-<!-- start EMAIL MAIN BODY DESIGN AND TEXT -->
-<!-- start EMAIL MAIN BODY DESIGN AND TEXT -->
-<!-- start EMAIL MAIN BODY DESIGN AND TEXT -->
-
-<HEADER class="backHeader">
-        <tbody><tr>
-          <td class="paint-area" align="center">
-              <table class="w-resize100" width="600" border="0" cellspacing="0" cellpadding="0" align="center">
-              <td class="w-resize90">
-
-<!-- HEADER LOCALIZATION HERE START !!!! SPRINGFIELD-->
-<!-- HEADER LOCALIZATION HERE START !!!! SPRINGFIELD-->
-<!-- HEADER LOCALIZATION HERE START !!!! SPRINGFIELD-->
-    <div class="flex-container">
-      <div>
-        <div class="siteLogo">
-          <img src="https://media.sailthru.com/composer/images/sailthru-prod-6fj/MAspringfield.png" alt="Springfield Republican logo" style="width:100%">
-        </div>
-      </div>
-      <div>
-        <div class="Online">
-          <img src="https://media.sailthru.com/composer/images/sailthru-prod-6fj/ONLINE.png" alt="Online" style="width:100%">
-        </div>
-        <introArrow>
-          <?xml version="1.0" encoding="UTF-8"?><svg id="start" viewBox="0 0 15.53 22.09"><polygon points="15.53 15.86 .16 0 0 22.09 6.83 16.64 15.53 15.86" style="fill:var(--accent)"/></svg>
-        </introArrow>
-      </div>
-
-    </div>
-  </div>
-<!-- HEADER LOCALIZATION HERE END !!!! SPRINGFIELD-->
-<!-- HEADER LOCALIZATION HERE END !!!! SPRINGFIELD-->
-<!-- HEADER LOCALIZATION HERE END !!!! SPRINGFIELD-->
+<main>
 
 
 
 
 
+<!-- start ◆PREHEADER◆ -->
 
-
-<!-- HEADLINE -->   
-<h1>
-    Read it online.<br>
-            <accentColor>
-    August 13
-            </accentColor>
-            </h1>
-
-<!-- INTRO PARAGRAPH  -->   
-<intro>
-    <leadin>Special online-only section.</leadin> Another school year is almost here. Get the latest back to school tips in “Back in Class” — a subscriber-exclusive special section publishing with your online paper.
-            </intro>
-              </td>
-            </tr>
-        </tbody></table>
-
-
-<!-- HERO  -->   
-
-    <!-- start HERO - SPLIT INFORMATION-->
-    <div class="HERO">
-
-        <table class="w-resize100 min-300" width="600" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:600px; margin-top: 30px;">
-
-            <tbody><tr>
-              <td class="paint-area" align="center">
-                <table class="w-resize100" width="600" border="0" cellspacing="0" cellpadding="0" align="center">
-    
-    <!-- FIRST COLUMN HERO IMAGE -->
-    
-                    <tbody>
-                        
-                    <tr>
-                        
-                    <th class="stack" width="400" valign="top" align="left">
-                    <table>
-                        <div class="heroImage">
-                            <img src="https://media.sailthru.com/composer/images/sailthru-prod-6fj/BACK%20TO%20CLASS.jpg" alt="Main art" width="400vw" height="776vh">
-                        </div>
-
-                    </tbody></table> 
-                    </th>
-                    
-    <!-- SECOND COLUMN HERO CONTENT -->
-    
-                      <th class="stack left-align" width="150" height="400" valign="top" align="left">
-                      <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center" z-index="5">
-                        <tbody><tr>
-                            <tr>
-                              <ul>
-                                    <accentColor><subhead>
-                                        FREE for subscribers
-                                    </subhead></accentColor><br>
-<li>Print subscribers get free access to the online newspaper with more content, special sections, the New York Times Book Review, and Washington Post Weekly edition by activating their account.</li>
-                                  </ul>
-
-
-<!-- BUTTON LOCALIZATION HERE START !!!! SPRINGFIELD-->
-<!-- BUTTON LOCALIZATION HERE START !!!! SPRINGFIELD-->
-<!-- BUTTON LOCALIZATION HERE START !!!! SPRINGFIELD-->
-<a href="https://subscribe.masslive.com" target="_blank">
-<!-- BUTTON LOCALIZATION HERE END !!!! SPRINGFIELD-->
-<!-- BUTTON LOCALIZATION HERE END !!!! SPRINGFIELD-->
-<!-- BUTTON LOCALIZATION HERE END !!!! SPRINGFIELD-->     
-                                        <button>Activate!</button></a>
-                                </td>
-                              </tr>
-                          </td>
-                        </tr>                      
-                    </tbody></table>
-                </div>
+<div class="PREHEADER">
+<table class="remove" width="640" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:640px;">
+    <tbody><tr><td class="paint-area" style="font-size:0px; line-height:0px" height="10">&nbsp;</td></tr>
+    <tr>
+	<td class="paint-area" align="center">
+    <table width="570" border="0" cellspacing="0" cellpadding="0" align="center">
+    <tbody><tr>
+      <td width="400" height="0" align="left" style="font-family:Arial, sans-serif; font-size:0px; color:#4a4a4a; -webkit-text-size-adjust: none;">
+      <font face="Arial, sans-serif" class="paint-area paint-area--text">
+      Online only special section.
+      </font>
+      </td>
+    </tr>
     </tbody></table>
+    </td>
+    </tr>
+    <tr><td class="paint-area" style="font-size:0px; line-height:0px" height="10">&nbsp;</td></tr>
 </tbody></table>
 </div>
-</HEADER>
+
+<!-- end ◆PREHEADER-1◆ -->
 
 
-<!-- start FOOTER - SUB OUT ALL BETWEEN THIS AND THE ENDPOINT FOR LOCALIZATION -->
 
-<FOOTER class="backFooter">
-<tbody><tr>
-    <td class="paint-area" align="center">
-<table class="w-resize100" width="600" border="0" cellspacing="0" cellpadding="0" align="center">
-  <tbody><tr>
-      <td class="w-resize100"> 
-        <footerSub>
-        We're here to help
-        </footerSub>
-    </td>
-  </tr>
-</tbody></table>&nbsp;
-</div>
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+<!----------------- START HEADER - SPRINGFIELD SUB  ------------------------->	
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
 
-<!-- start FOOTER - SPLIT INFORMATION-->
+<!-- start ◆HEADER◆ -->
 
+<div class="HEADER">
+
+<table class="w-resize100 min-300" width="640" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:640px;">
     
-    <table class="w-resize100 min-300" width="600" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:600px;">
+    <tbody><tr><td class="paint-area" style="font-size:0px; line-height:0px" height="25">&nbsp;</td></tr>
+    <tr>
+        
+      <td class="paint-area" align="left">
+      <table class="w-resize90 min-300" width="570" border="0" cellspacing="0" cellpadding="0" align="center">
+    <tbody><tr>
+        <td class="stack-480 left-480" width="100%" align="left" style="font-size:0px">
+        <div class="container">
+            <div class="icon">
+                <!-- SPRINGFIELD REPUBLICAN LOGO ICON START -->
+<?xml version="1.0" encoding="UTF-8"?><svg id="SPRINGFIELD_LABEL" xmlns="http://www.w3.org/2000/svg" width="102.33" height="55.64" viewBox="0 0 102.33 55.64"><path d="m39.76,28.9h-.15v3.87c.27.07.72.11,1,.2.17.06.32.14.45.14s.28-.22.45-.46l-.12-.75c-.2-1.26-.72-3-1.61-3Z" style="fill:#fff;"/><path d="m37.27,26.86v1.26h.24v-1.43c0-.92.15-1.32.38-1.73h-.03c-.46.41-.58.87-.58,1.9Z" style="fill:#fff;"/><polygon points="48.16 29.78 46.77 27.67 46.74 27.67 46.74 28.27 47.85 29.98 48.16 29.78" style="fill:#fff;"/><path d="m35.83,34.47v.07c.33-.14,1.05-.39,1.7-.39.98,0,2.14.32,2.56.54l.19-.29c-.45-.29-1.63-.56-2.49-.56-.96,0-1.62.39-1.96.63Z" style="fill:#fff;"/><path d="m41.75,26.34c0-1.61-.91-2.36-1.9-2.72l-.24.15v4.67h.15c.89,0,1.99-1.04,1.99-2.1Z" style="fill:#fff;"/><path d="m41.88,26.3c0,1.04-.48,1.44-.74,1.66l.05.02c.58-.35.96-.85.96-1.83,0-1.77-.99-2.55-1.87-2.83l-.33.22c.96.31,1.92,1.07,1.92,2.77Z" style="fill:#fff;"/><path d="m41.95,32.16c-.5-2.13-.75-2.8-1.39-3.11h-.07c.53.73.79,1.43,1.06,3,.21,1.2.36,2.1,1.34,2.68l.27-.24c-.58-.41-.86-.8-1.22-2.34Z" style="fill:#fff;"/><path d="m52.61,28.38l-.58-.48-.31.24v4.41c.21.02.65.08.89.17v-4.35Z" style="fill:#fff;"/><polygon points="46.77 28.52 46.74 28.52 46.74 30.74 47.75 30.05 46.77 28.52" style="fill:#fff;"/><polygon points="49.38 27.82 50.07 28.38 50.07 32.7 50.38 32.61 50.38 28.22 49.65 27.57 49.38 27.82" style="fill:#fff;"/><path d="m49.4,33.93l-.03.14c.22-.12.49-.18.7-.2v1.49c0,.41-.02.98-.1,1.29h.03c.27-.2.38-.64.38-1.44v-1.75c-.55.05-.69.14-.98.48Z" style="fill:#fff;"/><path d="m45.4,32.59v-4.35l-.31.2v4.12c0,.15-.05.37-.26.49l1.97,1.32.29-.22-1.84-1.19c.1-.12.14-.24.14-.39Z" style="fill:#fff;"/><polygon points="31.33 29.74 29.94 27.63 29.91 27.63 29.91 28.23 31.02 29.94 31.33 29.74" style="fill:#fff;"/><path d="m16.73,28.73l-.02.08c.17-.08.33-.12.63-.12h.36v1.66c0,.51-.02.78-.09,1.05l.14-.08c.26-.29.26-.51.26-1.19v-1.77h-.31c-.62,0-.81.14-.98.36Z" style="fill:#fff;"/><path d="m21.4,23.91c-.22.12-.68.36-1.22.36-1.17,0-2.73-.9-3.98-.9-.98,0-1.6.39-2.02.64l-.05.08c.5-.19,1.06-.44,1.99-.44,1.3,0,2.68.81,4.05.81.55,0,1.01-.29,1.2-.48l.03-.08Z" style="fill:#fff;"/><path d="m17.71,27.09v.59h.31v-.68c0-.69.36-1,.69-1.29l-.03-.03c-.6.31-.96.88-.96,1.41Z" style="fill:#fff;"/><path d="m13.25,29.43c0-1.04.53-1.87.82-2.26l-.03-.07c-.33.29-1.1,1.15-1.1,2.48,0,3.21,2.37,4.77,5.7,5.14l.31-.27c-3.64-.51-5.7-2.1-5.7-5.02Z" style="fill:#fff;"/><polygon points="70.22 24.62 69.98 24.84 70.87 25.67 71.11 25.43 70.22 24.62" style="fill:#fff;"/><path d="m23.05,32.47v-7.2c0-.8-.1-1.24-.38-1.44h-.03c.09.31.1.88.1,1.29v7.35c0,.56-.03.73-.26.97l1.24.93.21-.2-1.01-.81c.12-.14.14-.37.14-.88Z" style="fill:#fff;"/><path d="m36.29,29.1l-.02.08c.17-.08.33-.12.63-.12h.36v2.16c0,.56-.12.9-.24,1.12l.07-.03c.31-.29.41-.7.41-1.29v-2.21h-.24c-.62,0-.84.1-.98.29Z" style="fill:#fff;"/><path d="m24.81,27.75l.58.48v5.65c0,.71-.04,1.35-.36,1.76l.09-.02c.38-.31.58-.76.58-2.27v-5.31l-.63-.51-.26.22Z" style="fill:#fff;"/><path d="m36.22,23.47c.56,0,.89.29,1.53.29.59,0,.99-.16,1.2-.25v-.03c-.17.04-.34.03-.48.03-.93,0-1.42-.39-2.02-.39-.51,0-.85.2-.93.49h.03c.18-.1.44-.14.67-.14Z" style="fill:#fff;"/><path d="m28.57,32.52v-4.31l-.31.2v4.12c0,.15-.05.37-.26.49l1.97,1.32.29-.22-1.84-1.17c.1-.12.14-.29.14-.44Z" style="fill:#fff;"/><polygon points="29.93 28.45 29.91 28.45 29.91 30.7 30.92 30.01 29.93 28.45" style="fill:#fff;"/><path d="m51.71,33.87c.55.12.93.22,1.25.53l.26-.27c-.39-.39-.91-.53-1.51-.63v.37Z" style="fill:#fff;"/><polygon points="52.73 32.78 53.02 32.95 53.02 28.15 52.4 27.57 52.11 27.82 52.73 28.33 52.73 32.78" style="fill:#fff;"/><polygon points="89.26 33.54 90.16 34.38 90.4 34.14 89.5 33.32 89.26 33.54" style="fill:#fff;"/><path d="m76.81,28.06l.03-.07c-.15.03-.41.07-.63.07-.44,0-.76-.19-1.06-.42v.49c.14.14.48.29.86.29.26,0,.67-.2.81-.36Z" style="fill:#fff;"/><path d="m70.79,32.9v-4.74l-.72-.59-.24.22.65.54v4.57c0,.24-.05.42-.26.58l1.22.93.22-.22-1.05-.78c.14-.15.17-.28.17-.51Z" style="fill:#fff;"/><path d="m67.62,32.83v-7.52c0-.8-.1-1.24-.38-1.44h-.03c.09.31.1.88.1,1.29v7.65c0,.32-.05.48-.26.66l1.22.93.24-.22-1.03-.8c.12-.12.14-.24.14-.56Z" style="fill:#fff;"/><path d="m73.81,32.31v-4.23l-.31.19v4.06c0,.39-.05.58-.26.75l1.97,1.32.27-.22-1.82-1.19c.12-.14.14-.37.14-.68Z" style="fill:#fff;"/><path d="m80.72,28.69l-1.22-.75c-.28-.17-.46-.2-.63-.2l-.21.24c.14-.02.31.02.57.17l1.18.7v4.75l.93.81.24-.24-.86-.73v-4.75Z" style="fill:#fff;"/><polygon points="79.4 33.04 80.1 33.53 80.29 33.34 80.29 29.95 79.4 30.4 79.4 33.04" style="fill:#fff;"/><polygon points="86.67 28.1 86.04 27.57 85.82 27.77 86.37 28.23 86.37 33.65 87.27 34.39 87.5 34.17 86.67 33.49 86.67 28.1" style="fill:#fff;"/><path d="m78.06,32.76v-1.73l-.31.14v1.53c0,.25-.07.39-.26.54l1.63,1.17.24-.19-1.44-1.02c.13-.13.14-.2.14-.44Z" style="fill:#fff;"/><path d="m84.01,32.83v-4.68l-.72-.58-.22.2.63.51v4.55c0,.34-.05.46-.26.65l1.22.93.24-.22-1.03-.8c.1-.1.14-.24.14-.56Z" style="fill:#fff;"/><path d="m0,0v55.64h102.33V0H0Zm70.98,23.73l1.08,1-1.17,1.1-1.1-1.02,1.18-1.09Zm-50.76,9.65c-.26.25-1.56,1.49-1.56,1.49-3.33-.37-5.83-1.92-5.83-5.28,0-2.63,2.93-4.21,4.99-4.94l.21.15c-2.01,1.31-3.14,2.19-3.14,4.31,0,2,1.61,3.68,4.24,3.68.21,0,.74-.08.98-.19v-8.03c-1.53,0-2.62-.81-4-.81-1.87,0-2.93.95-3.02,1.83l-.27-.1c.14-.75.7-1.55,1.25-2.12.66-.69,1.51-1.31,2.61-1.31s2.19.7,3.6.7c1.32,0,1.61-.1,2.28-.75l.07.12c-.89,1.9-1.25,2.33-2.4,2.44v7.98c1.29-.51,1.58-1.22,1.58-1.53,0-.1,0-.18,0-.22l.29.15c-.02.73-.65,1.22-1.87,2.41Zm-.72-7.28v2.92c0,.88-.4,1.65-1.44,2.27l-.6.36v-.03c.09-.31.14-.7.14-1.24v-1.56h-.36c-.34,0-.6.09-.77.37l-.09-.07c.12-1,.74-1.44,1.22-1.44v-.53c0-.71.3-1.16,1.2-1.73l.81-.51.03.03c-.15.2-.14.64-.14,1.15Zm7.86,1.85c-.21.15-.31.34-.31.83v3.9c0,1.68-.26,2.89-2.57,3.6l-.17-.12c.74-.44.98-.97.98-2.14v-5.77l-.55-.42-.34.32v4.8l.53.46-1.2,1.1-1.41-1.07v-.03c.27-.22.31-.51.31-1v-7.45c0-.6-.05-1.26-.27-1.41l.07-.05c.5.02.81.32.94.68h.03c.21-.66.58-1.04,1.51-1.09l.05.08c-.43.22-.57.55-.57,1.61v3.19l1.46-1.36,1.51,1.29v.03Zm3.28,5.13c.18.12.32.19.43.19.13,0,.23-.04.34-.14l.45-.37.12.12-1.99,1.65-2.14-1.46v-.03c.21-.16.31-.34.31-.54v-4.16l2.66-1.7,1.68,2.51-2.57,1.73v1.73l.72.48Zm5.83-10.87c.89,0,1.95.46,2.69.46.49,0,.87-.2,1.05-.39l.07.17c-.51.81-1.37,1.43-2.52,1.43-.7,0-.99-.29-1.53-.29-.72,0-.96.42-.91.83l-.14-.03c-.06-.16-.31-.41-.31-.7,0-.79.68-1.48,1.6-1.48Zm6.47,12.66c-.71-.27-1.18-1.05-1.37-2.05l-1.46,2.05c-.34-.17-1.65-.58-2.62-.58-1.03,0-2.16.49-2.16,1.04,0,.41.12.61.41.73l-.14.27c-.24-.14-.55-.49-.55-1.14,0-1.51,1.73-2.55,3.52-2.55.27,0,.69.05.93.1v-8.89c-.34.22-.57.46-.57,1.04v5.33c0,1.05-.38,1.35-1.53,2.05l-.58.36-.02-.03c.17-.29.34-.75.34-1.29v-2.1h-.36c-.34,0-.6.09-.77.37l-.09-.07c.12-1,.74-1.39,1.22-1.39v-1.34c0-1.43.3-1.79,1.44-2.51l2.69-1.71c1.25.39,2.38,1.22,2.38,3.06,0,1.61-1.19,2.4-2.28,2.89v.02c1.15.25,1.49,1.37,2.21,3.62.16.51.38,1.16.82,1.27l.17-.02.02.03-1.66,1.46Zm1.73-1.77v-.03c.21-.16.31-.34.31-.54v-4.16l2.66-1.7,1.68,2.51-2.57,1.73v1.73l.72.48c.18.12.32.19.43.19.13,0,.23-.04.34-.14l.45-.37.12.12-1.99,1.65-2.14-1.46Zm10.02-5.14c-.24.14-.33.28-.33.63v4.67l-1.39,1.29c-.38-.31-.77-.44-1.25-.54v1.68c0,1.06.14,1.39.57,1.61l-.05.09c-.93-.05-1.3-.42-1.51-1.09h-.03c-.14.36-.45.66-.94.68l-.07-.05c.22-.15.27-.81.27-1.41v-1.49c-.33.03-.86.24-1.18.58l-.07-.05c0-1.05.7-1.6,1.25-1.82v-4.29c-.51-.42-.61-.51-.75-.59l-.02-.02,1.27-1.15,1.44,1.19,1.29-1.19,1.51,1.26v.03Zm5.09,6.59l-1.39-1.17-1.32,1.19-1.66-1.22v-.03c.22-.19.31-.33.31-.58v-4.35c-.45-.37-.58-.48-.72-.56l-.02-.02,1.24-1.14,1.27,1.1v5.24l.6.46.29-.27v-5.04l-.46-.39,1.24-1.1,1.3,1.1v.02c-.27.17-.31.32-.31.73v4.24c.5.42.66.58.82.64l.02.02-1.2,1.12Zm6.59-6.6c-.27.17-.33.32-.33.76v4.07l-2.52,1.76-2.35-1.58v-.03c.24-.17.31-.3.31-.53v-7.4c0-.6-.05-1.26-.27-1.41l.07-.05c.5.02.81.32.94.68h.03c.21-.66.58-1.04,1.51-1.09l.05.08c-.43.22-.57.55-.57,1.61v3.29l1.6-1.46,1.53,1.24v.03Zm3.12,5.48l.02.02-1.22,1.12-1.41-1.07v-.03c.22-.19.31-.36.31-.7v-7.76c0-.6-.05-1.26-.27-1.41l.07-.05c.5.02.81.32.94.68h.03c.21-.66.58-1.04,1.51-1.09l.05.08c-.43.22-.57.55-.57,1.61v8.16c.21.17.43.39.53.42Zm1.97,1.14l-1.41-1.07v-.03c.26-.19.31-.32.31-.61v-4.46c-.45-.37-.59-.52-.77-.58l-.02-.02,1.29-1.12,1.58,1.32v.03c-.22.1-.31.27-.31.73v4.24c.22.19.39.37.53.41l.02.02-1.22,1.14Zm3.76,0l-2.14-1.46v-.03c.27-.24.31-.46.31-.8v-4.07l2.33-1.51c.36.56.91.73,1.2.73.18,0,.36-.02.58-.08l.09.1c-.27.42-.84,1.12-1.66,1.12-.39,0-.67-.15-.77-.24v4.26l.77.54c.17.12.31.2.43.2s.22-.1.33-.19l.41-.34.12.12-1.99,1.65Zm6.12,0l-1.12-.97-1.1.97-1.8-1.29v-.03c.24-.17.31-.37.31-.59v-1.56l2.66-1.31v-.87l-1.17-.68c-.13-.08-.22-.14-.36-.14-.13,0-.24.04-.31.12l-.31.37-.12-.08,1.65-1.85,2.69,1.58v.03c-.15.12-.31.31-.31.66v4.09c.21.19.32.31.48.39l.02.02-1.22,1.14Zm5.95,0l-1.05-.88v-5.38l-.51-.44-.38.34v4.8l.53.44-1.2,1.12-1.41-1.07v-.03c.24-.2.31-.33.31-.68v-4.45c-.41-.34-.55-.44-.72-.53l-.02-.02,1.24-1.12,1.37,1.24,1.36-1.24,1.51,1.29v.03c-.22.14-.31.35-.31.66v4.38c.24.19.3.29.48.37l.02.02-1.22,1.14Zm2.88-.02l-1.1-1.02,1.18-1.09,1.08,1-1.17,1.1Z" style="fill:#fff;"/><polygon points="58.8 27.94 58.32 27.55 58.08 27.76 58.49 28.11 58.49 33.31 59.78 34.39 60.02 34.17 58.8 33.15 58.8 27.94" style="fill:#fff;"/><path d="m56.14,32.75v-4.58l-.72-.59-.24.24.65.53v4.45c0,.22-.03.35-.26.53l1.49,1.1.24-.24-1.32-.95c.14-.16.15-.26.15-.48Z" style="fill:#fff;"/><path d="m61.9,32.44v-7.13c0-.8-.1-1.24-.38-1.44h-.03c.09.31.1.88.1,1.29v7.3c0,.22-.07.36-.26.48l2.2,1.46.29-.2-2.06-1.34c.11-.13.14-.25.14-.41Z" style="fill:#fff;"/><polygon points="63.81 27.81 64.39 28.27 64.39 33.22 64.7 33.44 64.7 28.08 64.05 27.59 63.81 27.81" style="fill:#fff;"/><polygon points="63.24 28.32 63.24 32.42 64.27 33.14 64.27 28.3 63.74 27.89 63.24 28.32" style="fill:#fff;"/></svg>
+                <!-- SPRINGFIELD REPUBLICAN LOGO ICON END -->
+            </div>
+            <div class="siteName">
+                The Springfield Republican
+            </div>
+            <div class="online" style="color:#a6a6a6;">
+                Online
+            </div>
+            <introArrow>
+                <accentColor><?xml version="1.0" encoding="UTF-8"?><svg id="arrow" viewBox="0 0 15.53 22.09"><polygon points="15.53 15.86 .16 0 0 22.09 6.83 16.64 15.53 15.86" style="fill:currentColor"/></svg></accentColor>
+              </introArrow>
+          </div>
+
+      </td>
+    </tr>
+</tbody></table>
+      </td>
+    </tr>
+    <tr><td class="paint-area" style="font-size:0px; line-height:0px" height="50">&nbsp;</td></tr>
+</tbody></table>
+
+</div>
+<!-- end ◆HEADER◆ -->
+
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+<!----------------- END HEADER - SPRINGFIELD SUB  ------------------------->	
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+
+
+
+
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+<!-- START CAMPAIGN  -->	
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+
+<!-- start ◆HEADLINE◆ -->
+
+<div class="headLine">
+    <table class="w-resize100 min-300" width="640" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:640px;">
         <tbody><tr>
           <td class="paint-area" align="center">
-            <table class="w-resize100" width="600" border="0" cellspacing="0" cellpadding="0" align="center">
+    <table class="w-resize90" width="570" border="0" cellspacing="0" cellpadding="0" align="center">
+        <tbody><tr>
+            <td class="w-resize90" align="left" class="paint-area paint-area--text">
+          Read it online <br>
+          <accentColor>August 13.</accentColor>
+          </td>
+        </tr>
+    </tbody></table>
+    </td></tr>
+    </tbody></table>
+    </div>
 
-<!-- FIRST COLUMN CONTENT TABLE -->
-                <tbody>
-                <tr>
-                <th class="stack" width="280" valign="top" align="center">
-                <table>
-                    <tbody>               
-                    <tr>
-                        <td class="leftText">
-                            Having trouble viewing this email? <a href="{view_url}" target="_blank"><nobr><accentDark><underLine>View in your browser.</underLine></accentDark></nobr> </a>
-                            <br><br>
-<!-- FOOTER LOCALIZATION HERE START !!!! SPRINGFIELD-->
-<!-- FOOTER LOCALIZATION HERE START !!!! SPRINGFIELD-->
-<!-- FOOTER LOCALIZATION HERE START !!!! SPRINGFIELD-->
-                            To ensure receipt of our emails, please add <a href="mailto:digitalservice@masslive.com" style="text-decoration: underline" target="_blank"><accentDark><underLine>digitalservice@masslive.com</underLine></accentDark></a> to your address book or safe sender list. You received this email because you are a subscriber to <a href="https://masslive.com" target="_blank">
-                            <accentDark><underLine>masslive.com</underLine></accentDark></a> <nobr> or The Springfield Republican.</nobr><br><br> 
-                        </td></tr>
-                      </td>
-                </tr>  
-                </tbody></table> 
-                </th>
-                
-<!-- SECOND COLUMN CONTENT TABLE -->
+<!-- end ◆HEADLINE◆ -->
 
-                  <th class="stack left-align" width="150" valign="top" align="right">
-                  <table width="100%" align="right">
-                    <tbody><tr>
-                        <tr>
-<!-- LOCALIZATION HERE!!!! ALL HELP INFO NEEDS LOCALIZED TARGETING -->
-                            <td>
-                            <a href="https://www.masslive.com/contactus/" target="_blank" class="rightText">
-                            Contact us</a><br>
-                            <a href="https://www.masslive.com/mobile-device/" target="_blank" class="rightText">
-                            Download our app</a><br>
-                            <a href="https://www.masslive.com/privacy-policy/" target="_blank" class="rightText">
-                            Privacy policy</a><br>
-                            <a href="https://subscription.masslive.com/newsletters/" target="_blank" class="rightText">
-                            More newsletters</a><br>
-                            <a href="https://myaccount.masslive.com" target="_blank" class="rightText">
-                            Manage subscription</a><br>
-                            <a href="{optout_confirm_url + '&list_param=' + blast.list}" target="_blank" class="rightText">
-                            Unsubscribe</a><br>
-                            </td>
-                          </tr>
-                      </td>
-                    </tr>
-                    
-                </tbody></table>
-<!-- END SECOND COLUMN CONTENT TABLE -->
-                  </th>
-                </tr>
-            </tbody></table>
+<div class="SPACER-25">
+<table class="w-resize100" width="640" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:640px;">
+    <tbody><tr><td style="font-size:0px; line-height:0px" height="25">&nbsp;</td></tr>
+</tbody></table>
+</div>
 
-<div class="footerText">
-<table class="w-resize100 min-300" width="600" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:640px;">
+<!-- start ◆INTRO◆ -->
+
+<div class="BODY-COPY">
+<table class="w-resize100 min-300" width="640" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:640px;">
     <tbody><tr>
       <td class="paint-area" align="center">
-<table class="w-resize100" width="600" border="0" cellspacing="0" cellpadding="0" align="center">
+<table class="w-resize90" width="570" border="0" cellspacing="0" cellpadding="0" align="center">
     <tbody><tr>
-    	<td class="footerText"  class="paint-area paint-area--text">
-<!-- SITE LOGO-->
-<!-- LOCALIZATION HERE!!!! ADD LOGO FOR SITE -->
-<a href="https://www.masslive.com" target="_blank"> 
-    <img src="https://media.sailthru.com/composer/images/sailthru-prod-6fn/MA%20SPRINGFIELD%20ADDRESS%20BAR.png" 
-    class="logo" alt="The Springfield Republican | masslive.com logo">
-    </a>
-</td>
-    <tr>
-        <td class="logoText">
-<!-- LOCALIZATION HERE!!!! ADD ADDRESS FOR SITE -->
-1860 Main St., Springfield, MA 01103
-        </td>
-    </tr>
-    <tr>
-        <td style="font-size:0px; line-height:0px" height="50" colspan="3">&nbsp;</td>
-    </tr>
-   
-    </tbody>
-</table>
-</tr>
+    	<td align="left" style="font-family:'benton sans', Arial, sans-serif; font-weight: 400; font-size:20px; color:#ffffff; line-height:35px; -webkit-text-size-adjust: none;"><font face="'benton sans', Arial, sans-serif" class="paint-area paint-area--text">
 
-<!-- FOOTER LOCALIZATION HERE END !!!! SPRINGFIELD-->
-<!-- FOOTER LOCALIZATION HERE END !!!! SPRINGFIELD-->
-<!-- FOOTER LOCALIZATION HERE END !!!! SPRINGFIELD-->
+<strong>Special online-only section. </strong> Another school year is almost here. Get the latest back to school tips in “Back in Class” — a subscriber-exclusive special section publishing with your online paper. 
+
+</font></td>
+    </tr>
+</tbody></table>
+</td></tr>
 </tbody></table>
 </div>
 
+<!-- end ◆INTRO◆ -->
 
-</tbody></table> {beacon}
+<div class="SPACER-25">
+    <table class="w-resize100" width="640" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:640px;">
+        <tbody><tr><td style="font-size:0px; line-height:0px" height="35">&nbsp;</td></tr>
+    </tbody></table>
+    </div>
 
+<!-- start ◆2 WIDE HERO/BODY◆ -->
 
-</FOOTER>
+    <div class="MOD-1">
+        <table class="w-resize100 min-300" width="640" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:640px;">
+            <tbody><tr>
+              <td class="paint-area" align="center">
+                <table class="w-resize90" width="570" border="0" cellspacing="0" cellpadding="0" align="center">
+                    <tbody><tr>
 
+<!--HERO STARTS HERE - 2C SIDE-BY-SIDE ON DESKTOP, STACKED ON MOBILE--->
+                      <th class="stack w-resize100 resize100 max300" width="240" valign="top" align="left"><a href="#link" target="_blank"><img src="https://media.sailthru.com/composer/images/sailthru-prod-6fj/BACK%20TO%20CLASS.jpg" width="400" alt="" border="0" style="display:block"></a></th>
+                      <th class="stack w-resize100 h-resize20px" style="font-size:0px; line-height:0px" width="30">&nbsp;</th>
+                      <th class="stack w-resize100" width="120" valign="top" align="center">
 
+<!-- BODY CONTENT STARTS HERE - 2 C SIDE-BY-SIDE ON DESKTOP, STACKED ON MOBILE -->
+       
+                <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                    <tbody><tr>
+                            <td align="left" style="font-family:farnham headline, Times, serif; font-size:26px; color:#bf1a0c;font-weight: bolder; line-height:30px; -webkit-text-size-adjust: none; ">
+                            <font face="farnham headline, Times, serif" class="paint-area paint-area--text">
+<!-- SUBHEAD -->   
+                                FREE for subscribers
+                            </font>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="font-size:0px; line-height:0px" height="5">&nbsp;</td>
+                        </tr>
+                        <tr>
+                          <td align="left" style="font-family: Arial, sans-serif; font-size:18px; color:#ffffff; line-height:27px; -webkit-text-size-adjust: none; font-weight:400">
+                          <font face=" Arial, sans-serif" class="paint-area paint-area--text">
+<!-- BODY -->   
+                            Print subscribers get free access to the online newspaper with more content, special sections, the New York Times Book Review, and Washington Post Weekly edition by activating their account.
+                          </font>
+                          </td>
+                        </tr>
+                        <td style="font-size:0px; line-height:0px" height="35">&nbsp;</td>
+                        <tr>
+                            <td align="left" class="paint-area paint-area--text">
 
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+<!----------------- START LOCALIZATION SUB - SPRINGFIELD  ------------------->	
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+                                <a href="https://subscribe.masslive.com" target="_blank" class="button">Activate!</a>
+                            </td>
+                        </tr>
+                    </tbody></table>
+                      </th></tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+        </tbody></table>
+        </div>
+
+<!-- end ◆2 WIDE HERO/BODY◆ -->
+
+<div class="SPACER-75">
+    <table class="w-resize100" width="640" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:640px;">
+        <tbody><tr><td style="font-size:0px; line-height:0px" height="75">&nbsp;</td></tr>
+    </tbody></table>
+    </div>
 </body>
+</main>
+
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+<!-- END CAMPAIGN  -->	
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+
+
+
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+<!----------------- START FOOTER - SPRINGFIELD SUB  ------------------------->	
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+<div class="footerBack">
+<table class="w-resize100 min-300" width="640" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:640px;">
+    <tbody><tr>
+      <td class="paint-area" align="center">
+<table class="w-resize90" width="570" border="0" cellspacing="0" cellpadding="0" align="center">
+
+</td></tr>
+</tbody></table>
+</div>
+
+<div class="FOOTER">
+    
+    <div class="FooterHead">
+        
+        <table class="w-resize100 min-300" width="640" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:640px;">
+            <tbody><tr>
+              <td class="paint-area" align="center">
+                
+        <table class="w-resize90" width="570" border="0" cellspacing="0" cellpadding="0" align="center">
+            <tbody><tr>
+                <tr><td style="font-size:0px; line-height:0px" height="30" colspan="3">&nbsp;</td></tr>
+                <td align="left" style="font-family:farnham headline, Times, serif; font-weight: 800; font-size:26px; color:#bf1a0c; line-height:22px; -webkit-text-size-adjust: none;"><font face="farnham headline, Times, serif" class="paint-area paint-area--text">
+     We're here to help.
+        </font></td>
+        <tr><td style="font-size:0px; line-height:0px" height="20" colspan="3">&nbsp;</td></tr>
+            </tr>
+        </tbody></table>
+        </td></tr>
+        </tbody></table>
+        </div>
+<table class="w-resize100 min-300" width="640" border="0" cellspacing="0" cellpadding="0" align="center" style="margin:0 auto; width:640px;">
+    <tbody><tr>
+      <td class="paint-area" align="center">
+        
+        <table class="w-resize90" width="570" border="0" cellspacing="0" cellpadding="0" align="center">
+            <tbody>
+
+             <tr>
+              <th class="stack w-resize100" width="550" valign="top" align="center">
+              
+              <table width="100%" border="0" cellspacing="0" cellpadding="0" align="center">
+                <tbody>
+                        
+                <tr>
+
+                        <td class="finePrint" align="left">
+                        <class="paint-area paint-area--text">
+                        Having trouble viewing this email? <a href="{view_url}" target="_blank" style="text-decoration: none;"><accentDark>View in your browser.</accentDark></a>
+                        <br><br>
+                        To ensure receipt of our emails, please add <a href="mailto:customercare@sts.masslive.com" style="text-decoration: none;" target="_blank"><accentDark>customercare@sts.masslive.com</accentDark></a> to your address book or safe sender list. You received this email because you are a subscriber to masslive.com or The Springfield Republican.
+                        </td>
+                </tr>               
+            </tbody></table>
+              </th>
+              <th class="stack w-resize100 h-resize30px" style="font-size:0px; line-height:0px" width="30">&nbsp;</th>
+              <th class="stack left-align" width="220" valign="top" align="right">
+
+              <table width="100%" border="0" cellspacing="0" cellpadding="0" align="right">
+                <tbody><tr>
+                  <td class="left-align" align="left">
+                        <a href="https://www.masslive.com/contactus/" target="_blank" class="finePrint">
+                            <accentDark>Contact us</accentDark></a><br>
+                          <a href="https://www.masslive.com/mobile-device/" target="_blank" class="finePrint">
+                            <accentDark>Download our app</accentDark></a><br>
+                          <a href="https://www.masslive.com/privacy-policy/" target="_blank" class="finePrint">
+                            <accentDark>Privacy policy</accentDark></a><br>
+                          <a href="https://subscription.masslive.com/newsletters/" target="_blank" class="finePrint">
+                            <accentDark>More newsletters</accentDark></a><br>
+                          <a href="https://myaccount.masslive.com" target="_blank" class="finePrint">
+                            <accentDark>Manage subscription</accentDark></a><br>
+                          <a href="{optout_confirm_url + '&list_param=' + blast.list}" target="_blank" class="finePrint">
+                            <accentDark>Unsubscribe</accentDark></a><br>
+                        </font>
+                      </td>
+                </tr>  
+            </tbody></table></th>
+
+<div class="SITELOGO">
+<table class="w-resize100 min-300" width="640" border="0" cellspacing="0" cellpadding="0" align="left" style="margin:0 auto; width:640px;">
+    <tbody><tr><td class="paint-area" style="font-size:0px; line-height:0px" height="25">&nbsp;</td></tr>
+    <tr>
+      <td class="paint-area" align="left">
+        <table class="w-resize90" width="630" border="0" cellspacing="0" cellpadding="30" align="center">
+    <tbody><tr>
+      <td class="stack-480 left-480" width="480" align="left">
+      <a href="https://www.masslive.com" target="_blank"> 
+      <img src="https://media.sailthru.com/composer/images/sailthru-prod-6fn/MA%20SPRINGFIELD%20ADDRESS%20BAR.png" width="500" alt="The Springfield Republican | masslive.com logo" border="0">
+      <br></a>
+      <span style="font-family:'benton sans', Arial, sans-serif; font-weight: 400; font-size:14px; color:#272727; line-height:22px; -webkit-text-size-adjust: none; text-transform: uppercase; text-decoration: none;">
+        1860 Main St., Springfield, MA 01103</span>
+      </td>
+    </tr>
+</tbody>
+</table>
+      </td>
+            <tr>
+                <td style="font-size:0px; line-height:0px" height="50" colspan="3">&nbsp;</td>
+            </tr>
+        </tbody></table>
+</td></tr>
+</tbody></table> {beacon}
+</div>
 </html>
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+<!----------------- END FOOTER - SPRINGFIELD SUB  ------------------------->	
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+
+<!-- FIXES GMAIL DISPLAY ISSUES -->
+<table class="remove" width="640" border="0" cellspacing="0" cellpadding="0" align="center">
+    <tbody><tr>
+    <td><img src="http://media.whatcounts.com/adv_mlive/170327_ADI-Generic/spcr.gif" width="640" height="1" alt="" style="display:block; min-height:1px; max-height:1px; width:640px; min-width:640px;"></td>
+    </tr>
+    </tbody></table>
+    <!-- FIXES GMAIL DISPLAY ISSUES -->
+
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
+<!----------------- END LOCALIZATION SUB - SPRINGFIELD  ------------------->	
+<!------------------------------------------------------------------------->
+<!------------------------------------------------------------------------->
