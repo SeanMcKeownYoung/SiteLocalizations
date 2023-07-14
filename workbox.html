@@ -1,17 +1,15 @@
-<!DOCTYPE html>
-
-
-<!-- UPDATE ◆Title should be Special Section Title◆ -->
-<title>Back in Class.</title>
-<link rel="stylesheet" type="text/css" href="stylesheet.css"/> 
-
+<!doctype html>
+<!--updated 12/05/2017-->
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<!-- Tells your web/email client how to handle special characters  -->
 <meta name="x-apple-disable-message-reformatting">
 <!-- Disables scaling in iOS10  -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<!-- Helps responsive version function when viewed in a web browser -->
 <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+<!-- Use the latest (edge) version of IE rendering engine -->
 <meta property="og:url" content="" />
 <meta property="og:type" content="" />
 <meta property="og:title" content="" />
@@ -19,14 +17,237 @@
 <meta property="og:image" content="" />
 
 
+
 <!-- STYLES INHERENT TO THIS SPECIFIC CAMPAIGN - ALL OTHER STYLES CONTROLLED BY 'EMAIL.CSS' -->
 <style>
 
-:root {
-  --accent: #bf1a0c;
+
+
+
+
+/* CSS LANGUAGE FOR SAILTHRU */
+
+html {-webkit-text-size-adjust:100%; -ms-text-size-adjust:100%}
+body {margin:0; padding:0; -webkit-text-size-adjust: 100vw !important; -ms-text-size-adjust: 100% !important; -webkit-font-smoothing: antialiased !important; border-spacing:0} 
+table {border-collapse: collapse; mso-table-lspace: 0px; mso-table-rspace: 0px;}
+table td {border-collapse: collapse; mso-line-height-rule: exactly; }
+table th { margin:0 !important; padding:0 !important; vertical-align:top; font-weight:normal;}
+img, a img {border:none; outline:none; -ms-interpolation-mode: bicubic;}
+.ReadMsgBody {width: 100%;}
+.ExternalClass {width: 100%;}
+.ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, 
+.ExternalClass div {line-height:100%;}
+.yshortcuts a {border-bottom: none !important;}
+.appleLinksGray a {color:#666666 !important; text-decoration:none !important;}
+.appleLinksWhite a {color:#FFFFFF !important; text-decoration:none !important;}
+.appleLinksBlack a {color:#000000 !important; text-decoration:none !important;}
+
+html {
+  scrollbar-face-color: #646464;
+  scrollbar-base-color: #646464;
+  scrollbar-3dlight-color: #646464;
+  scrollbar-highlight-color: #646464;
+  scrollbar-track-color: #000;
+  scrollbar-arrow-color: #000;
+  scrollbar-shadow-color: #646464;
+  scrollbar-dark-shadow-color: #646464;
 }
 
-    .backHeader {
+::-webkit-scrollbar { width: 8px; height: 3px;}
+::-webkit-scrollbar-button {  background-color: #666; }
+::-webkit-scrollbar-track {  background-color: #646464;}
+::-webkit-scrollbar-track-piece { background-color: #000;}
+::-webkit-scrollbar-thumb { height: 50px; background-color: #666; border-radius: 3px;}
+::-webkit-scrollbar-corner { background-color: #646464;}
+::-webkit-resizer { background-color: #666;}
+
+/* CUSTOM FONTS */
+
+
+@font-face {
+	font-family: "farnham headline";
+	font-style: normal;
+	font-weight: 400;
+	src: url(https://fonts.advance.net/fonts/v1/farnham-headline-regular/farnhamheadline-regular.woff) format('woff');
+	}
+
+@font-face {
+	font-family: "farnham headline";
+	font-style: normal;
+	font-weight: 600;
+	src: url(https://fonts.advance.net/fonts/v1/farnham-headline-semi-bold/farnhamheadline-semi-bold.woff) format('woff');
+	}
+	
+@font-face {
+	font-family: 'benton sans';
+	font-style: normal;
+	font-weight: 400;
+	src: url(https://fonts.advance.net/fonts/v1/benton-sans-regular/166b5d40-3430-46a0-8fb2-43f30962dec7-3.woff) format('woff');
+	}
+	
+    @font-face {
+        font-family: Benton Sans;
+        font-display: swap;
+        src: url(/pf/resources/fonts/166b5d40-3430-46a0-8fb2-43f30962dec7-2.eot?d=1063);
+        src: url(/pf/resources/fonts/166b5d40-3430-46a0-8fb2-43f30962dec7-2.eot?d=1063) format("embedded-opentype"), url(/pf/resources/fonts/166b5d40-3430-46a0-8fb2-43f30962dec7-3.woff?d=1063) format("woff"), url(/pf/resources/fonts/166b5d40-3430-46a0-8fb2-43f30962dec7-1.ttf?d=1063) format("truetype"), url(/pf/resources/fonts/166b5d40-3430-46a0-8fb2-43f30962dec7-4.svg?d=1063#web) format("svg");
+        font-style: normal;
+        font-weight:400
+    }
+    
+    @font-face {
+        font-family: Benton Sans Medium;
+        font-display: swap;
+        src: url(/pf/resources/fonts/448c4642-c106-472f-9c6a-a4d7b5347b03-2.eot?d=1063);
+        src: url(/pf/resources/fonts/448c4642-c106-472f-9c6a-a4d7b5347b03-2.eot?d=1063) format("embedded-opentype"), url(/pf/resources/fonts/448c4642-c106-472f-9c6a-a4d7b5347b03-3.woff?d=1063) format("woff"), url(/pf/resources/fonts/448c4642-c106-472f-9c6a-a4d7b5347b03-1.ttf?d=1063) format("truetype"), url(/pf/resources/fonts/448c4642-c106-472f-9c6a-a4d7b5347b03-4.svg?d=1063#web) format("svg");
+        font-style: normal;
+        font-weight:700
+    }
+    
+    @font-face {
+        font-family: Benton Sans Bold;
+        font-display: swap;
+        src: url(/pf/resources/fonts/a408f907-3ee4-4578-a3d1-4134558cb82a-2.eot?d=1063);
+        src: url(/pf/resources/fonts/a408f907-3ee4-4578-a3d1-4134558cb82a-2.eot?d=1063) format("embedded-opentype"), url(/pf/resources/fonts/a408f907-3ee4-4578-a3d1-4134558cb82a-3.woff?d=1063) format("woff"), url(/pf/resources/fonts/a408f907-3ee4-4578-a3d1-4134558cb82a-1.ttf?d=1063) format("truetype"), url(/pf/resources/fonts/a408f907-3ee4-4578-a3d1-4134558cb82a-4.svg?d=1063#web) format("svg");
+        font-style: normal;
+        font-weight:700
+    }
+    
+    @font-face {
+        font-family: Farnham Regular;
+        font-display: swap;
+        src: url(/pf/resources/fonts/farnhamheadline-regular.eot?d=1063);
+        src: url(/pf/resources/fonts/farnhamheadline-regular.eot?d=1063) format("embedded-opentype"), url(/pf/resources/fonts/farnhamheadline-regular.woff?d=1063) format("woff"), url(/pf/resources/fonts/farnhamheadline-regular.woff2?d=1063) format("woff2");
+        font-style: normal;
+        font-weight:400
+    }
+    
+    @font-face {
+        font-family: Farnham Medium;
+        font-display: swap;
+        src: url(/pf/resources/fonts/farnhamheadline-medium.eot?d=1063);
+        src: url(/pf/resources/fonts/farnhamheadline-medium.eot?d=1063) format("embedded-opentype"), url(/pf/resources/fonts/farnhamheadline-medium.woff?d=1063) format("woff"), url(/pf/resources/fonts/farnhamheadline-medium.woff2?d=1063) format("woff2");
+        font-style: normal;
+        font-weight:700
+    }
+    
+    @font-face {
+        font-family: Farnham Semi Bold;
+        font-display: swap;
+        src: url(/pf/resources/fonts/farnhamheadline-semi-bold.eot?d=1063);
+        src: url(/pf/resources/fonts/farnhamheadline-semi-bold.eot?d=1063) format("embedded-opentype"), url(/pf/resources/fonts/farnhamheadline-semi-bold.woff?d=1063) format("woff"), url(/pf/resources/fonts/farnhamheadline-semi-bold.woff2?d=1063) format("woff2");
+        font-style: normal;
+        font-weight:700
+    }
+
+
+    @media only screen and (max-width: 600px) {
+           
+/************************************ MAIN *************************************/ 
+                   
+        .remove { display:none !important; width:0 !important; height:0 !important; }
+        .stack { display:block !important; }
+        .stack-header {display:table-header-group !important;}
+        .stack-footer {display:table-footer-group !important;}
+        .stack-image img {margin-bottom:20px !important;}
+                    
+        /************************************ ALIGNERS *************************************/
+                   
+        .center-align {text-align:center !important; margin:0 auto !important;}
+        .left-align {text-align:left !important;}
+        .right-align {text-align:right !important;}
+                   
+        /************************************ WIDTH RESIZERS *************************************/
+                   
+        .min-300  {min-width:300px !important;}
+        .max-300  {max-width:300px !important;}
+        .max-320  {max-width:320px !important;}
+        .max-340  {max-width:340px !important;}
+        .w-resize100 { width:100% !important; }
+        .w-resize90 { width:90% !important; }
+        .w-resize80 { width:80% !important; }
+        .w-resize280px { width:280px !important; }
+        .w-resize300px { width:300px !important; }
+        .w-resize320px { width:320px !important; }
+                   
+        /************************************ HEIGHT RESIZERS *************************************/
+                    
+        .h-resize10px { height:10px !important; }
+        .h-resize20px { height:20px !important; }
+        .h-resize30px { height:30px !important; }
+        .h-resize40px { height:40px !important; }
+        .h-resize50px { height:50px !important; }
+        .h-resize60px { height:60px !important; }
+        .h-resize70px { height:70px !important; }
+        .h-resize80px { height:80px !important; }
+        .h-resize90px { height:90px !important; }
+        .h-resize100px { height:100px !important; }
+                   
+        /************************************ IMAGE RESIZERS *************************************/
+                    
+        .resize90 img {width:90% !important; height:auto !important;}
+        .resize100 img {width:100% !important; height:auto !important;}
+        .resize280px img {width:280px !important; height:auto !important;}
+        .resize300px img {width:300px !important; height:auto !important;}
+        .resize320px img {width:320px !important; height:auto !important;}
+                    
+        /************************************ TEXT RESIZERS *************************************/
+        
+        .text14 {font-size:14px !important;}
+        .text15 {font-size:15px !important;}
+        .text16 {font-size:16px !important;}
+        .text17 {font-size:17px !important;}
+        .text18 {font-size:18px !important;}
+        .text19 {font-size:19px !important;}
+        .text20 {font-size:20px !important;}
+        .text21 {font-size:21px !important;}
+        .text22 {font-size:22px !important;}
+        .text23 {font-size:23px !important;}
+        .text24 {font-size:24px !important;}
+        .text25 {font-size:25px !important;}
+        .text26 {font-size:26px !important;}
+        .text27 {font-size:27px !important;}
+        .text28 {font-size:28px !important;}
+        .text29 {font-size:29px !important;}
+        .text30 {font-size:30px !important;}
+        
+        /************************************ LINE HEIGHT RESIZERS *************************************/
+                    
+        .lh15 {line-height:15px !important;}
+        .lh16 {line-height:16px !important;}
+        .lh17 {line-height:17px !important;}
+        .lh18 {line-height:18px !important;}
+        .lh19 {line-height:19px !important;}
+        .lh20 {line-height:20px !important;}
+        .lh21 {line-height:21px !important;}
+        .lh22 {line-height:22px !important;}
+        .lh23 {line-height:23px !important;}
+        .lh24 {line-height:24px !important;}
+        .lh25 {line-height:25px !important;}
+        .lh26 {line-height:26px !important;}
+        .lh27 {line-height:27px !important;}
+        .lh28 {line-height:28px !important;}
+        .lh29 {line-height:29px !important;}
+        .lh30 {line-height:30px !important;}
+        .lh35 {line-height:35px !important;}
+        .lh40 {line-height:40px !important;}
+        
+        /************************************ ADDITIONAL MEDIA QUERIES *************************************/
+        
+        .logo-control img {max-width:250px !important; height:auto !important;}
+        }
+            
+        @media only screen and (max-width: 480px) {
+        
+        .stack-480 { display:block !important; }
+        .center-480 { text-align:center !important; margin:0 auto !important; }
+        .w-resizeMOB { width:80% !important;}
+        .w-resize100-480 { width:100% !important; }
+            
+        }
+
+        
+/* CONSISTENT BACKGROUND STYLES FOR EMAIL CAMPAIGNS */ 
+.backHeader {
         color:#d3d3d3; 
         background: linear-gradient(157deg, #333333 0%, #000000 100%);
     }
@@ -34,6 +255,512 @@ body {
         color:#333333; 
         background-color: #d3d3d3;
     }
+accentColor {
+    color:#bf1a0c;
+}
+
+accentDark {
+    color:#bf1a0c;
+    filter: brightness(85%);
+}
+accentDark:hover {
+    color:#bf1a0c;
+    filter: brightness(0%);
+}
+.accentDark {
+    color:#bf1a0c;
+    filter: brightness(85%);
+}
+.accentDark:hover {
+    color:#bf1a0c;
+    filter: brightness(0%);
+}
+accentBack{
+  background-color: #bf1a0c;
+}
+button {
+    font-family: "farnham headline", Times, serif;
+	  font-style: normal;
+	  font-weight: 800;
+    font-size: 28px;
+    color: #000;
+    background-color: #bf1a0c;
+    border: 3px solid #bf1a0c;
+    padding: 15px 30px 15px 15px;
+    z-index: 5;
+    transition: 0.3s;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #bf1a0c;
+    border: 3px solid #bf1a0c;
+    color: #000;
+    padding: 15px 30px 15px 15px;
+    z-index: 5;
+    animation: buttonHover 2s ease 0s infinite normal forwards;
+}
+
+@keyframes buttonHover {
+	0%,
+	50%,
+	100% {
+        -webkit-box-shadow: 0px 0px 45px 2px #bf1a0c;
+        -moz-box-shadow: 0px 0px 45px 2px #bf1a0c;
+        box-shadow: 0px 0px 45px 2px #bf1a0c;
+	}
+
+	25%,
+	75% {
+        -webkit-box-shadow: 10px 0px 45px 12px #bf1a0c;
+        -moz-box-shadow: 0px 0px 45px 12px #bf1a0c;
+        box-shadow: 0px 0px 45px 12px #bf1a0c;
+	}
+}
+a {
+  text-decoration: none;
+}
+body {
+    font-family:'benton sans', sans-serif; 
+    font-smooth: always;
+    font-style: normal;
+	  font-weight: 400;
+} 
+.backHeader {
+    margin: 0%;
+    height: 100%;
+    width: 100vw;
+    padding-top: 50px;
+    padding-bottom: 120px;
+}
+@media only screen and (max-width: 600px) {
+.backHeader {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 0px;
+    width: 100vw;
+    height: 100%;
+    }
+    }
+@media only screen and (max-width: 400px) {
+.backHeader {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    width: 100vw;
+    height: 100%;
+    }
+    }
+
+/* CONSISTENT TEXT STYLES FOR EMAIL CAMPAIGNS */  
+.flex-container {
+    display: flex;
+    padding-right: 30%;
+  }
+  
+  .flex-container > div {
+    margin: 0px;
+    padding-right: 10px;
+  }
+  .siteLogo {
+    float: left;
+  }
+
+  .Online {
+    float: left;
+    opacity: 0;
+    animation: introDigital 2s ease 2s 1 normal forwards;
+    transform: translate(0px, -3px);
+  }
+
+
+@keyframes introDigital {
+	0% {
+		opacity: 0;
+	}
+
+	100% {
+		opacity: 1;
+	}
+}
+
+#start {
+    width: 20px;
+    animation: startArrow 1s ease 0s 1 normal forwards, blinkArrow 1s ease 1.5s 1 normal forwards, outArrow 1s ease 3.5s 1 reverse forwards;
+}
+@keyframes startArrow {
+	0% {
+		opacity: 0;
+		transform: translate(950px, -50px) rotate(-200deg);
+	}
+
+	100% {
+		opacity: 1;
+		transform:  translate(-5px, -20px) rotate(0deg);
+	}
+}
+@keyframes blinkArrow {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+
+	25%,
+	75% {
+		opacity: 0;
+	}
+}
+@keyframes outArrow {
+	0% {
+		opacity: 0;
+		transform: translate(950px, -50px) rotate(-200deg);
+	}
+
+	100% {
+		opacity: 1;
+		transform:  translate(-5px, -20px) rotate(0deg);
+	}
+}
+
+@media only screen and (max-width: 600px) {
+    #start {
+        position: absolute;
+        width: 15px;
+        animation: startArrowM 1s ease 0s 1 normal forwards, blinkArrowM 1s ease 1.5s 1 normal forwards, outArrowM 1s ease 3.5s 1 reverse forwards;
+    }
+}
+@keyframes startArrowM {
+	0% {
+		opacity: 0;
+		transform: translate(950px, -50px) rotate(-200deg);
+	}
+
+	100% {
+		opacity: 1;
+		transform:  translate(250px, -20px) rotate(0deg);
+	}
+}
+@keyframes blinkArrowM {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+
+	25%,
+	75% {
+		opacity: 0;
+	}
+}
+@keyframes outArrowM {
+	0% {
+		opacity: 0;
+		transform: translate(950px, -50px) rotate(-200deg);
+	}
+
+	100% {
+		opacity: 1;
+		transform:  translate(250px, -20px) rotate(0deg);
+	}
+}
+
+@media only screen and (max-width: 400px) {
+    #start {
+        position: absolute;
+        width: 15px;
+        animation: startArrowS 1s ease 0s 1 normal forwards, blinkArrowS 1s ease 1.5s 1 normal forwards, outArrowS 1s ease 3.5s 1 reverse forwards;
+    }
+}
+@keyframes startArrowS {
+	0% {
+		opacity: 0;
+		transform: translate(950px, -50px) rotate(-200deg);
+	}
+
+	100% {
+		opacity: 1;
+		transform:  translate(190px, -20px) rotate(0deg);
+	}
+}
+@keyframes blinkArrowS {
+	0%,
+	50%,
+	100% {
+		opacity: 1;
+	}
+
+	25%,
+	75% {
+		opacity: 0;
+	}
+}
+@keyframes outArrowS {
+	0% {
+		opacity: 0;
+		transform: translate(950px, -50px) rotate(-200deg);
+	}
+
+	100% {
+		opacity: 1;
+		transform:  translate(190px, -20px) rotate(0deg);
+	}
+}
+
+h1 {
+    font-family: "farnham headline", Times, serif;
+	  font-style: normal;
+	  font-weight: 800;
+    font-size: 90px;
+    line-height: 80px;
+    margin-top:50;
+    margin-bottom: 35px;
+    animation: logoIntro 2s ease 0s 1 normal forwards;
+	}
+@media only screen and (max-width: 600px) {
+    h1 {
+    font-family: "farnham headline", Times, serif;
+    margin-bottom: 25px;
+	  font-style: normal;
+	  font-weight: 800;
+    font-size: calc(15px + 10vw);
+    line-height: calc(5px + 10vw);
+    margin-right: 10vw;
+	}
+    }
+
+intro {
+    box-align: left;
+    font-family: 'benton sans', sans-serif; 
+    font-weight: 400; 
+    font-size: 20px; 
+    line-height: 35px;
+    }
+
+    @media only screen and (max-width: 600px) {
+    intro {
+    font-size: calc(17px + 0.390625vw);
+    line-height: calc(27px + 0.390625vw);
+    width: 65vw;
+    float: left;
+    }
+    }
+
+leadin {
+    font-weight: 700;
+    font-family: 'Benton Sans Bold' sans-serif;
+    color: #FFFFFF;
+}
+
+ul {
+    text-align: left;
+    color: #FFFFFF;
+    width: 150;
+    font-family: 'benton sans', sans-serif; 
+    font-weight: 400; 
+    font-size: 18px; 
+    line-height: 24px;
+    z-index: 3;
+    list-style-type: none;
+    list-style-position: inside;
+    padding-left: 0;
+    padding-top: 10px;
+    }
+
+    @media only screen and (max-width: 600px) {
+        ul {
+            text-align: left;
+            width: 65vw;
+            font-family: 'benton sans', sans-serif; 
+            font-weight: 400; 
+            font-size: calc(15px + 0.390625vw);
+            line-height: calc(25px + 0.390625vw);
+            z-index: 5;
+            }
+        }
+li {
+    padding-top: 20px;
+}
+    
+subhead {
+    font-family: "farnham headline", Times, serif;
+	  font-style: normal;
+	  font-weight: 800;
+    font-size: 28px;
+    line-height: 30px;
+    text-align: left;
+}
+    @media only screen and (max-width: 600px) {
+        subhead {
+            width: 600px;
+    }
+    }
+
+
+FOOTER {
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+}
+@media only screen and (max-width: 600px) {
+    FOOTER {
+        padding-left: 50px;
+        float: left;
+    }
+}
+
+.leftText {
+    text-align: left;
+    font-family:'benton sans', sans-serif; 
+    font-size: 14px; 
+    line-height: 20px; 
+    text-size-adjust: none; 
+    font-weight: 400;
+}
+.rightText {
+    text-align: left;
+    padding-left: 30px;
+    font-family:'benton sans', sans-serif; 
+    font-size:14px; 
+    line-height: 20px; 
+    text-size-adjust: none; 
+    font-weight: 400;
+    filter: brightness(85%);
+}
+.rightText:hover {
+    text-align: left;
+    font-family:'benton sans', sans-serif; 
+    font-size:14px; 
+    line-height: 20px; 
+    text-size-adjust: none; 
+    font-weight: 400;
+    transition: 0.3s;
+    cursor: pointer;
+    filter: brightness(0%);
+}
+
+@media only screen and (max-width: 600px) {
+    .rightText {
+    padding-left: 0px;
+    padding-top: 40px;
+    margin-top: 0;
+    }
+  }
+.logoText {
+    font-family:'benton sans', sans-serif; 
+    text-transform: uppercase; 
+    font-size:14px; 
+    color:#4a4a4a; 
+    line-height:20px; 
+    -webkit-text-size-adjust: none; 
+    font-weight:400"
+}
+@media only screen and (max-width: 600px) {
+    .logoText {
+        text-transform: none; 
+        text-transform: uppercase; 
+    }
+}
+@media only screen and (max-width: 400px) {
+    .logoText {
+        font-size:11px; 
+    }
+}
+.logo {
+    padding-top: 60px;
+    padding-bottom: 10px;
+    width: 100%;
+    height: auto;
+}
+@media only screen and (max-width: 600px) {
+    .logo {
+    padding-top: 30px;
+    width: 80vw;
+    height: auto;
+    }
+}
+.backFooter {
+    height: 100vw;
+    padding-top: 50px;
+}
+underLine {
+    text-decoration: underline;
+}
+
+.HERO {
+    margin-top: 10px;
+}
+
+.heroImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    animation: coverAnim 3s cubic-bezier(0.68, -0.6, 0.32, 1.6) 0s 1 normal forwards;
+}
+@keyframes coverAnim {
+	0% {
+		opacity: 0;
+		transform: scale(2);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(calc(85% - 285px)) scale(1);
+	}
+}
+
+@media only screen and (max-width: 600px) {
+    .heroImage {
+        transform: scale(0.8);
+        transform-origin: 0% 0%;
+        padding-bottom: 100px;
+        height: 550px;
+        margin-left: 0;
+        animation: coverAnimM 3s cubic-bezier(0.68, -0.6, 0.32, 1.6) 0s 1 normal forwards;
+    }
+}
+
+@keyframes coverAnimM {
+	0% {
+		opacity: 0;
+		transform: scale(2);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(calc(85% - 285px)) scale(0.8) transform-origin 0% 0%;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+    .heroImage {
+        transform: scale(0.7);
+        transform-origin: 0% 0%;
+        padding-bottom: 10px;
+        height: 550px;
+        margin-left: 0;
+        animation: coverAnimM 3s cubic-bezier(0.68, -0.6, 0.32, 1.6) 0s 1 normal forwards;
+    }
+}
+
+@keyframes coverAnimM {
+	0% {
+		opacity: 0;
+		transform: scale(2);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateX(calc(85% - 285px)) scale(0.7) transform-origin 0% 0%;
+	}
+}
+
+
+
+
+
 </style>
 </head>
 
@@ -49,34 +776,31 @@ body {
               <table class="w-resize100" width="600" border="0" cellspacing="0" cellpadding="0" align="center">
               <td class="w-resize90">
 
-<!-- HEADER LOCALIZATION HERE START !!!! SPRINGFIELD-->
-<!-- HEADER LOCALIZATION HERE START !!!! SPRINGFIELD-->
-<!-- HEADER LOCALIZATION HERE START !!!! SPRINGFIELD-->
+
+<!-- HEADER LOCALIZATION HERE START !!!! CLEVELAND-->
+<!-- HEADER LOCALIZATION HERE START !!!! CLEVELAND-->
+<!-- HEADER LOCALIZATION HERE START !!!! CLEVELAND-->
     <div class="flex-container">
+
       <div>
         <div class="siteLogo">
-          <img src="https://media.sailthru.com/composer/images/sailthru-prod-6fj/MAspringfield.png" alt="Springfield Republican logo" style="width:100%">
+          <img src="https://media.sailthru.com/composer/images/sailthru-prod-6fj/PD%20LABEL.png" loading="eager" alt="Cleveland Plain Dealer logo" style="width:100%">
         </div>
       </div>
       <div>
         <div class="Online">
-          <img src="https://media.sailthru.com/composer/images/sailthru-prod-6fj/ONLINE.png" alt="Online" style="width:100%">
+            <img src="https://media.sailthru.com/composer/images/sailthru-prod-6fj/ONLINE.png" alt="Online" style="width:100%">
+          </div>
+          <introArrow>
+            <accentColor><?xml version="1.0" encoding="UTF-8"?><svg id="start" viewBox="0 0 15.53 22.09"><polygon points="15.53 15.86 .16 0 0 22.09 6.83 16.64 15.53 15.86" style="fill:currentColor"/></svg></accentColor>
+          </introArrow>
         </div>
-        <introArrow>
-          <?xml version="1.0" encoding="UTF-8"?><svg id="start" viewBox="0 0 15.53 22.09"><polygon points="15.53 15.86 .16 0 0 22.09 6.83 16.64 15.53 15.86" style="fill:var(--accent)"/></svg>
-        </introArrow>
+  
       </div>
-
     </div>
-  </div>
-<!-- HEADER LOCALIZATION HERE END !!!! SPRINGFIELD-->
-<!-- HEADER LOCALIZATION HERE END !!!! SPRINGFIELD-->
-<!-- HEADER LOCALIZATION HERE END !!!! SPRINGFIELD-->
-
-
-
-
-
+  <!-- HEADER LOCALIZATION HERE END !!!! CLEVELAND-->
+  <!-- HEADER LOCALIZATION HERE END !!!! CLEVELAND-->
+  <!-- HEADER LOCALIZATION HERE END !!!! CLEVELAND-->
 
 
 <!-- HEADLINE -->   
@@ -136,14 +860,21 @@ body {
                                   </ul>
 
 
-<!-- BUTTON LOCALIZATION HERE START !!!! SPRINGFIELD-->
-<!-- BUTTON LOCALIZATION HERE START !!!! SPRINGFIELD-->
-<!-- BUTTON LOCALIZATION HERE START !!!! SPRINGFIELD-->
-<a href="https://subscribe.masslive.com" target="_blank">
-<!-- BUTTON LOCALIZATION HERE END !!!! SPRINGFIELD-->
-<!-- BUTTON LOCALIZATION HERE END !!!! SPRINGFIELD-->
-<!-- BUTTON LOCALIZATION HERE END !!!! SPRINGFIELD-->     
-                                        <button>Activate!</button></a>
+
+                
+    
+<!-- BUTTON LOCALIZATION HERE START !!!! CLEVELAND-->
+<!-- BUTTON LOCALIZATION HERE START !!!! CLEVELAND-->
+<!-- BUTTON LOCALIZATION HERE START !!!! CLEVELAND-->
+<a href="https://subscribe.cleveland.com" target="_blank">
+  <!-- BUTTON LOCALIZATION HERE END !!!! CLEVELAND-->
+  <!-- BUTTON LOCALIZATION HERE END !!!! CLEVELAND-->
+  <!-- BUTTON LOCALIZATION HERE END !!!! CLEVELAND-->      
+  
+  
+  
+                                          <button>Activate!</button></a>
+
                                 </td>
                               </tr>
                           </td>
@@ -156,7 +887,7 @@ body {
 </HEADER>
 
 
-<!-- start FOOTER - SUB OUT ALL BETWEEN THIS AND THE ENDPOINT FOR LOCALIZATION -->
+<!-- start FOOTER  -->
 
 <FOOTER class="backFooter">
 <tbody><tr>
@@ -164,9 +895,9 @@ body {
 <table class="w-resize100" width="600" border="0" cellspacing="0" cellpadding="0" align="center">
   <tbody><tr>
       <td class="w-resize100"> 
-        <footerSub>
-        We're here to help
-        </footerSub>
+        <accentColor><subhead>
+          We're here to help
+      </subhead></accentColor>
     </td>
   </tr>
 </tbody></table>&nbsp;
@@ -190,11 +921,16 @@ body {
                         <td class="leftText">
                             Having trouble viewing this email? <a href="{view_url}" target="_blank"><nobr><accentDark><underLine>View in your browser.</underLine></accentDark></nobr> </a>
                             <br><br>
-<!-- FOOTER LOCALIZATION HERE START !!!! SPRINGFIELD-->
-<!-- FOOTER LOCALIZATION HERE START !!!! SPRINGFIELD-->
-<!-- FOOTER LOCALIZATION HERE START !!!! SPRINGFIELD-->
-                            To ensure receipt of our emails, please add <a href="mailto:circulation@repub.com" style="text-decoration: underline" target="_blank"><accentDark><underLine>circulation@repub.com</underLine></accentDark></a> to your address book or safe sender list. You received this email because you are a subscriber to <a href="https://masslive.com" target="_blank">
-                            <accentDark><underLine>masslive.com</underLine></accentDark></a> <nobr> or The Springfield Republican.</nobr><br><br> 
+
+
+
+                
+    
+<!-- FOOTER LOCALIZATION HERE START !!!! CLEVELAND-->
+<!-- FOOTER LOCALIZATION HERE START !!!! CLEVELAND-->
+<!-- FOOTER LOCALIZATION HERE START !!!! CLEVELAND-->
+                            To ensure receipt of our emails, please add <a href="mailto:digitalservice@cleveland.com" style="text-decoration: underline" target="_blank"><accentDark><underLine>digitalservice@cleveland.com</underLine></accentDark></a> to your address book or safe sender list. You received this email because you are a subscriber to <a href="https://cleveland.com" target="_blank">
+                            <accentDark><underLine>cleveland.com</underLine></accentDark></a> <nobr> or The Plain-Dealer.</nobr><br><br> 
                         </td></tr>
                       </td>
                 </tr>  
@@ -208,19 +944,21 @@ body {
                     <tbody><tr>
                         <tr>
 <!-- LOCALIZATION HERE!!!! ALL HELP INFO NEEDS LOCALIZED TARGETING -->
+
+
                             <td>
-                            <a href="https://www.masslive.com/contactus/" target="_blank" class="rightText">
-                            Contact us</a><br>
-                            <a href="https://www.masslive.com/mobile-device/" target="_blank" class="rightText">
-                            Download our app</a><br>
-                            <a href="https://www.masslive.com/privacy-policy/" target="_blank" class="rightText">
-                            Privacy policy</a><br>
-                            <a href="https://subscription.masslive.com/newsletters/" target="_blank" class="rightText">
-                            More newsletters</a><br>
-                            <a href="https://myaccount.masslive.com" target="_blank" class="rightText">
-                            Manage subscription</a><br>
-                            <a href="{optout_confirm_url + '&list_param=' + blast.list}" target="_blank" class="rightText">
-                            Unsubscribe</a><br>
+                              <a href="https://www.cleveland.com/contactus/" target="_blank" style="rightText">
+                                <accentDark>Contact us</accentDark></a><br>
+                                <a href="https://www.cleveland.com/mobile-device/" target="_blank" class="rightText">
+                                  <accentDark>Download our app</accentDark></a><br>
+                                <a href="https://www.cleveland.com/privacy-policy/" target="_blank" class="rightText">
+                                  <accentDark>Privacy policy</accentDark></a><br>
+                                <a href="https://subscription.cleveland.com/newsletters/" target="_blank" class="rightText">
+                                  <accentDark>More newsletters</accentDark></a><br>
+                                <a href="https://myaccount.cleveland.com" target="_blank" class="rightText">
+                                  <accentDark>Manage subscription</accentDark></a><br>
+                                <a href="{optout_confirm_url + '&list_param=' + blast.list}" target="_blank" class="rightText">
+                                  <accentDark>Unsubscribe</accentDark></a><br>
                             </td>
                           </tr>
                       </td>
@@ -241,38 +979,37 @@ body {
     	<td class="footerText"  class="paint-area paint-area--text">
 <!-- SITE LOGO-->
 <!-- LOCALIZATION HERE!!!! ADD LOGO FOR SITE -->
-<a href="https://www.syracuse.com/poststandard/" target="_blank"> 
-    <img src="https://media.sailthru.com/composer/images/sailthru-prod-6fn/NY%20SYRACUSE%20ADDRESS%20BAR.png" 
-    class="logo" alt="The Post-Standard | syracuse.com logo">
+<a href="https://www.cleveland.com" target="_blank"> 
+    <img src="https://media.sailthru.com/composer/images/sailthru-prod-6fn/OH%20CLEV%20ELAND%20ADDRESS%20BAR.png" 
+    class="logo" alt="The Plain Dealer | cleveland.com logo">
     </a>
 </td>
     <tr>
         <td class="logoText">
 <!-- LOCALIZATION HERE!!!! ADD ADDRESS FOR SITE -->
-220 South Warren Street, Syracuse, NY 13202
+        4800 Tiedeman Rd., Brooklyn, Ohio 44144
+      </td>
+    </tr>
+    
+</tbody></table>
+<!-- END SECOND COLUMN CONTENT TABLE -->
+<!-- FOOTER LOCALIZATION HERE END !!!! CLEVELAND-->
+<!-- FOOTER LOCALIZATION HERE END !!!! CLEVELAND-->
+<!-- FOOTER LOCALIZATION HERE END !!!! CLEVELAND-->
+  </th>
+</tr>
+  <tr>
+    <td style="font-size:0px; line-height:0px" height="50" colspan="3">&nbsp;
+    {beacon}
         </td>
     </tr>
-    <tr>
-        <td style="font-size:0px; line-height:0px" height="50" colspan="3">&nbsp;</td>
-    </tr>
-   
-    </tbody>
-</table>
-</tr>
-
-<!-- FOOTER LOCALIZATION HERE END !!!! SPRINGFIELD-->
-<!-- FOOTER LOCALIZATION HERE END !!!! SPRINGFIELD-->
-<!-- FOOTER LOCALIZATION HERE END !!!! SPRINGFIELD-->
 </tbody></table>
-</div>
-
-
-</tbody></table> {beacon}
-
-
-</FOOTER>
-
+</td></tr>
+</tbody></table>
 
 
 </body>
+
 </html>
+
+
